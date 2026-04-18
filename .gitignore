@@ -55,3 +55,6 @@ OUTTEST2/
 __pycache__/
 *.pyc
 *.rar
+
+# Local full clone for hybrid merge diff (nested .git; do not commit)
+REFERENCE-APP00/
