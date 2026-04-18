@@ -1,4 +1,5 @@
-import { Switch, Route, Router as WouterRouter } from "wouter";
+import { useEffect } from "react";
+import { Switch, Route, Router as WouterRouter, useLocation } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,8 +15,17 @@ import Records from "@/pages/records/index";
 import RecordDetail from "@/pages/records/detail";
 import Comparisons from "@/pages/comparisons/index";
 import ComparisonDetail from "@/pages/comparisons/detail";
+import BridgeGenerator from "@/pages/generator";
 
 const queryClient = new QueryClient();
+
+function StudioRedirect() {
+  const [, setLocation] = useLocation();
+  useEffect(() => {
+    setLocation("/generator");
+  }, [setLocation]);
+  return null;
+}
 
 function Router() {
   return (
@@ -35,6 +45,9 @@ function Router() {
         <Route path="/comparisons" component={Comparisons} />
         <Route path="/comparisons/:id" component={ComparisonDetail} />
         
+        <Route path="/generator" component={BridgeGenerator} />
+        <Route path="/studio" component={StudioRedirect} />
+
         <Route component={NotFound} />
       </Switch>
     </AppLayout>

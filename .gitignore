@@ -47,3 +47,10 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Local generated drawing output
+GENERATED_DRAWINGS/
+GENERATED_DRAWINGS_STYLED/
+OUTTEST2/
+__pycache__/
+*.pyc
