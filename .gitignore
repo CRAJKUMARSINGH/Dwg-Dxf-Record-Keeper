@@ -61,3 +61,6 @@ REFERENCE-APP00/
 
 # Kiro / local agent scratch
 .kiro/
+
+# Streamlit Cloud secrets (never commit)
+.streamlit/secrets.toml
