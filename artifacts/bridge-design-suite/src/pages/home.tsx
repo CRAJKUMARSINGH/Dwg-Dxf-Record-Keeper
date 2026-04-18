@@ -1,6 +1,7 @@
 import { useGetStatsSummary, useListVariations, getGetStatsSummaryQueryKey, getListVariationsQueryKey } from "@workspace/api-client-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { FileText, FolderTree, Activity, Copy, FileCode2, FileSearch } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { FileText, FolderTree, Activity, Copy, FileCode2, FileSearch, Layers } from "lucide-react";
 import { Link } from "wouter";
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis, Tooltip } from "recharts";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -13,11 +14,12 @@ export default function Home() {
     }
   });
 
-  const { data: variations, isLoading: variationsLoading } = useListVariations({
+  const { data: variationsRaw, isLoading: variationsLoading } = useListVariations({
     query: {
       queryKey: getListVariationsQueryKey()
     }
   });
+  const variations = Array.isArray(variationsRaw) ? variationsRaw : [];
 
   if (statsLoading || variationsLoading) {
     return (
@@ -67,7 +69,59 @@ export default function Home() {
     <div className="space-y-6">
       <div>
         <h2 className="text-2xl font-bold tracking-tight">Dashboard</h2>
-        <p className="text-muted-foreground">Overview of your bridge design suite workspace.</p>
+        <p className="text-muted-foreground">
+          DXF studio, projects, drawing library, and analysis records in one workspace.
+        </p>
+      </div>
+
+      <div className="grid gap-4 md:grid-cols-3">
+        <Card className="md:col-span-2 border-primary/25 bg-gradient-to-br from-primary/[0.07] via-transparent to-transparent shadow-sm">
+          <CardHeader className="pb-3">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+              <div className="space-y-1">
+                <CardTitle className="flex items-center gap-2 text-lg">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+                    <Layers className="h-4 w-4" />
+                  </span>
+                  DXF drawing studio
+                </CardTitle>
+                <CardDescription className="text-sm leading-relaxed max-w-xl">
+                  Nine-sheet RCC slab bridge generator: IRC-oriented GAD, plan, sections, pier and abutment, rebar BBS, wing walls,
+                  bed protection — with scan-to-parameters when your API is running.
+                </CardDescription>
+              </div>
+              <Button asChild className="shrink-0">
+                <Link href="/generator">Open DXF studio</Link>
+              </Button>
+            </div>
+          </CardHeader>
+        </Card>
+        <Card className="shadow-sm">
+          <CardHeader className="pb-2">
+            <CardTitle className="text-base">Record keeper</CardTitle>
+            <CardDescription>Organise drawings and analyses alongside generation.</CardDescription>
+          </CardHeader>
+          <CardContent className="flex flex-col gap-2">
+            <Button variant="outline" size="sm" className="justify-start" asChild>
+              <Link href="/projects">
+                <FolderTree className="h-4 w-4 mr-2 shrink-0" />
+                Projects
+              </Link>
+            </Button>
+            <Button variant="outline" size="sm" className="justify-start" asChild>
+              <Link href="/files">
+                <FileText className="h-4 w-4 mr-2 shrink-0" />
+                File library
+              </Link>
+            </Button>
+            <Button variant="outline" size="sm" className="justify-start" asChild>
+              <Link href="/records">
+                <Activity className="h-4 w-4 mr-2 shrink-0" />
+                Analysis records
+              </Link>
+            </Button>
+          </CardContent>
+        </Card>
       </div>
 
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
