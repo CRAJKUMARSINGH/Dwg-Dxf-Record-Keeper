@@ -1,7 +1,7 @@
 # Feature comparison: OUR_APP vs REFERENCE-APP00
 
 **OUR_APP** = this repository (`artifacts/bridge-design-suite`, `artifacts/api-server`, `lib/*`, root tooling).  
-**REFERENCE-APP00** = local tree `REFERENCE-APP00/` (nested `.git`; not committed—use for diff only).
+**REFERENCE-APP00** = optional local tree `REFERENCE-APP00/` (nested `.git`; listed in `.gitignore`—restore from your backup or ZIP when you need a line-by-line diff again).
 
 | # | Feature / capability | OUR_APP | REFERENCE-APP00 | Status | Action (zero-loss) |
 |---|------------------------|---------|-------------------|--------|----------------------|

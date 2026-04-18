@@ -58,3 +58,6 @@ __pycache__/
 
 # Local full clone for hybrid merge diff (nested .git; do not commit)
 REFERENCE-APP00/
+
+# Kiro / local agent scratch
+.kiro/
