@@ -1,15 +1,22 @@
 openapi: 3.1.0
 info:
-  # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: Bridge Design Suite API
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
     description: Health operations
+  - name: projects
+    description: Design projects
+  - name: files
+    description: DXF and PDF file records
+  - name: records
+    description: Analysis records and design variations
+  - name: comparisons
+    description: File comparisons and pattern analysis
 paths:
   /healthz:
     get:
@@ -24,6 +31,423 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+
+  /projects:
+    get:
+      operationId: listProjects
+      tags: [projects]
+      summary: List all projects
+      responses:
+        "200":
+          description: List of projects
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Project"
+    post:
+      operationId: createProject
+      tags: [projects]
+      summary: Create a new project
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateProjectBody"
+      responses:
+        "201":
+          description: Project created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Project"
+
+  /projects/{id}:
+    get:
+      operationId: getProject
+      tags: [projects]
+      summary: Get a project by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Project details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Project"
+        "404":
+          description: Not found
+    patch:
+      operationId: updateProject
+      tags: [projects]
+      summary: Update a project
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateProjectBody"
+      responses:
+        "200":
+          description: Updated project
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Project"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteProject
+      tags: [projects]
+      summary: Delete a project
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+
+  /files:
+    get:
+      operationId: listFiles
+      tags: [files]
+      summary: List all file records
+      parameters:
+        - name: projectId
+          in: query
+          required: false
+          schema:
+            type: ["integer", "null"]
+        - name: fileType
+          in: query
+          required: false
+          schema:
+            type: ["string", "null"]
+      responses:
+        "200":
+          description: List of file records
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/FileRecord"
+    post:
+      operationId: createFileRecord
+      tags: [files]
+      summary: Register a new file record (metadata)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateFileRecordBody"
+      responses:
+        "201":
+          description: File record created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FileRecord"
+
+  /files/{id}:
+    get:
+      operationId: getFileRecord
+      tags: [files]
+      summary: Get a file record by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: File record details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FileRecord"
+        "404":
+          description: Not found
+    patch:
+      operationId: updateFileRecord
+      tags: [files]
+      summary: Update file record metadata or extracted data
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateFileRecordBody"
+      responses:
+        "200":
+          description: Updated file record
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FileRecord"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteFileRecord
+      tags: [files]
+      summary: Delete a file record
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+
+  /records:
+    get:
+      operationId: listAnalysisRecords
+      tags: [records]
+      summary: List analysis records / design variations
+      parameters:
+        - name: projectId
+          in: query
+          required: false
+          schema:
+            type: ["integer", "null"]
+        - name: fileId
+          in: query
+          required: false
+          schema:
+            type: ["integer", "null"]
+      responses:
+        "200":
+          description: List of analysis records
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/AnalysisRecord"
+    post:
+      operationId: createAnalysisRecord
+      tags: [records]
+      summary: Create an analysis record / memorise a design variation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateAnalysisRecordBody"
+      responses:
+        "201":
+          description: Analysis record created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalysisRecord"
+
+  /records/{id}:
+    get:
+      operationId: getAnalysisRecord
+      tags: [records]
+      summary: Get an analysis record by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Analysis record
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalysisRecord"
+        "404":
+          description: Not found
+    patch:
+      operationId: updateAnalysisRecord
+      tags: [records]
+      summary: Update an analysis record
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateAnalysisRecordBody"
+      responses:
+        "200":
+          description: Updated record
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalysisRecord"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteAnalysisRecord
+      tags: [records]
+      summary: Delete an analysis record
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+
+  /comparisons:
+    get:
+      operationId: listComparisons
+      tags: [comparisons]
+      summary: List comparisons
+      parameters:
+        - name: projectId
+          in: query
+          required: false
+          schema:
+            type: ["integer", "null"]
+      responses:
+        "200":
+          description: List of comparisons
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Comparison"
+    post:
+      operationId: createComparison
+      tags: [comparisons]
+      summary: Create a comparison between two or more files
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateComparisonBody"
+      responses:
+        "201":
+          description: Comparison created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Comparison"
+
+  /comparisons/{id}:
+    get:
+      operationId: getComparison
+      tags: [comparisons]
+      summary: Get comparison details
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Comparison details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Comparison"
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteComparison
+      tags: [comparisons]
+      summary: Delete a comparison
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+
+  /stats/summary:
+    get:
+      operationId: getStatsSummary
+      tags: [projects]
+      summary: Get overall summary statistics
+      responses:
+        "200":
+          description: Summary statistics
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StatsSummary"
+
+  /files/{id}/similar:
+    get:
+      operationId: getSimilarFiles
+      tags: [files]
+      summary: Find files with similar parameters to given file
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: List of similar files
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/FileRecord"
+
+  /records/variations:
+    get:
+      operationId: listVariations
+      tags: [records]
+      summary: List unique design variation patterns across all records
+      responses:
+        "200":
+          description: Variation patterns
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/VariationPattern"
+
 components:
   schemas:
     HealthStatus:
@@ -34,3 +458,383 @@ components:
       required:
         - status
 
+    Project:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: ["string", "null"]
+        bridgeType:
+          type: ["string", "null"]
+        location:
+          type: ["string", "null"]
+        status:
+          type: string
+        fileCount:
+          type: integer
+        recordCount:
+          type: integer
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - name
+        - status
+        - fileCount
+        - recordCount
+        - createdAt
+        - updatedAt
+
+    CreateProjectBody:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: ["string", "null"]
+        bridgeType:
+          type: ["string", "null"]
+        location:
+          type: ["string", "null"]
+        status:
+          type: string
+      required:
+        - name
+        - status
+
+    UpdateProjectBody:
+      type: object
+      properties:
+        name:
+          type: ["string", "null"]
+        description:
+          type: ["string", "null"]
+        bridgeType:
+          type: ["string", "null"]
+        location:
+          type: ["string", "null"]
+        status:
+          type: ["string", "null"]
+
+    FileRecord:
+      type: object
+      properties:
+        id:
+          type: integer
+        projectId:
+          type: ["integer", "null"]
+        fileName:
+          type: string
+        fileType:
+          type: string
+        fileSizeKb:
+          type: ["number", "null"]
+        bridgeType:
+          type: ["string", "null"]
+        spanLength:
+          type: ["number", "null"]
+        width:
+          type: ["number", "null"]
+        height:
+          type: ["number", "null"]
+        material:
+          type: ["string", "null"]
+        loadCapacity:
+          type: ["number", "null"]
+        designCode:
+          type: ["string", "null"]
+        layers:
+          type: ["string", "null"]
+        pageCount:
+          type: ["integer", "null"]
+        extractedData:
+          type: ["string", "null"]
+        tags:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+        analysisStatus:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - fileName
+        - fileType
+        - analysisStatus
+        - createdAt
+        - updatedAt
+
+    CreateFileRecordBody:
+      type: object
+      properties:
+        projectId:
+          type: ["integer", "null"]
+        fileName:
+          type: string
+        fileType:
+          type: string
+        fileSizeKb:
+          type: ["number", "null"]
+        bridgeType:
+          type: ["string", "null"]
+        spanLength:
+          type: ["number", "null"]
+        width:
+          type: ["number", "null"]
+        height:
+          type: ["number", "null"]
+        material:
+          type: ["string", "null"]
+        loadCapacity:
+          type: ["number", "null"]
+        designCode:
+          type: ["string", "null"]
+        layers:
+          type: ["string", "null"]
+        pageCount:
+          type: ["integer", "null"]
+        extractedData:
+          type: ["string", "null"]
+        tags:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+        analysisStatus:
+          type: string
+      required:
+        - fileName
+        - fileType
+        - analysisStatus
+
+    UpdateFileRecordBody:
+      type: object
+      properties:
+        projectId:
+          type: ["integer", "null"]
+        bridgeType:
+          type: ["string", "null"]
+        spanLength:
+          type: ["number", "null"]
+        width:
+          type: ["number", "null"]
+        height:
+          type: ["number", "null"]
+        material:
+          type: ["string", "null"]
+        loadCapacity:
+          type: ["number", "null"]
+        designCode:
+          type: ["string", "null"]
+        layers:
+          type: ["string", "null"]
+        pageCount:
+          type: ["integer", "null"]
+        extractedData:
+          type: ["string", "null"]
+        tags:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+        analysisStatus:
+          type: ["string", "null"]
+
+    AnalysisRecord:
+      type: object
+      properties:
+        id:
+          type: integer
+        projectId:
+          type: ["integer", "null"]
+        fileId:
+          type: ["integer", "null"]
+        title:
+          type: string
+        variationType:
+          type: string
+        description:
+          type: ["string", "null"]
+        parameters:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+        referenceFiles:
+          type: ["string", "null"]
+        isFavorite:
+          type: boolean
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - title
+        - variationType
+        - isFavorite
+        - createdAt
+        - updatedAt
+
+    CreateAnalysisRecordBody:
+      type: object
+      properties:
+        projectId:
+          type: ["integer", "null"]
+        fileId:
+          type: ["integer", "null"]
+        title:
+          type: string
+        variationType:
+          type: string
+        description:
+          type: ["string", "null"]
+        parameters:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+        referenceFiles:
+          type: ["string", "null"]
+        isFavorite:
+          type: boolean
+      required:
+        - title
+        - variationType
+        - isFavorite
+
+    UpdateAnalysisRecordBody:
+      type: object
+      properties:
+        title:
+          type: ["string", "null"]
+        variationType:
+          type: ["string", "null"]
+        description:
+          type: ["string", "null"]
+        parameters:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+        referenceFiles:
+          type: ["string", "null"]
+        isFavorite:
+          type: ["boolean", "null"]
+
+    Comparison:
+      type: object
+      properties:
+        id:
+          type: integer
+        projectId:
+          type: ["integer", "null"]
+        title:
+          type: string
+        fileIds:
+          type: string
+        differencesSummary:
+          type: ["string", "null"]
+        similaritiesSummary:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - title
+        - fileIds
+        - createdAt
+        - updatedAt
+
+    CreateComparisonBody:
+      type: object
+      properties:
+        projectId:
+          type: ["integer", "null"]
+        title:
+          type: string
+        fileIds:
+          type: string
+        differencesSummary:
+          type: ["string", "null"]
+        similaritiesSummary:
+          type: ["string", "null"]
+        notes:
+          type: ["string", "null"]
+      required:
+        - title
+        - fileIds
+
+    StatsSummary:
+      type: object
+      properties:
+        totalProjects:
+          type: integer
+        totalFiles:
+          type: integer
+        totalRecords:
+          type: integer
+        totalComparisons:
+          type: integer
+        filesByType:
+          type: array
+          items:
+            $ref: "#/components/schemas/CountByLabel"
+        recordsByVariationType:
+          type: array
+          items:
+            $ref: "#/components/schemas/CountByLabel"
+        recentFiles:
+          type: array
+          items:
+            $ref: "#/components/schemas/FileRecord"
+      required:
+        - totalProjects
+        - totalFiles
+        - totalRecords
+        - totalComparisons
+        - filesByType
+        - recordsByVariationType
+        - recentFiles
+
+    CountByLabel:
+      type: object
+      properties:
+        label:
+          type: string
+        count:
+          type: integer
+      required:
+        - label
+        - count
+
+    VariationPattern:
+      type: object
+      properties:
+        variationType:
+          type: string
+        count:
+          type: integer
+        examples:
+          type: array
+          items:
+            $ref: "#/components/schemas/AnalysisRecord"
+      required:
+        - variationType
+        - count
+        - examples
