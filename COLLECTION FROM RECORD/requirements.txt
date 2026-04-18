@@ -1,0 +1,31 @@
+# DXF Drawing Pattern Analyzer - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (all included in standard Python 3.7+)
+# No external packages required for basic functionality
+
+# Optional dependencies for enhanced features:
+
+# For PDF analysis (drawing_extractor.py)
+PyMuPDF>=1.19.0
+
+# For image analysis (drawing_extractor.py)
+opencv-python>=4.5.0
+numpy>=1.20.0
+
+# For archive extraction (RAR support)
+rarfile>=3.2
+# Note: unrar utility must also be installed separately for RAR support
+
+# Progress bars
+tqdm>=4.60.0
+
+# For enhanced DXF generation (alternative to custom generator)
+# ezdxf>=0.17.0
+
+# For data visualization of analysis results
+# matplotlib>=3.4.0
+
+# For GUI development (future enhancement)
+# tkinter (included with Python)
+# PyQt5>=5.15.0
