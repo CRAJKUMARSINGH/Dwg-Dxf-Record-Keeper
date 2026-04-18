@@ -1,3 +1,4 @@
+attached_assets/Bridge-Design-Suite_1776484307616.zip filter=lfs diff=lfs merge=lfs -text
 *.dwg filter=lfs diff=lfs merge=lfs -text
 *.dxf filter=lfs diff=lfs merge=lfs -text
 *.dwf filter=lfs diff=lfs merge=lfs -text
