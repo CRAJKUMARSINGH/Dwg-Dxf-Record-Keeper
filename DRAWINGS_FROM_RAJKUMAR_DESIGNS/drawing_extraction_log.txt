@@ -1,0 +1,908 @@
+2026-04-18 12:18:44,534 | INFO | === Drawing Extraction Started ===
+2026-04-18 12:18:44,535 | INFO | Source: E:\BRIDGE DESIGN
+2026-04-18 12:18:44,535 | INFO | Target: C:\Filtered_Drawings
+2026-04-18 12:18:46,203 | INFO | COPIED: E:\BRIDGE DESIGN\111RETAINING WALL RCC.dxf \u2192 C:\Filtered_Drawings\111RETAINING WALL RCC.dxf
+2026-04-18 12:18:46,388 | INFO | COPIED: E:\BRIDGE DESIGN\111RETAINING WALL RCC_1_1_3698.sv$.dxf \u2192 C:\Filtered_Drawings\111RETAINING WALL RCC_1_1_3698.sv$.dxf
+2026-04-18 12:18:47,887 | INFO | COPIED: E:\BRIDGE DESIGN\2004RETAINING WALL RCC.dxf \u2192 C:\Filtered_Drawings\2004RETAINING WALL RCC.dxf
+2026-04-18 12:18:48,455 | INFO | COPIED: E:\BRIDGE DESIGN\An overview of integral abutments.pdf \u2192 C:\Filtered_Drawings\An overview of integral abutments.pdf
+2026-04-18 12:18:48,455 | INFO | Scanning archive: E:\BRIDGE DESIGN\bRIDGE tENDER vID drawings sandhu sab.zip
+2026-04-18 12:18:48,775 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\bRIDGE tENDER vID drawings sandhu sab.zip/KHATAKORI-EPC-2021-22-final.pdf \u2192 C:\Filtered_Drawings\bRIDGE tENDER vID drawings sandhu sab\KHATAKORI-EPC-2021-22-final.pdf
+2026-04-18 12:18:49,038 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\bRIDGE tENDER vID drawings sandhu sab.zip/DRAWING-KHATA-KHEDI.pdf \u2192 C:\Filtered_Drawings\bRIDGE tENDER vID drawings sandhu sab\DRAWING-KHATA-KHEDI.pdf
+2026-04-18 12:18:49,086 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\design-of-high-level-bridge-10 M SLAB.pdf
+2026-04-18 12:18:49,107 | INFO | COPIED: E:\BRIDGE DESIGN\details of guard stone.pdf \u2192 C:\Filtered_Drawings\details of guard stone.pdf
+2026-04-18 12:18:49,140 | INFO | COPIED: E:\BRIDGE DESIGN\Discharge Assesment for Bridges.pdf \u2192 C:\Filtered_Drawings\Discharge Assesment for Bridges.pdf
+2026-04-18 12:18:49,309 | INFO | COPIED: E:\BRIDGE DESIGN\DRAWING RETAINING WALL 10 M.dwg \u2192 C:\Filtered_Drawings\DRAWING RETAINING WALL 10 M.dwg
+2026-04-18 12:18:49,461 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\DRAWING RETAINING WALL 10 M_Model_2.bmp
+2026-04-18 12:18:49,584 | INFO | COPIED: E:\BRIDGE DESIGN\DRAWING RETAINING WALL PRESENTABLE.dwg \u2192 C:\Filtered_Drawings\DRAWING RETAINING WALL PRESENTABLE.dwg
+2026-04-18 12:18:49,708 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\DRAWING RETAINING WALL PRESENTABLE_Model.bmp
+2026-04-18 12:18:49,765 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Grillage_Model_Analysis_of_Bridge_Deck-Girder_Superstructure_by_ASTRA_Pro.pdf
+2026-04-18 12:18:49,779 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\kds.pdf
+2026-04-18 12:18:49,987 | INFO | COPIED: E:\BRIDGE DESIGN\RETAINING WALL 10 M.dwg \u2192 C:\Filtered_Drawings\RETAINING WALL 10 M.dwg
+2026-04-18 12:18:50,151 | INFO | COPIED: E:\BRIDGE DESIGN\RETAINING WALL 7 M.dwg \u2192 C:\Filtered_Drawings\RETAINING WALL 7 M.dwg
+2026-04-18 12:18:50,189 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Retaining Walls - Optimal Design.pdf
+2026-04-18 12:18:50,355 | INFO | COPIED: E:\BRIDGE DESIGN\RETAINING WALLS DOCTOR 01.dwg \u2192 C:\Filtered_Drawings\RETAINING WALLS DOCTOR 01.dwg
+2026-04-18 12:18:50,431 | INFO | COPIED: E:\BRIDGE DESIGN\STANDARD PLANS HIGHWAY RCC SLAB SUPER STRUICTURES.PDF \u2192 C:\Filtered_Drawings\STANDARD PLANS HIGHWAY RCC SLAB SUPER STRUICTURES.PDF
+2026-04-18 12:18:50,634 | INFO | COPIED: E:\BRIDGE DESIGN\standard-drawings-for-road-bridges-r-c-c-solid-slab-superstructure-225-skew-r-e-span-4m-to_compress.pdf \u2192 C:\Filtered_Drawings\standard-drawings-for-road-bridges-r-c-c-solid-slab-superstructure-225-skew-r-e-span-4m-to_compress.pdf
+2026-04-18 12:18:50,738 | INFO | COPIED: E:\BRIDGE DESIGN\STUDY IN BRIDGE UPDATION.pdf \u2192 C:\Filtered_Drawings\STUDY IN BRIDGE UPDATION.pdf
+2026-04-18 12:18:50,840 | INFO | COPIED: E:\BRIDGE DESIGN\Wing wall 01.pdf \u2192 C:\Filtered_Drawings\Wing wall 01.pdf
+2026-04-18 12:18:50,903 | INFO | COPIED: E:\BRIDGE DESIGN\Wing wall 02.pdf \u2192 C:\Filtered_Drawings\Wing wall 02.pdf
+2026-04-18 12:18:51,316 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\02 M S STANDARD PLANS LIST.pdf \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\02 M S STANDARD PLANS LIST.pdf
+2026-04-18 12:18:51,805 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\106154703-Constructio-and-QC-in-Rigid-Pavements-as-Per-IRC-15-and-58-201.pdf \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\106154703-Constructio-and-QC-in-Rigid-Pavements-as-Per-IRC-15-and-58-201.pdf
+2026-04-18 12:18:51,887 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\16-Concrete Pavements (Part 2)-Jointing in PCC Construction.pdf
+2026-04-18 12:18:51,890 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\18_appendix a.pdf
+2026-04-18 12:18:51,909 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\2012 M and S Standard Plans Book Issuance Letter to RTDs.pdf \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\2012 M and S Standard Plans Book Issuance Letter to RTDs.pdf
+2026-04-18 12:18:53,163 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\2012 M-S Standard Plans Book(1).pdf \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\2012 M-S Standard Plans Book(1).pdf
+2026-04-18 12:18:53,197 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\281041824-Cement-Concrete-Pavement-Analysis.pdf \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\281041824-Cement-Concrete-Pavement-Analysis.pdf
+2026-04-18 12:18:53,212 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\352429636-CDOT-2017-11-Chapter-7-Principle-of-Design-of-Rigid-Pavement.pdf
+2026-04-18 12:18:53,221 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\chap16_joints_for_reinforced_concrete_971.pdf
+2026-04-18 12:18:53,228 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\CV761_03_Rigid-Pavement.pdf
+2026-04-18 12:18:53,302 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\designofrigitpavement-180603141546.pdf \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\designofrigitpavement-180603141546.pdf
+2026-04-18 12:18:53,310 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\DOWEL BASKET.JPG \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\DOWEL BASKET.JPG
+2026-04-18 12:18:53,337 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\irc 15 page 32-33 for dowel bar spacing.JPG \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\irc 15 page 32-33 for dowel bar spacing.JPG
+2026-04-18 12:19:00,923 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\IRC-58-2015.pdf \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\IRC-58-2015.pdf
+2026-04-18 12:19:00,961 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Lec-29.pdf
+2026-04-18 12:19:01,070 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\rigidpavement-161105060018.pdf
+2026-04-18 12:19:01,104 | INFO | COPIED: E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Significant changes to the July 04 2012 M Standard Plans(1).pdf \u2192 C:\Filtered_Drawings\0 DOWEL BARS IN CC PAVEMENT\Significant changes to the July 04 2012 M Standard Plans(1).pdf
+2026-04-18 12:19:01,122 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img1.gif
+2026-04-18 12:19:01,122 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img10.gif
+2026-04-18 12:19:01,124 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img100.gif
+2026-04-18 12:19:01,124 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img101.gif
+2026-04-18 12:19:01,124 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img102.gif
+2026-04-18 12:19:01,124 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img103.gif
+2026-04-18 12:19:01,124 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img104.gif
+2026-04-18 12:19:01,134 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img105.gif
+2026-04-18 12:19:01,136 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img106.gif
+2026-04-18 12:19:01,136 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img107.gif
+2026-04-18 12:19:01,137 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img108.gif
+2026-04-18 12:19:01,137 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img109.gif
+2026-04-18 12:19:01,137 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img11.gif
+2026-04-18 12:19:01,139 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img110.gif
+2026-04-18 12:19:01,140 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img111.gif
+2026-04-18 12:19:01,140 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img112.gif
+2026-04-18 12:19:01,140 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img113.gif
+2026-04-18 12:19:01,141 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img114.gif
+2026-04-18 12:19:01,142 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img115.gif
+2026-04-18 12:19:01,142 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img116.gif
+2026-04-18 12:19:01,142 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img117.gif
+2026-04-18 12:19:01,144 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img118.gif
+2026-04-18 12:19:01,144 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img119.gif
+2026-04-18 12:19:01,145 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img12.gif
+2026-04-18 12:19:01,145 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img120.gif
+2026-04-18 12:19:01,145 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img121.gif
+2026-04-18 12:19:01,145 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img122.gif
+2026-04-18 12:19:01,145 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img123.gif
+2026-04-18 12:19:01,147 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img124.gif
+2026-04-18 12:19:01,147 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img125.gif
+2026-04-18 12:19:01,148 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img126.gif
+2026-04-18 12:19:01,149 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img127.gif
+2026-04-18 12:19:01,149 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img128.gif
+2026-04-18 12:19:01,150 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img129.gif
+2026-04-18 12:19:01,152 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img13.gif
+2026-04-18 12:19:01,153 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img130.gif
+2026-04-18 12:19:01,153 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img131.gif
+2026-04-18 12:19:01,155 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img132.gif
+2026-04-18 12:19:01,156 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img133.gif
+2026-04-18 12:19:01,156 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img134.gif
+2026-04-18 12:19:01,157 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img135.gif
+2026-04-18 12:19:01,158 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img136.gif
+2026-04-18 12:19:01,158 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img137.gif
+2026-04-18 12:19:01,158 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img14.gif
+2026-04-18 12:19:01,158 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img15.gif
+2026-04-18 12:19:01,165 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img16.gif
+2026-04-18 12:19:01,167 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img17.gif
+2026-04-18 12:19:01,168 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img18.gif
+2026-04-18 12:19:01,170 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img19.gif
+2026-04-18 12:19:01,170 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img2.gif
+2026-04-18 12:19:01,170 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img20.gif
+2026-04-18 12:19:01,171 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img21.gif
+2026-04-18 12:19:01,172 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img22.gif
+2026-04-18 12:19:01,172 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img23.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img24.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img25.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img26.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img27.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img28.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img29.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img3.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img30.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img31.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img32.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img33.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img34.gif
+2026-04-18 12:19:01,174 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img35.gif
+2026-04-18 12:19:01,179 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img36.gif
+2026-04-18 12:19:01,179 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img37.gif
+2026-04-18 12:19:01,179 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img38.gif
+2026-04-18 12:19:01,179 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img39.gif
+2026-04-18 12:19:01,180 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img4.gif
+2026-04-18 12:19:01,180 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img40.gif
+2026-04-18 12:19:01,180 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img41.gif
+2026-04-18 12:19:01,181 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img42.gif
+2026-04-18 12:19:01,216 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img43.gif
+2026-04-18 12:19:01,217 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img44.gif
+2026-04-18 12:19:01,218 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img45.gif
+2026-04-18 12:19:01,221 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img46.gif
+2026-04-18 12:19:01,222 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img47.gif
+2026-04-18 12:19:01,223 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img48.gif
+2026-04-18 12:19:01,223 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img49.gif
+2026-04-18 12:19:01,224 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img5.gif
+2026-04-18 12:19:01,225 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img50.gif
+2026-04-18 12:19:01,225 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img51.gif
+2026-04-18 12:19:01,225 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img52.gif
+2026-04-18 12:19:01,228 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img53.gif
+2026-04-18 12:19:01,229 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img54.gif
+2026-04-18 12:19:01,230 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img55.gif
+2026-04-18 12:19:01,230 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img56.gif
+2026-04-18 12:19:01,230 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img57.gif
+2026-04-18 12:19:01,230 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img58.gif
+2026-04-18 12:19:01,232 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img59.gif
+2026-04-18 12:19:01,233 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img6.gif
+2026-04-18 12:19:01,234 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img60.gif
+2026-04-18 12:19:01,234 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img61.gif
+2026-04-18 12:19:01,234 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img62.gif
+2026-04-18 12:19:01,236 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img63.gif
+2026-04-18 12:19:01,237 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img64.gif
+2026-04-18 12:19:01,238 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img65.gif
+2026-04-18 12:19:01,238 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img66.gif
+2026-04-18 12:19:01,240 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img67.gif
+2026-04-18 12:19:01,240 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img68.gif
+2026-04-18 12:19:01,242 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img69.gif
+2026-04-18 12:19:01,242 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img7.gif
+2026-04-18 12:19:01,242 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img70.gif
+2026-04-18 12:19:01,242 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img71.gif
+2026-04-18 12:19:01,242 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img72.gif
+2026-04-18 12:19:01,247 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img73.gif
+2026-04-18 12:19:01,247 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img74.gif
+2026-04-18 12:19:01,248 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img75.gif
+2026-04-18 12:19:01,250 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img76.gif
+2026-04-18 12:19:01,262 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img77.gif
+2026-04-18 12:19:01,276 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img78.gif
+2026-04-18 12:19:01,276 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img79.gif
+2026-04-18 12:19:01,276 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img8.gif
+2026-04-18 12:19:01,276 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img80.gif
+2026-04-18 12:19:01,276 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img81.gif
+2026-04-18 12:19:01,279 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img82.gif
+2026-04-18 12:19:01,279 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img83.gif
+2026-04-18 12:19:01,280 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img84.gif
+2026-04-18 12:19:01,280 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img85.gif
+2026-04-18 12:19:01,281 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img86.gif
+2026-04-18 12:19:01,281 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img87.gif
+2026-04-18 12:19:01,283 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img88.gif
+2026-04-18 12:19:01,284 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img89.gif
+2026-04-18 12:19:01,284 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img9.gif
+2026-04-18 12:19:01,285 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img90.gif
+2026-04-18 12:19:01,286 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img91.gif
+2026-04-18 12:19:01,287 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img92.gif
+2026-04-18 12:19:01,288 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img93.gif
+2026-04-18 12:19:01,289 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img94.gif
+2026-04-18 12:19:01,291 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img95.gif
+2026-04-18 12:19:01,292 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img96.gif
+2026-04-18 12:19:01,292 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img97.gif
+2026-04-18 12:19:01,293 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img98.gif
+2026-04-18 12:19:01,293 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\0 DOWEL BARS IN CC PAVEMENT\Rigid pavement design_files\img99.gif
+2026-04-18 12:19:01,373 | INFO | COPIED: E:\BRIDGE DESIGN\000 ADB Detailed Designs BRIDGE VID STAAD\ADB Detailed Designs BRIDGE VID STAAD.pdf \u2192 C:\Filtered_Drawings\000 ADB Detailed Designs BRIDGE VID STAAD\ADB Detailed Designs BRIDGE VID STAAD.pdf
+2026-04-18 12:19:01,637 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\SKEW 15-30 DEGREE SLAB BRIDGE STANDARD DRAINGS.pdf \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\SKEW 15-30 DEGREE SLAB BRIDGE STANDARD DRAINGS.pdf
+2026-04-18 12:19:01,887 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\SKEW SLAB BRIDGE STANDARD DRAINGS.pdf \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\SKEW SLAB BRIDGE STANDARD DRAINGS.pdf
+2026-04-18 12:19:02,105 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.01.jpg
+2026-04-18 12:19:02,313 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.02.jpg
+2026-04-18 12:19:02,578 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.03.jpg
+2026-04-18 12:19:02,820 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.04.jpg
+2026-04-18 12:19:03,079 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.05.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.05.jpg
+2026-04-18 12:19:03,277 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.06.jpg
+2026-04-18 12:19:03,460 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.07.jpg
+2026-04-18 12:19:03,670 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.08.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.08.jpg
+2026-04-18 12:19:03,837 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.09.jpg
+2026-04-18 12:19:04,026 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.10.jpg
+2026-04-18 12:19:04,237 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.11.jpg
+2026-04-18 12:19:04,420 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.12.jpg
+2026-04-18 12:19:04,605 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.13.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.13.jpg
+2026-04-18 12:19:04,779 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.14.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.14.jpg
+2026-04-18 12:19:04,952 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.15.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.15.jpg
+2026-04-18 12:19:05,122 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.16.jpg
+2026-04-18 12:19:05,290 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.17.jpg
+2026-04-18 12:19:05,474 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.18.jpg
+2026-04-18 12:19:05,655 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.19.jpg
+2026-04-18 12:19:05,867 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.20.jpg
+2026-04-18 12:19:06,116 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.21.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.21.jpg
+2026-04-18 12:19:06,318 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.22.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.22.jpg
+2026-04-18 12:19:06,487 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.23.jpg
+2026-04-18 12:19:06,720 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.24.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.24.jpg
+2026-04-18 12:19:06,911 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 1 JPG\Drawing 1.25.jpg
+2026-04-18 12:19:07,020 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.01.jpg
+2026-04-18 12:19:07,117 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.02.jpg
+2026-04-18 12:19:07,293 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.03.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.03.jpg
+2026-04-18 12:19:07,366 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.04.jpg
+2026-04-18 12:19:07,550 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.05.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.05.jpg
+2026-04-18 12:19:07,725 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.06.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.06.jpg
+2026-04-18 12:19:07,888 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.07.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.07.jpg
+2026-04-18 12:19:08,112 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.08.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.08.jpg
+2026-04-18 12:19:08,315 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.09.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.09.jpg
+2026-04-18 12:19:08,511 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.10.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.10.jpg
+2026-04-18 12:19:08,694 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.11.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.11.jpg
+2026-04-18 12:19:08,875 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.12.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.12.jpg
+2026-04-18 12:19:09,060 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.13.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.13.jpg
+2026-04-18 12:19:09,237 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.14.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.14.jpg
+2026-04-18 12:19:09,422 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.15.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.15.jpg
+2026-04-18 12:19:09,635 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.16.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.16.jpg
+2026-04-18 12:19:09,815 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.17.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.17.jpg
+2026-04-18 12:19:10,006 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.18.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.18.jpg
+2026-04-18 12:19:10,190 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.19.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.19.jpg
+2026-04-18 12:19:10,379 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.20.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.20.jpg
+2026-04-18 12:19:10,552 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.21.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.21.jpg
+2026-04-18 12:19:10,727 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.22.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.22.jpg
+2026-04-18 12:19:10,911 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.23.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.23.jpg
+2026-04-18 12:19:11,086 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.24.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.24.jpg
+2026-04-18 12:19:11,243 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.25.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.25.jpg
+2026-04-18 12:19:11,410 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.26.jpg \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\Drawing 2 JPG\Drawing 2.26.jpg
+2026-04-18 12:19:11,970 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\PDF\Drawing 2.pdf \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\PDF\Drawing 2.pdf
+2026-04-18 12:19:15,537 | INFO | COPIED: E:\BRIDGE DESIGN\000 STANDARD DRAWINGS\Pokharna Ji\PDF\RCC SOLID SLAB 15 AND 30 DEGREES SKEW .pdf \u2192 C:\Filtered_Drawings\000 STANDARD DRAWINGS\Pokharna Ji\PDF\RCC SOLID SLAB 15 AND 30 DEGREES SKEW .pdf
+2026-04-18 12:19:15,615 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\11 bridge design astra\3 Girder Design_of_Deckslab_IRC_112.xlsx.pdf
+2026-04-18 12:19:15,620 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\11 bridge design astra\DECKSLAB_ANALYSIS_RESULT.pdf
+2026-04-18 12:19:15,646 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\11 bridge design astra\DESIGN OF PIER.pdf
+2026-04-18 12:19:15,659 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\RCC Cross Girder IS.xlsx.pdf \u2192 C:\Filtered_Drawings\11 bridge design astra\RCC Cross Girder IS.xlsx.pdf
+2026-04-18 12:19:15,756 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\11 bridge design astra\RCC Precast Long Girder IS.xlsm.pdf
+2026-04-18 12:19:15,861 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\001 General Arrangements.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\001 General Arrangements.DXF
+2026-04-18 12:19:15,895 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\002 Dimension Details.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\002 Dimension Details.DXF
+2026-04-18 12:19:15,921 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\003 Reinforcement Details.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\003 Reinforcement Details.DXF
+2026-04-18 12:19:15,946 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\004 Girder with Lifting Lugs.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\004 Girder with Lifting Lugs.DXF
+2026-04-18 12:19:15,997 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\005 Cross Girder.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\005 Cross Girder.DXF
+2026-04-18 12:19:16,035 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\006 Deck Slab.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\006 Deck Slab.DXF
+2026-04-18 12:19:16,111 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\007 Bearing Pedestal Details.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\Drawings of RCC T Girder Bridge\007 Bearing Pedestal Details.DXF
+2026-04-18 12:19:16,267 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\RCC Pier Drawings\01 PIER GAD.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\RCC Pier Drawings\01 PIER GAD.DXF
+2026-04-18 12:19:16,321 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\RCC Pier Drawings\02 PIER CAP.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\RCC Pier Drawings\02 PIER CAP.DXF
+2026-04-18 12:19:16,371 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\RCC Pier Drawings\03 PIER FOUNDATION.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\RCC Pier Drawings\03 PIER FOUNDATION.DXF
+2026-04-18 12:19:16,412 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\RCC Pier Drawings\04 SEISMIC_RESTRAINER.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\RCC Pier Drawings\04 SEISMIC_RESTRAINER.DXF
+2026-04-18 12:19:16,570 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\RCC Superstructure Span 14_16m\001 GAD.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\RCC Superstructure Span 14_16m\001 GAD.DXF
+2026-04-18 12:19:16,597 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\RCC Superstructure Span 14_16m\002 DECK SLAB.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\RCC Superstructure Span 14_16m\002 DECK SLAB.DXF
+2026-04-18 12:19:16,737 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\RCC Superstructure Span 14_16m\003 LONG GIRDER.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\RCC Superstructure Span 14_16m\003 LONG GIRDER.DXF
+2026-04-18 12:19:16,762 | INFO | COPIED: E:\BRIDGE DESIGN\11 bridge design astra\DRAWINGS\RCC Superstructure Span 14_16m\004 CROSS GIRDER.DXF \u2192 C:\Filtered_Drawings\11 bridge design astra\DRAWINGS\RCC Superstructure Span 14_16m\004 CROSS GIRDER.DXF
+2026-04-18 12:19:16,805 | INFO | COPIED: E:\BRIDGE DESIGN\9 BRIDGE FALSE WORK\Bridge false work  Raj Solutions only\BRITRUDA1.dwg \u2192 C:\Filtered_Drawings\9 BRIDGE FALSE WORK\Bridge false work  Raj Solutions only\BRITRUDA1.dwg
+2026-04-18 12:19:16,824 | INFO | COPIED: E:\BRIDGE DESIGN\9 BRIDGE FALSE WORK\Bridge false work  Raj Solutions only\BRITRUDA1.dxf \u2192 C:\Filtered_Drawings\9 BRIDGE FALSE WORK\Bridge false work  Raj Solutions only\BRITRUDA1.dxf
+2026-04-18 12:19:16,839 | INFO | COPIED: E:\BRIDGE DESIGN\9 BRIDGE FALSE WORK\Bridge false work  Raj Solutions only\ENDJOINT.dwg \u2192 C:\Filtered_Drawings\9 BRIDGE FALSE WORK\Bridge false work  Raj Solutions only\ENDJOINT.dwg
+2026-04-18 12:19:16,845 | INFO | COPIED: E:\BRIDGE DESIGN\9 BRIDGE FALSE WORK\JAKHAM AQUEDUCT FALSE WORK\ENDJOINT.dwg \u2192 C:\Filtered_Drawings\9 BRIDGE FALSE WORK\JAKHAM AQUEDUCT FALSE WORK\ENDJOINT.dwg
+2026-04-18 12:19:16,904 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\ANASBHAIColumnCenterLineSht.DXF \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\ANASBHAIColumnCenterLineSht.DXF
+2026-04-18 12:19:16,937 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\ANASBHAIdoubleLinesht011.DXF \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\ANASBHAIdoubleLinesht011.DXF
+2026-04-18 12:19:16,971 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\ANASBHAIFootingCenterLineSht.DXF \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\ANASBHAIFootingCenterLineSht.DXF
+2026-04-18 12:19:17,013 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\ANASBHAIFootingSections.DXF \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\ANASBHAIFootingSections.DXF
+2026-04-18 12:19:17,047 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\ANASBHAIslabsht011.DXF \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\ANASBHAIslabsht011.DXF
+2026-04-18 12:19:17,066 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\INCLINED BEAMS.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\INCLINED BEAMS.dwg
+2026-04-18 12:19:17,103 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\SECTIONAL ELEVATION.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\SECTIONAL ELEVATION.dwg
+2026-04-18 12:19:17,124 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\RAXPAL\DRAWING 2 SEC ELE.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\RAXPAL\DRAWING 2 SEC ELE.dwg
+2026-04-18 12:19:17,170 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\RAXPAL\PLINTH BEAMS.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\RAXPAL\PLINTH BEAMS.dwg
+2026-04-18 12:19:17,170 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\RAXPAL\RAXPAL01COL.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\RAXPAL\RAXPAL01COL.dwg
+2026-04-18 12:19:17,200 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\RAXPAL\RAXPAL02BEAM.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\RAXPAL\RAXPAL02BEAM.dwg
+2026-04-18 12:19:17,295 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM Bar Bending Schedule Report.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM Bar Bending Schedule Report.pdf
+2026-04-18 12:19:17,338 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM DETAIL REPORT.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM DETAIL REPORT.pdf
+2026-04-18 12:19:17,398 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM PDF REPORT.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM PDF REPORT.pdf
+2026-04-18 12:19:17,407 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM PLAN.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM PLAN.dwg
+2026-04-18 12:19:17,438 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Beam Schedule Report.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Beam Schedule Report.pdf
+2026-04-18 12:19:17,459 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM SCHEDULE.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\BEAM SCHEDULE.dwg
+2026-04-18 12:19:17,755 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Binder1.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Binder1.pdf
+2026-04-18 12:19:17,763 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Column Center Line.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Column Center Line.dwg
+2026-04-18 12:19:17,790 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Column Design Schedule.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Column Design Schedule.pdf
+2026-04-18 12:19:17,842 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\column design.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\column design.pdf
+2026-04-18 12:19:17,866 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS1.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS1.dwg
+2026-04-18 12:19:17,871 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS10.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS10.dwg
+2026-04-18 12:19:17,887 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS11.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS11.dwg
+2026-04-18 12:19:17,894 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS12.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS12.dwg
+2026-04-18 12:19:17,899 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS13.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS13.dwg
+2026-04-18 12:19:17,906 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS14.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS14.dwg
+2026-04-18 12:19:17,938 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS2.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS2.dwg
+2026-04-18 12:19:17,939 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS3.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS3.dwg
+2026-04-18 12:19:17,949 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS4.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS4.dwg
+2026-04-18 12:19:17,956 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS5.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS5.dwg
+2026-04-18 12:19:17,974 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS6.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS6.dwg
+2026-04-18 12:19:17,981 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS7.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS7.dwg
+2026-04-18 12:19:18,029 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS8.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS8.dwg
+2026-04-18 12:19:18,055 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS9.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN SECTIONS9.dwg
+2026-04-18 12:19:18,062 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN01pintoo.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COLUMN01pintoo.dwg
+2026-04-18 12:19:18,071 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COMPLETE DRAWING 2.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\COMPLETE DRAWING 2.dwg
+2026-04-18 12:19:18,121 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Design Of Slabs.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Design Of Slabs.pdf
+2026-04-18 12:19:18,121 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\DRAWING 1 PLAN.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\DRAWING 1 PLAN.dwg
+2026-04-18 12:19:18,130 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\DRAWING 2 SEC ELE.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\DRAWING 2 SEC ELE.dwg
+2026-04-18 12:19:18,171 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING DESIGN SCHEDULE.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING DESIGN SCHEDULE.pdf
+2026-04-18 12:19:18,177 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING PLAN.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING PLAN.dwg
+2026-04-18 12:19:18,190 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SCHEDULE1.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SCHEDULE1.dwg
+2026-04-18 12:19:18,196 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SCHEDULE2.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SCHEDULE2.dwg
+2026-04-18 12:19:18,199 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 1.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 1.dwg
+2026-04-18 12:19:18,207 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 2.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 2.dwg
+2026-04-18 12:19:18,210 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 3.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 3.dwg
+2026-04-18 12:19:18,214 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 4.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 4.dwg
+2026-04-18 12:19:18,219 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 5.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 5.dwg
+2026-04-18 12:19:18,225 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 6.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 6.dwg
+2026-04-18 12:19:18,236 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 7.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\FOOTING SECTIONS 7.dwg
+2026-04-18 12:19:18,372 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Foundation Design Detail Report.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Foundation Design Detail Report.pdf
+2026-04-18 12:19:18,380 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\GHATS.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\GHATS.dwg
+2026-04-18 12:19:18,386 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\HORIZONTAL BEAMS.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\HORIZONTAL BEAMS.dwg
+2026-04-18 12:19:18,391 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\SLAB PLAN.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\SLAB PLAN.dwg
+2026-04-18 12:19:18,462 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Slab Schedule Report.pdf \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\Slab Schedule Report.pdf
+2026-04-18 12:19:18,468 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\SLAB SCHEDULE.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\SLAB SCHEDULE.dwg
+2026-04-18 12:19:18,489 | INFO | COPIED: E:\BRIDGE DESIGN\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\STRUCTURAL PLAN.dwg \u2192 C:\Filtered_Drawings\ANAS BHAIRAVJI GHATS\TO MAKE A BINDER\STRUCTURAL PLAN.dwg
+2026-04-18 12:19:18,524 | INFO | COPIED: E:\BRIDGE DESIGN\BARBUDANIA FOOT BRIDGE\BARBUDANIA FOOT BRIDGE (1).dwg \u2192 C:\Filtered_Drawings\BARBUDANIA FOOT BRIDGE\BARBUDANIA FOOT BRIDGE (1).dwg
+2026-04-18 12:19:19,342 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\ABUTMENT BEGUN REINFORCEMENT.dwg \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\ABUTMENT BEGUN REINFORCEMENT.dwg
+2026-04-18 12:19:19,579 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\BED ANCHORAGE DETAILS BENGU.dwg \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\BED ANCHORAGE DETAILS BENGU.dwg
+2026-04-18 12:19:19,701 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\Begun Chechi road Bridge Bhuraram choudhary.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\Begun Chechi road Bridge Bhuraram choudhary.pdf
+2026-04-18 12:19:19,757 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\begunnpareeaboq.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\begunnpareeaboq.pdf
+2026-04-18 12:19:19,778 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\GAD SKEW 6 SUBMERSIBLE BRIDGE 02122007.dwg \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\GAD SKEW 6 SUBMERSIBLE BRIDGE 02122007.dwg
+2026-04-18 12:19:19,989 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\PIER DIMENSIONS.dwg \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\PIER DIMENSIONS.dwg
+2026-04-18 12:19:20,147 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\PIER REINFORCEMENT 02.dwg \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\PIER REINFORCEMENT 02.dwg
+2026-04-18 12:19:20,942 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\PIER SECTION 01.dwg \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\PIER SECTION 01.dwg
+2026-04-18 12:19:20,967 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\0 cover page.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\DISPATCH\0 cover page.pdf
+2026-04-18 12:19:20,980 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\ABUTMENT BEGUN REINFORCEMENT.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\DISPATCH\ABUTMENT BEGUN REINFORCEMENT.pdf
+2026-04-18 12:19:21,025 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\BED ANCHORAGE DETAILS BENGU.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\DISPATCH\BED ANCHORAGE DETAILS BENGU.pdf
+2026-04-18 12:19:21,129 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\COMPLETE DOCUMNET.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\DISPATCH\COMPLETE DOCUMNET.pdf
+2026-04-18 12:19:21,158 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\Design Notes  High Level Bridge on Kelwara Kumbhalgarh Road Over Kelwara Lake.pdf
+2026-04-18 12:19:21,176 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\GAD 30 SKEW 7 SUBMERSIBLE BRIDGE BEGUN.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\DISPATCH\GAD 30 SKEW 7 SUBMERSIBLE BRIDGE BEGUN.pdf
+2026-04-18 12:19:21,183 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\PIER DIMENSIONS.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\DISPATCH\PIER DIMENSIONS.pdf
+2026-04-18 12:19:21,234 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\PIER REINFORCEMENT 02.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\DISPATCH\PIER REINFORCEMENT 02.pdf
+2026-04-18 12:19:21,250 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\PIER SECTION 01.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\DISPATCH\PIER SECTION 01.pdf
+2026-04-18 12:19:21,275 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\Stability Analysis BENGU SKEW Bridge.pdf
+2026-04-18 12:19:21,311 | INFO | COPIED: E:\BRIDGE DESIGN\BENGU SUBMERSIBLE BRIDGE\DISPATCH\X SEC BRAHMANI RIVER BEGUN.pdf \u2192 C:\Filtered_Drawings\BENGU SUBMERSIBLE BRIDGE\DISPATCH\X SEC BRAHMANI RIVER BEGUN.pdf
+2026-04-18 12:19:21,340 | INFO | COPIED: E:\BRIDGE DESIGN\BOX CULVERT standard plans\std-15-003%20(Rev%202-28-03)[1].pdf \u2192 C:\Filtered_Drawings\BOX CULVERT standard plans\std-15-003%20(Rev%202-28-03)[1].pdf
+2026-04-18 12:19:21,363 | INFO | COPIED: E:\BRIDGE DESIGN\BOX CULVERT standard plans\STD-15-1[1].pdf \u2192 C:\Filtered_Drawings\BOX CULVERT standard plans\STD-15-1[1].pdf
+2026-04-18 12:19:21,453 | INFO | COPIED: E:\BRIDGE DESIGN\BOX CULVERT standard plans\STD-15-2[1].pdf \u2192 C:\Filtered_Drawings\BOX CULVERT standard plans\STD-15-2[1].pdf
+2026-04-18 12:19:21,467 | INFO | COPIED: E:\BRIDGE DESIGN\BOX CULVERT standard plans\STD-15-4[1].pdf \u2192 C:\Filtered_Drawings\BOX CULVERT standard plans\STD-15-4[1].pdf
+2026-04-18 12:19:21,501 | INFO | COPIED: E:\BRIDGE DESIGN\BOX CULVERT standard plans\STD-15-90[1].pdf \u2192 C:\Filtered_Drawings\BOX CULVERT standard plans\STD-15-90[1].pdf
+2026-04-18 12:19:22,521 | INFO | COPIED: E:\BRIDGE DESIGN\Bundan River Bridge TAD\ABUTMENT BUNDAN BRIDGE.dwg \u2192 C:\Filtered_Drawings\Bundan River Bridge TAD\ABUTMENT BUNDAN BRIDGE.dwg
+2026-04-18 12:19:23,147 | INFO | COPIED: E:\BRIDGE DESIGN\Bundan River Bridge TAD\PIER RECT.dwg \u2192 C:\Filtered_Drawings\Bundan River Bridge TAD\PIER RECT.dwg
+2026-04-18 12:19:24,123 | INFO | COPIED: E:\BRIDGE DESIGN\Bundan River Bridge TAD\SUBHASH ABUTMENT BUNDAN BRIDGE.dwg \u2192 C:\Filtered_Drawings\Bundan River Bridge TAD\SUBHASH ABUTMENT BUNDAN BRIDGE.dwg
+2026-04-18 12:19:24,770 | INFO | COPIED: E:\BRIDGE DESIGN\Bundan River Bridge TAD\SUBHASH PIER REINFORCEMENT BUNDAN RIVER BIDGE.dwg \u2192 C:\Filtered_Drawings\Bundan River Bridge TAD\SUBHASH PIER REINFORCEMENT BUNDAN RIVER BIDGE.dwg
+2026-04-18 12:19:25,722 | INFO | COPIED: E:\BRIDGE DESIGN\Bundan River Bridge TAD\SUBHASH WING WALL BUNDAN BRIDGE.dwg \u2192 C:\Filtered_Drawings\Bundan River Bridge TAD\SUBHASH WING WALL BUNDAN BRIDGE.dwg
+2026-04-18 12:19:25,765 | INFO | COPIED: E:\BRIDGE DESIGN\CHAP RIVER SUBMER BRIDGE\submersible bridge across CHAP RIVER GAD.dwg \u2192 C:\Filtered_Drawings\CHAP RIVER SUBMER BRIDGE\submersible bridge across CHAP RIVER GAD.dwg
+2026-04-18 12:19:25,791 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\BED PROTECTION.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\BED PROTECTION.dwg
+2026-04-18 12:19:25,815 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DECK SLAB ANCHORAGE.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DECK SLAB ANCHORAGE.dwg
+2026-04-18 12:19:25,844 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\GAD bedach 30 skew 12 span.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\GAD bedach 30 skew 12 span.dwg
+2026-04-18 12:19:25,875 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\GUARD STONE DETAILS.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\GUARD STONE DETAILS.dwg
+2026-04-18 12:19:26,074 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\PIER REINFORCEMENT NO PROJECTION.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\PIER REINFORCEMENT NO PROJECTION.dwg
+2026-04-18 12:19:26,137 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\5 DRAWINGS FROM STANDARDS\required STANDARD PLANS HIGHWAY RCC SLAB SUPER STRUICTURES.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\5 DRAWINGS FROM STANDARDS\required STANDARD PLANS HIGHWAY RCC SLAB SUPER STRUICTURES.pdf
+2026-04-18 12:19:26,211 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\07496-2 EE PWD Chittorgarh Berruch River.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\07496-2 EE PWD Chittorgarh Berruch River.pdf
+2026-04-18 12:19:26,236 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\ABUTMENT DESIGN CORRECTION.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\ABUTMENT DESIGN CORRECTION.pdf
+2026-04-18 12:19:26,255 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\BED PROTECTION.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\BED PROTECTION.dwg
+2026-04-18 12:19:26,338 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\Berruch River.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\Berruch River.pdf
+2026-04-18 12:19:27,473 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\CANTILEVER ABUTMENT BEDACH BRIDGE.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\CANTILEVER ABUTMENT BEDACH BRIDGE.dwg
+2026-04-18 12:19:28,588 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\CANTILEVER ABUTMENT BEDACH BRIDGE01.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\CANTILEVER ABUTMENT BEDACH BRIDGE01.dwg
+2026-04-18 12:19:28,594 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\DECK SLAB ANCHORAGE.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\DECK SLAB ANCHORAGE.dwg
+2026-04-18 12:19:28,625 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\GAD bedach 30 skew 12 span.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\GAD bedach 30 skew 12 span.dwg
+2026-04-18 12:19:28,658 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\GUARD STONE DETAILS.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\GUARD STONE DETAILS.dwg
+2026-04-18 12:19:28,706 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\LAYOUT 30 DEGREE.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\LAYOUT 30 DEGREE.dwg
+2026-04-18 12:19:28,731 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\notes.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\notes.dwg
+2026-04-18 12:19:29,560 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\PIER PLAN AND SECTION 01.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\PIER PLAN AND SECTION 01.dwg
+2026-04-18 12:19:29,729 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\PIER REINFORCEMENT NO PROJECTION.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\PIER REINFORCEMENT NO PROJECTION.dwg
+2026-04-18 12:19:31,175 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\PIER REINFORCEMENT NO PROJECTION.dxf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\PIER REINFORCEMENT NO PROJECTION.dxf
+2026-04-18 12:19:32,136 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\WING WALL SKIN REINF DESIGN.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\WING WALL SKIN REINF DESIGN.dwg
+2026-04-18 12:19:32,137 | INFO | Scanning archive: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\WING_WALL_BEDACH_BRIDGE.rar
+2026-04-18 12:19:32,149 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\cantilever abutment DETAILS 01.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\cantilever abutment DETAILS 01.pdf
+2026-04-18 12:19:33,310 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\cantilever abutment DETAILS 02.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\cantilever abutment DETAILS 02.pdf
+2026-04-18 12:19:33,334 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\DIRT WALL.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\DIRT WALL.pdf
+2026-04-18 12:19:33,365 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\gad_bedach.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\gad_bedach.pdf
+2026-04-18 12:19:33,389 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\PIER FOUNDATION PLAN AND SECTION.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\PIER FOUNDATION PLAN AND SECTION.pdf
+2026-04-18 12:19:33,598 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\PIER REINFORCEMENT.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\PIER REINFORCEMENT.pdf
+2026-04-18 12:19:33,631 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\WINGWALL.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\bedach bridge\DISPATCH 21 NOV 2025\WINGWALL.pdf
+2026-04-18 12:19:33,646 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\ABUT_BEDACH01.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DISPATCH 06 JAN 2026\ABUT_BEDACH01.pdf
+2026-04-18 12:19:34,663 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\ABUT_BEDACH02.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DISPATCH 06 JAN 2026\ABUT_BEDACH02.pdf
+2026-04-18 12:19:34,698 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\ABUT_BEDACH03.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DISPATCH 06 JAN 2026\ABUT_BEDACH03.pdf
+2026-04-18 12:19:34,721 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\ABUT_BEDACH04.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DISPATCH 06 JAN 2026\ABUT_BEDACH04.pdf
+2026-04-18 12:19:35,844 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\CANTILEVER ABUTMENT BEDACH BRIDGE01.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DISPATCH 06 JAN 2026\CANTILEVER ABUTMENT BEDACH BRIDGE01.dwg
+2026-04-18 12:19:35,879 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\FOOTING REINFORCEMEN.pdf
+2026-04-18 12:19:35,896 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\layout-1.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DISPATCH 06 JAN 2026\layout-1.pdf
+2026-04-18 12:19:35,919 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\layout.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DISPATCH 06 JAN 2026\layout.pdf
+2026-04-18 12:19:36,355 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\pdfcoffee.com_std-drgs-for-road-bridges-rcc-solid-slab-superstructure-15-amp-30-skew-span-40-m-to-100-m-with-and-without-footpaths1992pdf-pdf-free.pdf \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DISPATCH 06 JAN 2026\pdfcoffee.com_std-drgs-for-road-bridges-rcc-solid-slab-superstructure-15-amp-30-skew-span-40-m-to-100-m-with-and-without-footpaths1992pdf-pdf-free.pdf
+2026-04-18 12:19:36,383 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\DISPATCH 06 JAN 2026\YY.png \u2192 C:\Filtered_Drawings\CHITORGARH PWD\DISPATCH 06 JAN 2026\YY.png
+2026-04-18 12:19:37,975 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\CHITORGARH PWD\node_modules\xlsx\formats.png
+2026-04-18 12:19:37,999 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\node_modules\xlsx\legend.png \u2192 C:\Filtered_Drawings\CHITORGARH PWD\node_modules\xlsx\legend.png
+2026-04-18 12:19:38,965 | INFO | COPIED: E:\BRIDGE DESIGN\CHITORGARH PWD\PIER_SECTION_01 (1)\PIER SECTION 01.dwg \u2192 C:\Filtered_Drawings\CHITORGARH PWD\PIER_SECTION_01 (1)\PIER SECTION 01.dwg
+2026-04-18 12:19:38,980 | INFO | Scanning archive: E:\BRIDGE DESIGN\CHITORGARH PWD\viroli bridge\CANTILEVER_ABUTMENT_VIROLI_BRIDGE.rar
+2026-04-18 12:19:38,980 | INFO | Scanning archive: E:\BRIDGE DESIGN\CHITORGARH PWD\viroli bridge\WING_WALL_VIROLI_BRIDGE.rar
+2026-04-18 12:19:38,980 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\bore log.rar
+2026-04-18 12:19:38,980 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\bridge - drwng.rar
+2026-04-18 12:19:38,980 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\concrete.rar
+2026-04-18 12:19:38,980 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\earth works.zip
+2026-04-18 12:19:39,003 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\estimate details.rar
+2026-04-18 12:19:39,005 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\modified 3.20b clause go.rar
+2026-04-18 12:19:39,005 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\rb13.zip
+2026-04-18 12:19:39,016 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\revised final.rar
+2026-04-18 12:19:39,016 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\steel.zip
+2026-04-18 12:19:39,028 | INFO | Scanning archive: E:\BRIDGE DESIGN\CONSTRUCTION OF SUSPENSION FOOT BRIDGE ACROSS SHIVAPUR NADUGUDDE IN JOIDA TALUK OF UTTAR KANNADA DISTRICT. HA NABARD TOURISM\stone(2).zip
+2026-04-18 12:19:39,051 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\ABUTMENT 01.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\ABUTMENT 01.pdf
+2026-04-18 12:19:39,225 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\ABUTMENT 02.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\ABUTMENT 02.pdf
+2026-04-18 12:19:39,244 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\ABUTMENT 03.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\ABUTMENT 03.pdf
+2026-04-18 12:19:40,289 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\ABUTMENT DEVKA BRIDGE.dwg \u2192 C:\Filtered_Drawings\Devka Bridge PWD\ABUTMENT DEVKA BRIDGE.dwg
+2026-04-18 12:19:40,289 | INFO | Scanning archive: E:\BRIDGE DESIGN\Devka Bridge PWD\ABUTMENT DEVKA BRIDGE.rar
+2026-04-18 12:19:40,306 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\Devka Bridge GAD.dwg \u2192 C:\Filtered_Drawings\Devka Bridge PWD\Devka Bridge GAD.dwg
+2026-04-18 12:19:40,336 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\Devka Bridge GAD.dwg Model (4).pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\Devka Bridge GAD.dwg Model (4).pdf
+2026-04-18 12:19:40,530 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER GEOMETRY DEVKA.dwg \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER GEOMETRY DEVKA.dwg
+2026-04-18 12:19:40,539 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER GEOMETRY DEVKA.dwg Model (1).pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER GEOMETRY DEVKA.dwg Model (1).pdf
+2026-04-18 12:19:40,558 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER GEOMETRY DEVKA.dwg Model (2).pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER GEOMETRY DEVKA.dwg Model (2).pdf
+2026-04-18 12:19:40,571 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER GEOMETRY DEVKA.dwg Model (3).pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER GEOMETRY DEVKA.dwg Model (3).pdf
+2026-04-18 12:19:41,392 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER REINF 01 DEVKA.dwg \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER REINF 01 DEVKA.dwg
+2026-04-18 12:19:41,393 | INFO | Scanning archive: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER REINF 01 DEVKA.rar
+2026-04-18 12:19:41,423 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER REINF DEVKA 5.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER REINF DEVKA 5.pdf
+2026-04-18 12:19:41,429 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER REINF DEVKA 6.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER REINF DEVKA 6.pdf
+2026-04-18 12:19:41,629 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER REINF DEVKA.dwg \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER REINF DEVKA.dwg
+2026-04-18 12:19:41,687 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER REINF DEVKA.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER REINF DEVKA.pdf
+2026-04-18 12:19:41,708 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER REINF DEVKA1.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER REINF DEVKA1.pdf
+2026-04-18 12:19:41,741 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER REINF DEVKA2.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER REINF DEVKA2.pdf
+2026-04-18 12:19:41,754 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\PIER REINF DEVKA4.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\PIER REINF DEVKA4.pdf
+2026-04-18 12:19:41,913 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\Wing wall 01.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\Wing wall 01.pdf
+2026-04-18 12:19:41,930 | INFO | COPIED: E:\BRIDGE DESIGN\Devka Bridge PWD\Wing wall 02.pdf \u2192 C:\Filtered_Drawings\Devka Bridge PWD\Wing wall 02.pdf
+2026-04-18 12:19:41,979 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\135 21.08.2020 Letter to Proof Consultant.pdf
+2026-04-18 12:19:42,061 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\scan0010.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\scan0010.pdf
+2026-04-18 12:19:42,090 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\Thoughts Letter 211220.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\Thoughts Letter 211220.pdf
+2026-04-18 12:19:44,168 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BENESHWAR\1.survey_plan.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BENESHWAR\1.survey_plan.pdf
+2026-04-18 12:19:49,065 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BENESHWAR\2.Proposed_alignment_plan_with_survey.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BENESHWAR\2.Proposed_alignment_plan_with_survey.pdf
+2026-04-18 12:19:49,093 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BENESHWAR\google image in brdige baneshwar dham.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BENESHWAR\google image in brdige baneshwar dham.pdf
+2026-04-18 12:19:49,129 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BENESHWAR\WhatsApp Image 2020-12-30 at 9.54.58 PM.jpeg
+2026-04-18 12:19:49,144 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BENESHWAR\WhatsApp Image 2020-12-30 at 9.58.33 PM.jpeg \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BENESHWAR\WhatsApp Image 2020-12-30 at 9.58.33 PM.jpeg
+2026-04-18 12:19:49,185 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BENESHWAR\WhatsApp Image 2020-12-31 at 11.14.47 AM.jpeg \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BENESHWAR\WhatsApp Image 2020-12-31 at 11.14.47 AM.jpeg
+2026-04-18 12:19:49,238 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BENESHWAR\WhatsApp Image 2021-01-01 at 12.56.54 PM.jpeg \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BENESHWAR\WhatsApp Image 2021-01-01 at 12.56.54 PM.jpeg
+2026-04-18 12:19:49,285 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BENESHWAR\WhatsApp Image 2021-01-01 at 2.16.16 PM.jpeg \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BENESHWAR\WhatsApp Image 2021-01-01 at 2.16.16 PM.jpeg
+2026-04-18 12:19:49,315 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BORESHWAR\CM SAHAB.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BORESHWAR\CM SAHAB.pdf
+2026-04-18 12:19:49,338 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BORESHWAR\PWD OFF. BANASWARA.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BORESHWAR\PWD OFF. BANASWARA.pdf
+2026-04-18 12:19:49,365 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BORESHWAR\PWD OFF. DUNGARPUR.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BORESHWAR\PWD OFF. DUNGARPUR.pdf
+2026-04-18 12:19:49,391 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BORESHWAR\PWD OFF. JAIPUR.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BORESHWAR\PWD OFF. JAIPUR.pdf
+2026-04-18 12:19:49,440 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BORESHWAR\PWD OFF. SAGAWARA.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BORESHWAR\PWD OFF. SAGAWARA.pdf
+2026-04-18 12:19:49,448 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\BORESHWAR\xtraitem.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\BORESHWAR\xtraitem.pdf
+2026-04-18 12:19:49,448 | INFO | Scanning archive: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580.zip
+2026-04-18 12:19:49,557 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580.zip/BidDocument_GaliyakotGareeyaBridge.pdf \u2192 C:\Filtered_Drawings\work_375580\BidDocument_GaliyakotGareeyaBridge.pdf
+2026-04-18 12:19:49,651 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580.zip/GAD_GaliyakotGareeyaBridge.pdf \u2192 C:\Filtered_Drawings\work_375580\GAD_GaliyakotGareeyaBridge.pdf
+2026-04-18 12:19:49,759 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580.zip/RPWA_100.pdf \u2192 C:\Filtered_Drawings\work_375580\RPWA_100.pdf
+2026-04-18 12:19:49,794 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580.zip/SpecialCondition_GaliyakotGareeyaBridge.pdf \u2192 C:\Filtered_Drawings\work_375580\SpecialCondition_GaliyakotGareeyaBridge.pdf
+2026-04-18 12:19:49,861 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580.zip/Various_Circulars.pdf \u2192 C:\Filtered_Drawings\work_375580\Various_Circulars.pdf
+2026-04-18 12:19:49,906 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\BidDocument_GaliyakotGareeyaBridge.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\BidDocument_GaliyakotGareeyaBridge.pdf
+2026-04-18 12:19:50,040 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\GAD_GaliyakotGareeyaBridge.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\GAD_GaliyakotGareeyaBridge.pdf
+2026-04-18 12:19:50,179 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\RPWA_100.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\RPWA_100.pdf
+2026-04-18 12:19:50,226 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\SpecialCondition_GaliyakotGareeyaBridge.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\SpecialCondition_GaliyakotGareeyaBridge.pdf
+2026-04-18 12:19:50,454 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\Various_Circulars.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\GADIYA\work_375580\Various_Circulars.pdf
+2026-04-18 12:19:50,467 | INFO | Scanning archive: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\work_375574.zip
+2026-04-18 12:19:50,566 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\work_375574.zip/BidDocument_SilohiBridge.pdf \u2192 C:\Filtered_Drawings\work_375574\BidDocument_SilohiBridge.pdf
+2026-04-18 12:19:50,695 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\work_375574.zip/RPWA_100.pdf \u2192 C:\Filtered_Drawings\work_375574\RPWA_100.pdf
+2026-04-18 12:19:50,741 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\work_375574.zip/Special_Condition.pdf \u2192 C:\Filtered_Drawings\work_375574\Special_Condition.pdf
+2026-04-18 12:19:50,827 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\work_375574.zip/Various_Circulars.pdf \u2192 C:\Filtered_Drawings\work_375574\Various_Circulars.pdf
+2026-04-18 12:19:50,887 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\work_375574.zip/GAD_1.pdf \u2192 C:\Filtered_Drawings\work_375574\GAD_1.pdf
+2026-04-18 12:19:53,323 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\13-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\13-PP.pdf
+2026-04-18 12:19:55,733 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\14-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\14-PP.pdf
+2026-04-18 12:19:57,210 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\15-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\15-PP.pdf
+2026-04-18 12:19:57,376 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\16-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\16-PP.pdf
+2026-04-18 12:19:57,553 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\17-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\17-PP.pdf
+2026-04-18 12:19:57,715 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\18-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\18-PP.pdf
+2026-04-18 12:19:58,288 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\19-.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\19-.pdf
+2026-04-18 12:19:59,015 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\20-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\20-PP.pdf
+2026-04-18 12:19:59,405 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\21-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\21-PP.pdf
+2026-04-18 12:19:59,821 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\22-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\22-PP.pdf
+2026-04-18 12:19:59,985 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\23A-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\23A-PP.pdf
+2026-04-18 12:20:00,079 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\23B-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\23B-PP.pdf
+2026-04-18 12:20:00,229 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\24-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\24-PP.pdf
+2026-04-18 12:20:00,436 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\25A-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\25A-PP.pdf
+2026-04-18 12:20:00,482 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\25B-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\25B-PP.pdf
+2026-04-18 12:20:00,679 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\26-PP.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\26-PP.pdf
+2026-04-18 12:20:00,892 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\28-SS.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\28-SS.pdf
+2026-04-18 12:20:01,063 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\29-SS.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\29-SS.pdf
+2026-04-18 12:20:01,282 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\31-SS.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\31-SS.pdf
+2026-04-18 12:20:01,412 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\32-SS.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\32-SS.pdf
+2026-04-18 12:20:01,697 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\33-PIER.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\33-PIER.pdf
+2026-04-18 12:20:01,951 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\34-PIER.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\34-PIER.pdf
+2026-04-18 12:20:02,179 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\35-PIER.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\35-PIER.pdf
+2026-04-18 12:20:02,480 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\36-ABUTMENT.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\36-ABUTMENT.pdf
+2026-04-18 12:20:02,698 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\37-ABUTMENT.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\37-ABUTMENT.pdf
+2026-04-18 12:20:02,948 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\38-ABUTMENT.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\38-ABUTMENT.pdf
+2026-04-18 12:20:03,133 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\39-RCC WALL.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\39-RCC WALL.pdf
+2026-04-18 12:20:03,375 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\40-PIPE CULVERT.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\40-PIPE CULVERT.pdf
+2026-04-18 12:20:03,575 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\Bid-Boreshwar-bridge.pdf
+2026-04-18 12:20:03,627 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\NIT-05 (Add office) Moran River.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\NIT-05 (Add office) Moran River.pdf
+2026-04-18 12:20:03,658 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\Revised Sanction 09-12-2020.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\Revised Sanction 09-12-2020.pdf
+2026-04-18 12:20:03,685 | INFO | COPIED: E:\BRIDGE DESIGN\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\TS.pdf \u2192 C:\Filtered_Drawings\DUNGARPUR PWD BRIDGES\NEELKANTH\ORIGINALS\TS.pdf
+2026-04-18 12:20:03,727 | INFO | COPIED: E:\BRIDGE DESIGN\HORIZONTAL CURVE DESIGN FOR ROADS\1_810_CaSE 2 HORIZONTAL CURVE.pdf \u2192 C:\Filtered_Drawings\HORIZONTAL CURVE DESIGN FOR ROADS\1_810_CaSE 2 HORIZONTAL CURVE.pdf
+2026-04-18 12:20:03,779 | INFO | COPIED: E:\BRIDGE DESIGN\HORIZONTAL CURVE DESIGN FOR ROADS\chap4 HORIZONTAL CURVE.pdf \u2192 C:\Filtered_Drawings\HORIZONTAL CURVE DESIGN FOR ROADS\chap4 HORIZONTAL CURVE.pdf
+2026-04-18 12:20:03,807 | INFO | COPIED: E:\BRIDGE DESIGN\HORIZONTAL CURVE DESIGN FOR ROADS\chapter3_notes_ HORIZONTAL CURVE.pdf \u2192 C:\Filtered_Drawings\HORIZONTAL CURVE DESIGN FOR ROADS\chapter3_notes_ HORIZONTAL CURVE.pdf
+2026-04-18 12:20:03,828 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\HORIZONTAL CURVE DESIGN FOR ROADS\Horizontal Curve Formulae.pdf
+2026-04-18 12:20:04,459 | INFO | COPIED: E:\BRIDGE DESIGN\HORIZONTAL CURVE DESIGN FOR ROADS\Leisch Curve Study HORIZONTAL CURVE.pdf \u2192 C:\Filtered_Drawings\HORIZONTAL CURVE DESIGN FOR ROADS\Leisch Curve Study HORIZONTAL CURVE.pdf
+2026-04-18 12:20:04,496 | INFO | COPIED: E:\BRIDGE DESIGN\HORIZONTAL CURVE DESIGN FOR ROADS\shgdm-part-4 HORIZONTAL CURVE.pdf \u2192 C:\Filtered_Drawings\HORIZONTAL CURVE DESIGN FOR ROADS\shgdm-part-4 HORIZONTAL CURVE.pdf
+2026-04-18 12:20:04,526 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\HORIZONTAL CURVE DESIGN FOR ROADS\U74 HORIZONTAL CURVES.PDF
+2026-04-18 12:20:04,706 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\Alok Panday  Design & Construction of Substructure.pdf
+2026-04-18 12:20:05,023 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\Alok Panday  Design & Construction of Superstructure.pdf
+2026-04-18 12:20:05,146 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\GEOTECHNICAL INVESTIGATION_KANWAR ROADS.pdf
+2026-04-18 12:20:05,234 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\Satander Kumar MIX DESIGN bridges Nov 2016 - .pdf
+2026-04-18 12:20:05,341 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\Satander Kumar Testing of Concrrete  cement small file.pdf
+2026-04-18 12:20:05,598 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\Satander Kumar Total Quality ControlQuality Assurance.pdf
+2026-04-18 12:20:05,635 | INFO | COPIED: E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B banerjee Bearing capacity.pdf \u2192 C:\Filtered_Drawings\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B banerjee Bearing capacity.pdf
+2026-04-18 12:20:05,710 | INFO | COPIED: E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B Banerjee Foundation.pdf \u2192 C:\Filtered_Drawings\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B Banerjee Foundation.pdf
+2026-04-18 12:20:05,742 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B Banerjee Hydraulic Survey and Analysis Part-I.pdf
+2026-04-18 12:20:05,819 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B Banerjee Hydraulic Survey and Analysis Part-II.pdf
+2026-04-18 12:20:05,860 | INFO | COPIED: E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B banerjee Scours Depth and Silt Factors.pdf \u2192 C:\Filtered_Drawings\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B banerjee Scours Depth and Silt Factors.pdf
+2026-04-18 12:20:06,046 | INFO | COPIED: E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B banerjee sir.pdf \u2192 C:\Filtered_Drawings\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B banerjee sir.pdf
+2026-04-18 12:20:06,268 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\IAHE BRIDGE DESIGN 20TO 2fEB 2017\T B Banerjee Site General.pdf
+2026-04-18 12:20:06,268 | INFO | Scanning archive: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\DETAILS OF PIER CAP AND PIER KHERKA BRIDGE.zip
+2026-04-18 12:20:06,360 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\DETAILS OF PIER CAP AND PIER KHERKA BRIDGE.zip/PIER CAP.dwg \u2192 C:\Filtered_Drawings\DETAILS OF PIER CAP AND PIER KHERKA BRIDGE\PIER CAP.dwg
+2026-04-18 12:20:06,381 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\DETAILS OF PIER CAP AND PIER KHERKA BRIDGE.zip/PIER DRAWING.dwg \u2192 C:\Filtered_Drawings\DETAILS OF PIER CAP AND PIER KHERKA BRIDGE\PIER DRAWING.dwg
+2026-04-18 12:20:06,381 | INFO | Scanning archive: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\Drawings of Superstructure for Kharka Bridge..zip
+2026-04-18 12:20:06,483 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\ANHJAINCDT.html.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\ANHJAINCDT.html.pdf
+2026-04-18 12:20:06,506 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\Concrete-Bridge-Practice-by-VK RAINA.pdf PAGE 163.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\Concrete-Bridge-Practice-by-VK RAINA.pdf PAGE 163.pdf
+2026-04-18 12:20:06,530 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\DETAIL PROJECT COST WAREHOUSE AT GHARSANA 64800MT page 06.pdf
+2026-04-18 12:20:06,550 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\IRC-78 Bridge Foundation & sub structure design page 14-15.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\IRC-78 Bridge Foundation & sub structure design page 14-15.pdf
+2026-04-18 12:20:06,573 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\OPEN FOOTING KHERKA.pdf
+2026-04-18 12:20:06,998 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\OPEN FOOTING.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\OPEN FOOTING.dwg
+2026-04-18 12:20:07,012 | INFO | Scanning archive: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\1 OPEN PIER FOOTING\NEW DATA TO BE GIVEN ON 19 APRIL 2016\NEW DATA TO BE GIVEN ON 19 APRIL 2016.rar
+2026-04-18 12:20:07,012 | INFO | Scanning archive: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Agreement_Kharka Bridge Consultancy.zip
+2026-04-18 12:20:07,071 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Agreement_Kharka Bridge Consultancy.zip/Tejhans Investments_Agreement.pdf \u2192 C:\Filtered_Drawings\Agreement_Kharka Bridge Consultancy\Tejhans Investments_Agreement.pdf
+2026-04-18 12:20:07,076 | INFO | Scanning archive: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Cheque  Agreement No. HSSTIAD6307 dtd. 8112014.zip
+2026-04-18 12:20:07,130 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Cheque  Agreement No. HSSTIAD6307 dtd. 8112014.zip/Tejhans Investments_Cheque_07.08.2015.pdf \u2192 C:\Filtered_Drawings\Cheque  Agreement No. HSSTIAD6307 dtd. 8112014\Tejhans Investments_Cheque_07.08.2015.pdf
+2026-04-18 12:20:07,131 | INFO | Scanning archive: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Ctae bills.zip
+2026-04-18 12:20:07,235 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Ctae bills.zip/IMG_4407.JPG \u2192 C:\Filtered_Drawings\Ctae bills\IMG_4407.JPG
+2026-04-18 12:20:07,332 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Ctae bills.zip/IMG_4408.JPG \u2192 C:\Filtered_Drawings\Ctae bills\IMG_4408.JPG
+2026-04-18 12:20:07,350 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Ctae bills.zip/IMG_4409.JPG \u2192 C:\Filtered_Drawings\Ctae bills\IMG_4409.JPG
+2026-04-18 12:20:07,408 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\FINAL BRIDGE KHERKA.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\BILL DETAILS\FINAL BRIDGE KHERKA.pdf
+2026-04-18 12:20:07,433 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Full page photo 11.pdf.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\BILL DETAILS\Full page photo 11.pdf.pdf
+2026-04-18 12:20:07,449 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Full page photo 2.pdf.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\BILL DETAILS\Full page photo 2.pdf.pdf
+2026-04-18 12:20:07,476 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Full page photo 3.pdf.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\BILL DETAILS\Full page photo 3.pdf.pdf
+2026-04-18 12:20:07,476 | INFO | Scanning archive: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Her bill.zip
+2026-04-18 12:20:07,552 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\Her bill.zip/IMG_4414.JPG \u2192 C:\Filtered_Drawings\Her bill\IMG_4414.JPG
+2026-04-18 12:20:07,576 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\BILL DETAILS\HERCULOUS BILL.xls.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\BILL DETAILS\HERCULOUS BILL.xls.pdf
+2026-04-18 12:20:07,587 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\bed protection.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\bed protection.dwg
+2026-04-18 12:20:07,597 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\CHEMICAL ANCHOR SYSTEM.pdf
+2026-04-18 12:20:07,691 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\COMBIND Drawing PDF 21.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\COMBIND Drawing PDF 21.dwg
+2026-04-18 12:20:07,765 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\COMBIND Drawing PDF 22.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\COMBIND Drawing PDF 22.dwg
+2026-04-18 12:20:07,811 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\COMBIND Drawing PDF PAGE 20.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\COMBIND Drawing PDF PAGE 20.dwg
+2026-04-18 12:20:07,879 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Common Problems in Bridges on Baddi-Nalagarh-Swarghat Road.pdf
+2026-04-18 12:20:08,058 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\design of bearings kurukshetra.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\design of bearings kurukshetra.pdf
+2026-04-18 12:20:08,065 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\DESIGN OF BEARINGS.pdf
+2026-04-18 12:20:08,094 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\GAD Kharka Bbrige.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\GAD Kharka Bbrige.dwg
+2026-04-18 12:20:08,132 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\GAD KHERKA BRIDGE MODIFIED.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\GAD KHERKA BRIDGE MODIFIED.dwg
+2026-04-18 12:20:08,162 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\img_19.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\img_19.jpg
+2026-04-18 12:20:08,212 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Jacketing-Model SHANDAAR.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Jacketing-Model SHANDAAR.dwg
+2026-04-18 12:20:08,401 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Jacketing-Model SHANDAAR.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Jacketing-Model SHANDAAR.pdf
+2026-04-18 12:20:08,403 | INFO | Scanning archive: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\KHARKA BRIDGE 09062015.zip
+2026-04-18 12:20:08,450 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\KHARKA BRIDGE 09062015.zip/bed protection 09.06.2015.dwg \u2192 C:\Filtered_Drawings\KHARKA BRIDGE 09062015\bed protection 09.06.2015.dwg
+2026-04-18 12:20:08,494 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\KHARKA BRIDGE 09062015.zip/bed protection 09.06.2015.pdf \u2192 C:\Filtered_Drawings\KHARKA BRIDGE 09062015\bed protection 09.06.2015.pdf
+2026-04-18 12:20:08,511 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\KHARKA BRIDGE 09062015.zip/bed protection Plan 10.06.2015.pdf \u2192 C:\Filtered_Drawings\KHARKA BRIDGE 09062015\bed protection Plan 10.06.2015.pdf
+2026-04-18 12:20:08,594 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\LIST OF BRIDGE CONSULTANTS.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\LIST OF BRIDGE CONSULTANTS.pdf
+2026-04-18 12:20:08,680 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\PLAN OF PIER JACKETTING-Model.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\PLAN OF PIER JACKETTING-Model.pdf
+2026-04-18 12:20:08,711 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\PROPOSED GAD Kharka Bbrige.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\PROPOSED GAD Kharka Bbrige.dwg
+2026-04-18 12:20:08,733 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\PROPOSED GAD Kharka Bridge 13 OCT 2015.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\PROPOSED GAD Kharka Bridge 13 OCT 2015.dwg
+2026-04-18 12:20:08,765 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\PROPOSED GAD SHUKLA HLP.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\PROPOSED GAD SHUKLA HLP.dwg
+2026-04-18 12:20:08,788 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\t beam deck 109 page kurukshetra college.pdf
+2026-04-18 12:20:08,816 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\TYPICAL DRAWING FOR PIER JACKETING.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\TYPICAL DRAWING FOR PIER JACKETING.dwg
+2026-04-18 12:20:08,833 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\BEARING FOR 30 M SPAN.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\BEARING FOR 30 M SPAN.pdf
+2026-04-18 12:20:08,859 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\BED PROTECTION JUNE 05 2015.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\BED PROTECTION JUNE 05 2015.dwg
+2026-04-18 12:20:08,881 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\CONCRETE MIX DESIGN M-35.xlsx.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\CONCRETE MIX DESIGN M-35.xlsx.pdf
+2026-04-18 12:20:09,005 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\design of bearings T BEAM DECK.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\design of bearings T BEAM DECK.pdf
+2026-04-18 12:20:09,055 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\DETAILS OF PILE AND PILE CAP P2 AND P3.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\DETAILS OF PILE AND PILE CAP P2 AND P3.dwg
+2026-04-18 12:20:09,209 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\HERCULOUS 16.50 M.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\HERCULOUS 16.50 M.pdf
+2026-04-18 12:20:09,255 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER CAP 02 august.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER CAP 02 august.dwg
+2026-04-18 12:20:09,944 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER CAP REINFORCEMENT.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER CAP REINFORCEMENT.dwg
+2026-04-18 12:20:09,997 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER CAP.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER CAP.dwg
+2026-04-18 12:20:10,045 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER DRAWING 02 august.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER DRAWING 02 august.dwg
+2026-04-18 12:20:10,090 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER DRAWING.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER DRAWING.dwg
+2026-04-18 12:20:10,116 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER JACKTING PLAN AND SECTION JULY 13  2015.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\PIER JACKTING PLAN AND SECTION JULY 13  2015.dwg
+2026-04-18 12:20:10,242 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\REVISED BEARINGS.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\REVISED BEARINGS.pdf
+2026-04-18 12:20:10,363 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\Standard-Plans-for-Highway-Bridges-T-BEAM BRIDGES EFFECTIVE SPAN 16.50 M WITHOUT FOOTPATH.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\Standard-Plans-for-Highway-Bridges-T-BEAM BRIDGES EFFECTIVE SPAN 16.50 M WITHOUT FOOTPATH.pdf
+2026-04-18 12:20:10,391 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\Tejhans Investments_Agreement.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\Tejhans Investments_Agreement.pdf
+2026-04-18 12:20:10,427 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\BED PROTECTION 27052015.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\BED PROTECTION 27052015.dwg
+2026-04-18 12:20:10,434 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\PIER JACKTING PLAN AND SECTION JUNE 042015.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\PIER JACKTING PLAN AND SECTION JUNE 042015.dwg
+2026-04-18 12:20:10,445 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\PIER JACKTING PLAN AND SECTION JUNE 242015.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\PIER JACKTING PLAN AND SECTION JUNE 242015.dwg
+2026-04-18 12:20:10,499 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\PIER JACKTING PLAN AND SECTION JUNE 27 2015.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\PIER JACKTING PLAN AND SECTION JUNE 27 2015.dwg
+2026-04-18 12:20:10,511 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\PIER JACKTING PLAN AND SECTION.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\1 despatch\FOR RECORD ONLY\PIER JACKTING PLAN AND SECTION.dwg
+2026-04-18 12:20:10,557 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-000.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-000.jpg
+2026-04-18 12:20:10,591 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-004.jpg
+2026-04-18 12:20:10,624 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-006.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-006.jpg
+2026-04-18 12:20:10,662 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-009.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-009.jpg
+2026-04-18 12:20:10,684 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-010.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-010.jpg
+2026-04-18 12:20:10,713 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-013.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-013.jpg
+2026-04-18 12:20:10,750 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-020.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Images\12-CE-146 YE MIL GAYA JACKET BHI-020.jpg
+2026-04-18 12:20:11,108 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\bars Model (1).pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\bars Model (1).pdf
+2026-04-18 12:20:11,144 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\bars.DWG \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\bars.DWG
+2026-04-18 12:20:11,513 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\beam detail Model (1).pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\beam detail Model (1).pdf
+2026-04-18 12:20:11,565 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\beam detail.DWG \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\beam detail.DWG
+2026-04-18 12:20:11,907 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\detail of slab Model (1).pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\detail of slab Model (1).pdf
+2026-04-18 12:20:11,918 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\detail of slab.DWG \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\final proposals kharka 27 may2015\Superstructure Drawings\detail of slab.DWG
+2026-04-18 12:20:12,056 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113152.jpg
+2026-04-18 12:20:12,141 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113200.jpg
+2026-04-18 12:20:12,290 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113209.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113209.jpg
+2026-04-18 12:20:12,463 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113215.jpg
+2026-04-18 12:20:12,603 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113230.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113230.jpg
+2026-04-18 12:20:12,682 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113259.jpg
+2026-04-18 12:20:12,751 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113317.jpg
+2026-04-18 12:20:12,886 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113410.jpg
+2026-04-18 12:20:13,072 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113427.jpg
+2026-04-18 12:20:13,271 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113434.jpg
+2026-04-18 12:20:13,449 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113444.jpg
+2026-04-18 12:20:13,660 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113452.jpg
+2026-04-18 12:20:13,839 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113506.jpg
+2026-04-18 12:20:14,101 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113529.jpg
+2026-04-18 12:20:14,349 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113539.jpg
+2026-04-18 12:20:14,615 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113553.jpg
+2026-04-18 12:20:14,876 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113610.jpg
+2026-04-18 12:20:15,144 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113829.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_113829.jpg
+2026-04-18 12:20:15,282 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_114235.jpg
+2026-04-18 12:20:15,352 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_114500.jpg
+2026-04-18 12:20:15,483 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_114728.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_114728.jpg
+2026-04-18 12:20:15,551 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_115156.jpg
+2026-04-18 12:20:15,610 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_115220.jpg
+2026-04-18 12:20:15,698 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_115225.jpg
+2026-04-18 12:20:20,679 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_115324.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_115324.jpg
+2026-04-18 12:20:20,772 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_120721.jpg
+2026-04-18 12:20:20,844 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_120744.jpg
+2026-04-18 12:20:20,914 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_120749.jpg
+2026-04-18 12:20:20,977 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_120800.jpg
+2026-04-18 12:20:21,043 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_120831.jpg
+2026-04-18 12:20:21,119 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121006.jpg
+2026-04-18 12:20:21,211 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121033.jpg
+2026-04-18 12:20:21,298 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121041.jpg
+2026-04-18 12:20:21,377 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121045.jpg
+2026-04-18 12:20:21,436 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121055.jpg
+2026-04-18 12:20:21,508 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121323.jpg
+2026-04-18 12:20:21,716 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121332.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121332.jpg
+2026-04-18 12:20:21,783 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121401.jpg
+2026-04-18 12:20:21,924 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121458.jpg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121458.jpg
+2026-04-18 12:20:21,985 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121502.jpg
+2026-04-18 12:20:22,043 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\20141029_121507_1.jpg
+2026-04-18 12:20:22,245 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\Drawings ORIGINAL kHARKA bRIDGE bLUE prnt.pdf \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\KHARKA BRIDGE PHOTO AND DRAWING_HERCULOUS\Drawings ORIGINAL kHARKA bRIDGE bLUE prnt.pdf
+2026-04-18 12:20:22,350 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\PILE FOUNDATION COMPLETE\Pile Foundation Design -A Student Guide.pdf
+2026-04-18 12:20:22,392 | INFO | COPIED: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\SURVEY B4 REHABILITATYION QUANTITY SURVEY\FINAL SHEET OF KHRAKA.dwg \u2192 C:\Filtered_Drawings\Kharka Bridge Rehabilitation\SURVEY B4 REHABILITATYION QUANTITY SURVEY\FINAL SHEET OF KHRAKA.dwg
+2026-04-18 12:20:22,392 | INFO | Scanning archive: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\SURVEY B4 REHABILITATYION QUANTITY SURVEY\SURVEY BY DINESH  Sir Check it !!.zip
+2026-04-18 12:20:22,461 | INFO | EXTRACTED from ZIP: E:\BRIDGE DESIGN\Kharka Bridge Rehabilitation\SURVEY B4 REHABILITATYION QUANTITY SURVEY\SURVEY BY DINESH  Sir Check it !!.zip/FINAL SHEET OF KHRAKA.dwg \u2192 C:\Filtered_Drawings\SURVEY BY DINESH  Sir Check it !!\FINAL SHEET OF KHRAKA.dwg
+2026-04-18 12:20:23,279 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\ABUTMENT SOM RIVER REINFORCEMENT.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\ABUTMENT SOM RIVER REINFORCEMENT.dwg
+2026-04-18 12:20:23,344 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\ABUTMENT SOM RIVER REINFORCEMENT.dwg Model (1).pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\ABUTMENT SOM RIVER REINFORCEMENT.dwg Model (1).pdf
+2026-04-18 12:20:23,364 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\ABUTMENT SOM RIVER REINFORCEMENT.dwg Model (2).pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\ABUTMENT SOM RIVER REINFORCEMENT.dwg Model (2).pdf
+2026-04-18 12:20:23,364 | INFO | Scanning archive: E:\BRIDGE DESIGN\KHERWARA BRIDGE\ABUTMENT SOM RIVER REINFORCEMENT.rar
+2026-04-18 12:20:23,515 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\ABUTMENT SOM RIVER REINFORCEMENT_Model.bmp
+2026-04-18 12:20:24,698 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\BED ANCHORAGE DETAILS SOM RIVER.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\BED ANCHORAGE DETAILS SOM RIVER.dwg
+2026-04-18 12:20:24,843 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\BED ANCHORAGE DETAILS SOM RIVER_Model.bmp
+2026-04-18 12:20:24,877 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\GAD SUBMERSIBLE BRIDGE KHERWARA.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\GAD SUBMERSIBLE BRIDGE KHERWARA.dwg
+2026-04-18 12:20:24,914 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\GAD SUBMERSIBLE BRIDGE KHERWARA.dwg Model (1).pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\GAD SUBMERSIBLE BRIDGE KHERWARA.dwg Model (1).pdf
+2026-04-18 12:20:24,970 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\GAD.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\GAD.pdf
+2026-04-18 12:20:24,972 | INFO | Scanning archive: E:\BRIDGE DESIGN\KHERWARA BRIDGE\KHERWARA BRIDGE.rar
+2026-04-18 12:20:24,998 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\KKKK.pdf
+2026-04-18 12:20:25,203 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\PIER DIMENSIONS.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\PIER DIMENSIONS.dwg
+2026-04-18 12:20:25,357 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\PIER DIMENSIONS_Model.bmp
+2026-04-18 12:20:25,556 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\PIER REINFORCEMENT 02.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\PIER REINFORCEMENT 02.dwg
+2026-04-18 12:20:25,768 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\PIER REINFORCEMENT 02_Model.bmp \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\PIER REINFORCEMENT 02_Model.bmp
+2026-04-18 12:20:26,575 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\PIER SECTION 01.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\PIER SECTION 01.dwg
+2026-04-18 12:20:26,602 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\PIER SECTION 01.dwg Model (1).pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\PIER SECTION 01.dwg Model (1).pdf
+2026-04-18 12:20:26,603 | INFO | Scanning archive: E:\BRIDGE DESIGN\KHERWARA BRIDGE\PIER SECTION 01.rar
+2026-04-18 12:20:26,752 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\PIER SECTION 01_Layout1.bmp
+2026-04-18 12:20:26,910 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\PIER SECTION 01_Model.bmp
+2026-04-18 12:20:27,098 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\SLAB ANCHORAGE DETAILS.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\SLAB ANCHORAGE DETAILS.dwg
+2026-04-18 12:20:27,120 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\SLAB ANCHORAGE DETAILS.dwg Model (1).pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\SLAB ANCHORAGE DETAILS.dwg Model (1).pdf
+2026-04-18 12:20:27,264 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\SLAB ANCHORAGE DETAILS_Model.bmp
+2026-04-18 12:20:27,271 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\SOM RIVER GAD.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\SOM RIVER GAD.dwg
+2026-04-18 12:20:27,417 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\SOM RIVER GAD_Model.bmp
+2026-04-18 12:20:27,524 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\Untitled.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\Untitled.pdf
+2026-04-18 12:20:27,609 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\0 cover page.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\0 cover page.pdf
+2026-04-18 12:20:27,641 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\01 INDEX.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\01 INDEX.pdf
+2026-04-18 12:20:27,663 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\abstract stress pier.pdf
+2026-04-18 12:20:27,687 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\abut cap.pdf
+2026-04-18 12:20:27,737 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\abut drawing.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\abut drawing.pdf
+2026-04-18 12:20:27,753 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\abut foot stress.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\abut foot stress.pdf
+2026-04-18 12:20:27,777 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\abut foot.pdf
+2026-04-18 12:20:27,794 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\abut stab.pdf
+2026-04-18 12:20:27,829 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\abutment.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\abutment.pdf
+2026-04-18 12:20:27,840 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\afflux.pdf
+2026-04-18 12:20:27,852 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\bed slope.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\bed slope.pdf
+2026-04-18 12:20:27,876 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\cross section.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\cross section.pdf
+2026-04-18 12:20:27,895 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\deck anchorage.pdf
+2026-04-18 12:20:27,960 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\Deck Slab Drawings.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\Deck Slab Drawings.pdf
+2026-04-18 12:20:28,001 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\Design Notes  Submersible Bridge on  SOM RIVER.pdf
+2026-04-18 12:20:28,020 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\dirt wall load.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\dirt wall load.pdf
+2026-04-18 12:20:28,038 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\dirt wall.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\dirt wall.pdf
+2026-04-18 12:20:28,049 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\foot streess.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\foot streess.pdf
+2026-04-18 12:20:28,068 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\hydraulics.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\hydraulics.pdf
+2026-04-18 12:20:28,080 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\L section River.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\L section River.pdf
+2026-04-18 12:20:28,088 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\L-section Road.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\L-section Road.pdf
+2026-04-18 12:20:28,099 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\ll abstract.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\ll abstract.pdf
+2026-04-18 12:20:28,114 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\ll tra.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\ll tra.pdf
+2026-04-18 12:20:28,164 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\ll2.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\ll2.pdf
+2026-04-18 12:20:28,180 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\load sum.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\load sum.pdf
+2026-04-18 12:20:28,203 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\pier cap.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\pier cap.pdf
+2026-04-18 12:20:28,234 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\pier foot.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\pier foot.pdf
+2026-04-18 12:20:28,249 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\Stability Analysis SUBMERSIBLE BRIDGE ACROSS SOM RIVER.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE\stability pdf\Stability Analysis SUBMERSIBLE BRIDGE ACROSS SOM RIVER.pdf
+2026-04-18 12:20:28,281 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\stability check pier.pdf
+2026-04-18 12:20:28,287 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\steel abut.pdf
+2026-04-18 12:20:28,317 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\steel p1.pdf
+2026-04-18 12:20:28,337 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE\stability pdf\steel p2.pdf
+2026-04-18 12:20:29,171 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\ABUTMENT SOM RIVER LARATHI REINFORCEMENT.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\ABUTMENT SOM RIVER LARATHI REINFORCEMENT.dwg
+2026-04-18 12:20:29,511 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\BED ANCHORAGE DETAILS SOM RIVER LARATHI.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\BED ANCHORAGE DETAILS SOM RIVER LARATHI.dwg
+2026-04-18 12:20:29,534 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\GAD SUBMERSIBLE BRIDGE LARATHI SOM.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\GAD SUBMERSIBLE BRIDGE LARATHI SOM.dwg
+2026-04-18 12:20:29,867 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\PIER DIMENSIONS.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\PIER DIMENSIONS.dwg
+2026-04-18 12:20:30,049 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\PIER REINFORCEMENT 02.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\PIER REINFORCEMENT 02.dwg
+2026-04-18 12:20:30,874 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\PIER SECTION 01.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\PIER SECTION 01.dwg
+2026-04-18 12:20:31,015 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\SLAB ANCHORAGE DETAILS.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\SLAB ANCHORAGE DETAILS.dwg
+2026-04-18 12:20:31,812 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\DISPATCH LARATHI\ABUTMENT SOM RIVER LARATHI REINFORCEMENT.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\DISPATCH LARATHI\ABUTMENT SOM RIVER LARATHI REINFORCEMENT.dwg
+2026-04-18 12:20:32,084 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\DISPATCH LARATHI\BED ANCHORAGE DETAILS SOM RIVER LARATHI.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\DISPATCH LARATHI\BED ANCHORAGE DETAILS SOM RIVER LARATHI.dwg
+2026-04-18 12:20:32,252 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\DISPATCH LARATHI\COMPLETE DESIGN.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\DISPATCH LARATHI\COMPLETE DESIGN.pdf
+2026-04-18 12:20:32,536 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\DISPATCH LARATHI\Deck Slab Drawings.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\DISPATCH LARATHI\Deck Slab Drawings.pdf
+2026-04-18 12:20:32,566 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\DISPATCH LARATHI\GAD SUBMERSIBLE BRIDGE LARATHI SOM.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\DISPATCH LARATHI\GAD SUBMERSIBLE BRIDGE LARATHI SOM.dwg
+2026-04-18 12:20:32,831 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\DISPATCH LARATHI\PIER DIMENSIONS.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\DISPATCH LARATHI\PIER DIMENSIONS.dwg
+2026-04-18 12:20:33,448 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\DISPATCH LARATHI\PIER REINFORCEMENT 02.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\DISPATCH LARATHI\PIER REINFORCEMENT 02.dwg
+2026-04-18 12:20:39,479 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\DISPATCH LARATHI\PIER SECTION 01.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\DISPATCH LARATHI\PIER SECTION 01.dwg
+2026-04-18 12:20:46,334 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\DISPATCH LARATHI\SLAB ANCHORAGE DETAILS.dwg \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\DISPATCH LARATHI\SLAB ANCHORAGE DETAILS.dwg
+2026-04-18 12:20:46,383 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE II\INPUT\CONSTRUCTION OF SUBMERSIBLE BRIDGE ON SOM RIVER AT LARATHI TO LARATHI B 28.06.2022.pdf
+2026-04-18 12:20:47,007 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\INPUT\Deck Slab Drawings.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\INPUT\Deck Slab Drawings.pdf
+2026-04-18 12:20:48,620 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\INPUT\LARATHI-B.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\INPUT\LARATHI-B.pdf
+2026-04-18 12:20:48,694 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\INPUT\LARATI.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\INPUT\LARATI.pdf
+2026-04-18 12:20:48,720 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\stability pdf\0 cover page.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\stability pdf\0 cover page.pdf
+2026-04-18 12:20:48,737 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\stability pdf\00 cover page.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\stability pdf\00 cover page.pdf
+2026-04-18 12:20:50,427 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\stability pdf\01 INDEX.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\stability pdf\01 INDEX.pdf
+2026-04-18 12:20:50,471 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\stability pdf\bed slope.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\stability pdf\bed slope.pdf
+2026-04-18 12:20:50,617 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\stability pdf\cross section.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\stability pdf\cross section.pdf
+2026-04-18 12:20:51,132 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\stability pdf\Deck Slab Drawings.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\stability pdf\Deck Slab Drawings.pdf
+2026-04-18 12:20:51,195 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE II\stability pdf\Design Notes  Submersible Bridge on  SOM RIVER.pdf
+2026-04-18 12:20:51,229 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KHERWARA BRIDGE II\stability pdf\Stability Analysis SUBMERSIBLE BRIDGE ACROSS LARATHI SOM RIVER.pdf
+2026-04-18 12:20:51,780 | INFO | COPIED: E:\BRIDGE DESIGN\KHERWARA BRIDGE II\stability pdf\Untitled.pdf \u2192 C:\Filtered_Drawings\KHERWARA BRIDGE II\stability pdf\Untitled.pdf
+2026-04-18 12:20:51,914 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\STANDARD PLANS HIGHWAY RCC SLAB SUPER STRUCTURES.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\STANDARD PLANS HIGHWAY RCC SLAB SUPER STRUCTURES.pdf
+2026-04-18 12:20:52,426 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DATA KUMBHALGARH\25.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DATA KUMBHALGARH\25.pdf
+2026-04-18 12:20:53,395 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DATA KUMBHALGARH\FINAL SHEET OF KHUMBHALGARH CULVERT-Model.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DATA KUMBHALGARH\FINAL SHEET OF KHUMBHALGARH CULVERT-Model.pdf
+2026-04-18 12:20:54,115 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DATA KUMBHALGARH\FINAL SHEET OF KHUMBHALGARH CULVERT.dwg \u2192 C:\Filtered_Drawings\KUMBHALGARH\DATA KUMBHALGARH\FINAL SHEET OF KHUMBHALGARH CULVERT.dwg
+2026-04-18 12:20:54,137 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DATA KUMBHALGARH\Google Maps.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DATA KUMBHALGARH\Google Maps.pdf
+2026-04-18 12:20:55,285 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DATA KUMBHALGARH\L SECTION OF CULVERT (KELWARA TO KUMBHALGARH SITE).pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DATA KUMBHALGARH\L SECTION OF CULVERT (KELWARA TO KUMBHALGARH SITE).pdf
+2026-04-18 12:20:56,387 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DATA KUMBHALGARH\vimal.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DATA KUMBHALGARH\vimal.pdf
+2026-04-18 12:21:00,116 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\ABUTMENT KUMBHALGARH REINFORCEMENT.dwg \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\ABUTMENT KUMBHALGARH REINFORCEMENT.dwg
+2026-04-18 12:21:02,879 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\BED ANCHORAGE DETAILS KUMBHALGARH.dwg \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\BED ANCHORAGE DETAILS KUMBHALGARH.dwg
+2026-04-18 12:21:02,885 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\KUMBHALGARH  GAD.dwg \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\KUMBHALGARH  GAD.dwg
+2026-04-18 12:21:04,748 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\PIER DIMENSIONS.dwg \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\PIER DIMENSIONS.dwg
+2026-04-18 12:21:08,068 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\PIER REINFORCEMENT 02.dwg \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\PIER REINFORCEMENT 02.dwg
+2026-04-18 12:21:12,713 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\PIER SECTION 01.dwg \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\PIER SECTION 01.dwg
+2026-04-18 12:21:12,739 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\0 cover page.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\0 cover page.pdf
+2026-04-18 12:21:12,761 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\01 INDEX.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\01 INDEX.pdf
+2026-04-18 12:21:12,776 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\ABUTMENT KUMBHALGARH REINFORCEMENT.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\ABUTMENT KUMBHALGARH REINFORCEMENT.pdf
+2026-04-18 12:21:12,791 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\ABUTMENT KUMBHALGARH.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\ABUTMENT KUMBHALGARH.pdf
+2026-04-18 12:21:12,824 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\BED ANCHORAGE DETAILS KUMBHALGARH.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\BED ANCHORAGE DETAILS KUMBHALGARH.pdf
+2026-04-18 12:21:12,987 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\COMPLETE DESIGN.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\COMPLETE DESIGN.pdf
+2026-04-18 12:21:12,998 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\Design Notes  High Level Bridge on Kelwara Kumbhalgarh Road Over Kelwara Lake.pdf
+2026-04-18 12:21:13,015 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\KUMBHALGARH  GAD.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\KUMBHALGARH  GAD.pdf
+2026-04-18 12:21:13,025 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\PIER DIMENSIONS.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\PIER DIMENSIONS.pdf
+2026-04-18 12:21:13,063 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\PIER REINFORCEMENT 02.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\PIER REINFORCEMENT 02.pdf
+2026-04-18 12:21:13,078 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\PIER SECTION 01.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\PIER SECTION 01.pdf
+2026-04-18 12:21:13,098 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\Stability Analysis Kumbhalgarh Bridge.pdf
+2026-04-18 12:21:13,161 | INFO | COPIED: E:\BRIDGE DESIGN\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\STANDARD PLANS HIGHWAY RCC SLAB SUPER STRUCTURES.pdf \u2192 C:\Filtered_Drawings\KUMBHALGARH\DESIGN OF BRIDGE KUMBHALGARH\DISPATCH\STANDARD PLANS HIGHWAY RCC SLAB SUPER STRUCTURES.pdf
+2026-04-18 12:21:13,198 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\Bill\LETTER HEAD AUTOCAD.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\Bill\LETTER HEAD AUTOCAD.dwg
+2026-04-18 12:21:13,266 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\AQUEDUCT ACROSS JAKHAM RIVER GAD.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\AQUEDUCT ACROSS JAKHAM RIVER GAD.dwg
+2026-04-18 12:21:13,271 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\AQUEDUCT ACROSS JAKHAM RIVER longest alone.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\AQUEDUCT ACROSS JAKHAM RIVER longest alone.dwg
+2026-04-18 12:21:13,281 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\AQUEDUCT ACROSS JAKHAM RIVER pier sec plan ele.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\AQUEDUCT ACROSS JAKHAM RIVER pier sec plan ele.dwg
+2026-04-18 12:21:13,329 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\JAKHAM COMPLETE.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\JAKHAM COMPLETE.dwg
+2026-04-18 12:21:13,334 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\PIER plan BLOCK.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\PIER plan BLOCK.dwg
+2026-04-18 12:21:13,339 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\pier reinforcement SHEOPURA 15 M.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\pier reinforcement SHEOPURA 15 M.dwg
+2026-04-18 12:21:13,348 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\pier reinforcement SHEOPURA 20 M.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\pier reinforcement SHEOPURA 20 M.dwg
+2026-04-18 12:21:13,356 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\pier reinforcement SHEOPURA.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\pier reinforcement SHEOPURA.dwg
+2026-04-18 12:21:13,365 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\pier reinforcement.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\pier reinforcement.dwg
+2026-04-18 12:21:13,373 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\trough jakham.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\JAKHAM AQUEDUCT KMB\trough jakham.dwg
+2026-04-18 12:21:13,383 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\ABUTMENT-DES_SOM.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\ABUTMENT-DES_SOM.dwg
+2026-04-18 12:21:13,403 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\AQUEDUCT ACROSS SOM RIVER GAD.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\AQUEDUCT ACROSS SOM RIVER GAD.dwg
+2026-04-18 12:21:13,433 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\AQUEDUCT ACROSS SOM RIVER pier sec plan ele.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\AQUEDUCT ACROSS SOM RIVER pier sec plan ele.dwg
+2026-04-18 12:21:13,445 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\pier reinforcemen som.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\pier reinforcemen som.dwg
+2026-04-18 12:21:13,452 | INFO | COPIED: E:\BRIDGE DESIGN\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\TROUGH SOM.dwg \u2192 C:\Filtered_Drawings\MAHI CANAL AQUEDUCTS\SOM AQUEDUCT KMB\TROUGH SOM.dwg
+2026-04-18 12:21:13,453 | INFO | Scanning archive: E:\BRIDGE DESIGN\MAHI_bridge\MAHIBR~1.ZIP
+2026-04-18 12:21:13,463 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\ABUTMENT DRAWING.pdf \u2192 C:\Filtered_Drawings\MalwasA\ABUTMENT DRAWING.pdf
+2026-04-18 12:21:14,249 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\ABUTMENT REINFORCEMENT.dwg \u2192 C:\Filtered_Drawings\MalwasA\ABUTMENT REINFORCEMENT.dwg
+2026-04-18 12:21:14,265 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\ABUTMENT REINFORCEMENT.pdf \u2192 C:\Filtered_Drawings\MalwasA\ABUTMENT REINFORCEMENT.pdf
+2026-04-18 12:21:14,271 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\gad malwasa.dwg \u2192 C:\Filtered_Drawings\MalwasA\gad malwasa.dwg
+2026-04-18 12:21:14,287 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\gad malwasa.pdf \u2192 C:\Filtered_Drawings\MalwasA\gad malwasa.pdf
+2026-04-18 12:21:14,487 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\pier reinf.dwg \u2192 C:\Filtered_Drawings\MalwasA\pier reinf.dwg
+2026-04-18 12:21:15,338 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\pier reinf2.dwg \u2192 C:\Filtered_Drawings\MalwasA\pier reinf2.dwg
+2026-04-18 12:21:15,551 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\pier.dwg \u2192 C:\Filtered_Drawings\MalwasA\pier.dwg
+2026-04-18 12:21:15,558 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\PIER01.pdf \u2192 C:\Filtered_Drawings\MalwasA\PIER01.pdf
+2026-04-18 12:21:15,571 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\PIER02.pdf \u2192 C:\Filtered_Drawings\MalwasA\PIER02.pdf
+2026-04-18 12:21:15,618 | INFO | COPIED: E:\BRIDGE DESIGN\MalwasA\PIER03.pdf \u2192 C:\Filtered_Drawings\MalwasA\PIER03.pdf
+2026-04-18 12:21:15,659 | INFO | COPIED: E:\BRIDGE DESIGN\PARASRAM BRIDGE\PROPOSED BRIDGE.dwg \u2192 C:\Filtered_Drawings\PARASRAM BRIDGE\PROPOSED BRIDGE.dwg
+2026-04-18 12:21:15,683 | INFO | COPIED: E:\BRIDGE DESIGN\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\GAD JETHLIYA BRIDGE LOCAL NALAH.dwg \u2192 C:\Filtered_Drawings\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\GAD JETHLIYA BRIDGE LOCAL NALAH.dwg
+2026-04-18 12:21:15,754 | INFO | COPIED: E:\BRIDGE DESIGN\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\PIER RECT SECTION AA.pdf \u2192 C:\Filtered_Drawings\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\PIER RECT SECTION AA.pdf
+2026-04-18 12:21:15,807 | INFO | COPIED: E:\BRIDGE DESIGN\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\PIER RECT.pdf \u2192 C:\Filtered_Drawings\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\PIER RECT.pdf
+2026-04-18 12:21:16,197 | INFO | COPIED: E:\BRIDGE DESIGN\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\PIER REINF BEDLA.dwg \u2192 C:\Filtered_Drawings\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\PIER REINF BEDLA.dwg
+2026-04-18 12:21:17,410 | INFO | COPIED: E:\BRIDGE DESIGN\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\Reinforcement abutment.pdf \u2192 C:\Filtered_Drawings\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\Reinforcement abutment.pdf
+2026-04-18 12:21:17,462 | INFO | COPIED: E:\BRIDGE DESIGN\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\section abutment.pdf \u2192 C:\Filtered_Drawings\PARASRAM BRIDGE\DRAWINGS JETHLIYA SOBHANIYA\section abutment.pdf
+2026-04-18 12:21:17,496 | INFO | COPIED: E:\BRIDGE DESIGN\PARWAN BRIDGE\abutment parwan.dwg \u2192 C:\Filtered_Drawings\PARWAN BRIDGE\abutment parwan.dwg
+2026-04-18 12:21:17,531 | INFO | COPIED: E:\BRIDGE DESIGN\PARWAN BRIDGE\WING WALL PARWAN.dwg \u2192 C:\Filtered_Drawings\PARWAN BRIDGE\WING WALL PARWAN.dwg
+2026-04-18 12:21:17,542 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\001.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\001.dwg
+2026-04-18 12:21:17,702 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\001.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\001.pdf
+2026-04-18 12:21:17,715 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\002.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\002.dwg
+2026-04-18 12:21:17,887 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\002.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\002.pdf
+2026-04-18 12:21:17,904 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\PINTOO OJHA\1Capture.GIF
+2026-04-18 12:21:17,905 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\PINTOO OJHA\b1Capture.GIF
+2026-04-18 12:21:17,905 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\PINTOO OJHA\bCapture.GIF
+2026-04-18 12:21:17,991 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\CamScanner 04-01-2021 14.30.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\CamScanner 04-01-2021 14.30.pdf
+2026-04-18 12:21:17,992 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\PINTOO OJHA\Capture.GIF
+2026-04-18 12:21:17,995 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\PINTOO OJHA\Capture1.GIF
+2026-04-18 12:21:17,995 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\PINTOO OJHA\Capture2.GIF
+2026-04-18 12:21:18,016 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\CENTRE LINE PLAN.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\CENTRE LINE PLAN.dwg
+2026-04-18 12:21:18,034 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\FOOT.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\FOOT.pdf
+2026-04-18 12:21:18,056 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\FOOT1.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\FOOT1.pdf
+2026-04-18 12:21:18,070 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\footing 1.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\footing 1.pdf
+2026-04-18 12:21:18,083 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\footing 2.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\footing 2.pdf
+2026-04-18 12:21:18,098 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\footing 3.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\footing 3.pdf
+2026-04-18 12:21:18,130 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\lay out.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\lay out.dwg
+2026-04-18 12:21:18,155 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\my lay out reference.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\my lay out reference.dwg
+2026-04-18 12:21:18,236 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOO011Ast.DXF \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOO011Ast.DXF
+2026-04-18 12:21:18,254 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOBeamSections011.DXF \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOBeamSections011.DXF
+2026-04-18 12:21:18,261 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOColumnCenterLineSht.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOColumnCenterLineSht.dwg
+2026-04-18 12:21:18,295 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOColumnCenterLineSht.DXF \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOColumnCenterLineSht.DXF
+2026-04-18 12:21:18,337 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOdoubleLinesht011.DXF \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOdoubleLinesht011.DXF
+2026-04-18 12:21:18,342 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOFootingCenterLineSht.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOFootingCenterLineSht.dwg
+2026-04-18 12:21:18,355 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOFootingCenterLineSht.DXF \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOFootingCenterLineSht.DXF
+2026-04-18 12:21:18,358 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOFootingSections.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOFootingSections.dwg
+2026-04-18 12:21:18,371 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOFootingSections.DXF \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOFootingSections.DXF
+2026-04-18 12:21:18,375 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOslabsht011.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOslabsht011.dwg
+2026-04-18 12:21:18,389 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PINTOOslabsht011.DXF \u2192 C:\Filtered_Drawings\PINTOO OJHA\PINTOOslabsht011.DXF
+2026-04-18 12:21:18,420 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PULA PULIYA_c-Model.dwg \u2192 C:\Filtered_Drawings\PINTOO OJHA\PULA PULIYA_c-Model.dwg
+2026-04-18 12:21:18,783 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\PULA PULIYA_c-Model.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\PULA PULIYA_c-Model.pdf
+2026-04-18 12:21:18,947 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\ts widening of pulla bridge.pdf \u2192 C:\Filtered_Drawings\PINTOO OJHA\ts widening of pulla bridge.pdf
+2026-04-18 12:21:19,002 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\WhatsApp Image 2021-04-06 at 12.33.19 PM.jpeg \u2192 C:\Filtered_Drawings\PINTOO OJHA\WhatsApp Image 2021-04-06 at 12.33.19 PM.jpeg
+2026-04-18 12:21:19,046 | INFO | COPIED: E:\BRIDGE DESIGN\PINTOO OJHA\WhatsApp Image 2021-04-06 at 12.33.20 PM.jpeg \u2192 C:\Filtered_Drawings\PINTOO OJHA\WhatsApp Image 2021-04-06 at 12.33.20 PM.jpeg
+2026-04-18 12:21:19,107 | INFO | COPIED: E:\BRIDGE DESIGN\Sangameshwar Bridge\PILE DATA SHEET.pdf \u2192 C:\Filtered_Drawings\Sangameshwar Bridge\PILE DATA SHEET.pdf
+2026-04-18 12:21:19,173 | INFO | COPIED: E:\BRIDGE DESIGN\Sangameshwar Bridge\Pile foundation Test\Method of Dynamic Testing.pdf \u2192 C:\Filtered_Drawings\Sangameshwar Bridge\Pile foundation Test\Method of Dynamic Testing.pdf
+2026-04-18 12:21:19,419 | INFO | COPIED: E:\BRIDGE DESIGN\Sangameshwar Bridge\Pile foundation Test\SRF 141(Bharti Construction) High Strain Dynamic Pile Test.pdf \u2192 C:\Filtered_Drawings\Sangameshwar Bridge\Pile foundation Test\SRF 141(Bharti Construction) High Strain Dynamic Pile Test.pdf
+2026-04-18 12:21:19,579 | INFO | COPIED: E:\BRIDGE DESIGN\Sewer Aquaduct MUNICIPILITY BANSWARA\beam-Model.pdf \u2192 C:\Filtered_Drawings\Sewer Aquaduct MUNICIPILITY BANSWARA\beam-Model.pdf
+2026-04-18 12:21:19,583 | INFO | COPIED: E:\BRIDGE DESIGN\Sewer Aquaduct MUNICIPILITY BANSWARA\beam.dwg \u2192 C:\Filtered_Drawings\Sewer Aquaduct MUNICIPILITY BANSWARA\beam.dwg
+2026-04-18 12:21:19,591 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\Sewer Aquaduct MUNICIPILITY BANSWARA\COVER.pdf
+2026-04-18 12:21:19,621 | INFO | COPIED: E:\BRIDGE DESIGN\Sewer Aquaduct MUNICIPILITY BANSWARA\PIER FOOTING.dwg \u2192 C:\Filtered_Drawings\Sewer Aquaduct MUNICIPILITY BANSWARA\PIER FOOTING.dwg
+2026-04-18 12:21:19,631 | INFO | COPIED: E:\BRIDGE DESIGN\Sewer Aquaduct MUNICIPILITY BANSWARA\trough.dwg \u2192 C:\Filtered_Drawings\Sewer Aquaduct MUNICIPILITY BANSWARA\trough.dwg
+2026-04-18 12:21:20,813 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Bridge Nr Police Chowki\ABUTMENT BRDGE NR POLICE CHOWKI.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Bridge Nr Police Chowki\ABUTMENT BRDGE NR POLICE CHOWKI.dwg
+2026-04-18 12:21:20,851 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Bridge Nr Police Chowki\DECK SLAB ARRANGEMENT.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Bridge Nr Police Chowki\DECK SLAB ARRANGEMENT.dwg
+2026-04-18 12:21:22,320 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Bridge Nr Police Chowki\DET BRIDGE NEAR POLICE CHOWKI.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Bridge Nr Police Chowki\DET BRIDGE NEAR POLICE CHOWKI.dwg
+2026-04-18 12:21:22,335 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Bridge Nr Police Chowki\GAD 7 BRIDGE NEAR BHUPALPUR POLICE CHOWKI.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Bridge Nr Police Chowki\GAD 7 BRIDGE NEAR BHUPALPUR POLICE CHOWKI.dwg
+2026-04-18 12:21:22,368 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Bridge Nr Police Chowki\GAD BRIDGE NEAR BHUPALPUR POLICE CHOWKI.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Bridge Nr Police Chowki\GAD BRIDGE NEAR BHUPALPUR POLICE CHOWKI.dwg
+2026-04-18 12:21:22,435 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\a2.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\a2.dwg
+2026-04-18 12:21:22,448 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\bar bending schedule.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\bar bending schedule.dwg
+2026-04-18 12:21:22,454 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\Cross Section of Two Lane Deck.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\Cross Section of Two Lane Deck.dwg
+2026-04-18 12:21:22,489 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\GAD NR_AYAD.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\GAD NR_AYAD.dwg
+2026-04-18 12:21:22,509 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\GAD SKEW 6 SUBMERSIBLE BRIDGE 02122007.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\GAD SKEW 6 SUBMERSIBLE BRIDGE 02122007.dwg
+2026-04-18 12:21:22,518 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\GAD SUBMERSIBLE BRIDGE 02122007.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\GAD SUBMERSIBLE BRIDGE 02122007.dwg
+2026-04-18 12:21:22,523 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\HIGH LEVEL BRIDGE ACROSS AYAD RIVER GAD.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\HIGH LEVEL BRIDGE ACROSS AYAD RIVER GAD.dwg
+2026-04-18 12:21:22,530 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\HIGH LEVEL BRIDGE ACROSS AYAD RIVER PIER ELEVATION.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\HIGH LEVEL BRIDGE ACROSS AYAD RIVER PIER ELEVATION.dwg
+2026-04-18 12:21:22,537 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\HIGH LEVEL BRIDGE ACROSS AYAD RIVER PIER PLAN.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\HIGH LEVEL BRIDGE ACROSS AYAD RIVER PIER PLAN.dwg
+2026-04-18 12:21:22,541 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\HIGH LEVEL BRIDGE ACROSS AYAD RIVER PIER SECTION.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\HIGH LEVEL BRIDGE ACROSS AYAD RIVER PIER SECTION.dwg
+2026-04-18 12:21:22,603 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\INDEX.pdf \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\INDEX.pdf
+2026-04-18 12:21:22,613 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\ONLY GAD SHARP.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\ONLY GAD SHARP.dwg
+2026-04-18 12:21:22,618 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\pier reinforcemen uit.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\pier reinforcemen uit.dwg
+2026-04-18 12:21:23,321 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\PIER REINFORCEMENT 02122007.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\PIER REINFORCEMENT 02122007.dwg
+2026-04-18 12:21:23,338 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\skew effect.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\skew effect.dwg
+2026-04-18 12:21:24,039 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\UIT BHUWANA PART1.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\UIT BHUWANA PART1.dwg
+2026-04-18 12:21:24,440 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\UIT BHUWANA PART2.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\UIT BHUWANA PART2.dwg
+2026-04-18 12:21:24,830 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\UIT BHUWANA PART3.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NAVRATNA COMPLEX\UIT BHUWANA PART3.dwg
+2026-04-18 12:21:24,842 | INFO | SKIPPED (not drawing): E:\BRIDGE DESIGN\UIT BRIDGES\NAVRATNA COMPLEX\UIT BRIDGE BHUWANA.pdf
+2026-04-18 12:21:25,665 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NR ALU FACTORY\ABUTMENT BRDGE NR ALOO FACTORY (2).dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NR ALU FACTORY\ABUTMENT BRDGE NR ALOO FACTORY (2).dwg
+2026-04-18 12:21:25,670 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NR ALU FACTORY\ABUTMENT BRDGE NR ALOO FACTORY.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NR ALU FACTORY\ABUTMENT BRDGE NR ALOO FACTORY.dwg
+2026-04-18 12:21:25,677 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NR ALU FACTORY\GAD SUBMERSIBLE BRIDGE ACROSS GUMANIYA WALA NALAH NEAR AALOO FACTORY UDAIPUR.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NR ALU FACTORY\GAD SUBMERSIBLE BRIDGE ACROSS GUMANIYA WALA NALAH NEAR AALOO FACTORY UDAIPUR.dwg
+2026-04-18 12:21:26,247 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NR ALU FACTORY\PIER REINFORCEMENT 02122007.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NR ALU FACTORY\PIER REINFORCEMENT 02122007.dwg
+2026-04-18 12:21:26,254 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\NR ALU FACTORY\skew effect.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\NR ALU FACTORY\skew effect.dwg
+2026-04-18 12:21:26,288 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\all three cd works.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\all three cd works.dwg
+2026-04-18 12:21:26,296 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\CIRCULAR PIER.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\CIRCULAR PIER.dwg
+2026-04-18 12:21:26,318 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\CONTOUR SISHARAM_PULAYA_MAIL.DWG \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\CONTOUR SISHARAM_PULAYA_MAIL.DWG
+2026-04-18 12:21:26,332 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\DECK SLAB ARRANGEMENT.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\DECK SLAB ARRANGEMENT.dwg
+2026-04-18 12:21:26,340 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\DETAIL OF SINGLE BOX.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\DETAIL OF SINGLE BOX.dwg
+2026-04-18 12:21:26,350 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SISARAMA RIVER A.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SISARAMA RIVER A.dwg
+2026-04-18 12:21:26,356 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SISARAMA RIVER B.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SISARAMA RIVER B.dwg
+2026-04-18 12:21:26,365 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SISARAMA RIVER C.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SISARAMA RIVER C.dwg
+2026-04-18 12:21:26,373 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SISARAMA RIVER jan2009.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SISARAMA RIVER jan2009.dwg
+2026-04-18 12:21:26,383 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SUKANAKA NALAH ON UDAIPUR- JHAMAR KOTADA ROAD NEAR MATOON VILLAGE.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\GAD BRIDGE SUKANAKA NALAH ON UDAIPUR- JHAMAR KOTADA ROAD NEAR MATOON VILLAGE.dwg
+2026-04-18 12:21:26,475 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\INDEX MAP MARKED.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\INDEX MAP MARKED.dwg
+2026-04-18 12:21:26,484 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\preliminary GAD BRIDGE SISARAMA RIVER.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\preliminary GAD BRIDGE SISARAMA RIVER.dwg
+2026-04-18 12:21:26,541 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\RAKESH.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\RAKESH.dwg
+2026-04-18 12:21:26,570 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SISARAMA BRIDGE\road.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SISARAMA BRIDGE\road.dwg
+2026-04-18 12:21:27,614 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\ABUTMENT BRDGE NR MAHARASHTRA BHAWAN.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\ABUTMENT BRDGE NR MAHARASHTRA BHAWAN.dwg
+2026-04-18 12:21:27,620 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\bHAGWATI 050508.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\bHAGWATI 050508.dwg
+2026-04-18 12:21:27,628 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\GAD SUBMERSIBLE BRIDGE ACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\GAD SUBMERSIBLE BRIDGE ACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD.dwg
+2026-04-18 12:21:27,636 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\GAD SUBMERSIBLE BRIDGE ACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD030208.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\GAD SUBMERSIBLE BRIDGE ACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD030208.dwg
+2026-04-18 12:21:27,640 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\hemraj.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\hemraj.dwg
+2026-04-18 12:21:28,470 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\PIER REINFORCEMENT ACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\PIER REINFORCEMENT ACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD.dwg
+2026-04-18 12:21:28,478 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\skew effect.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SUBMERSIBLE BRIDGEACROSS AYAD RIVER ON MAHARASHTRA BHAWAN ---- NEW BHUPALPURA ROAD\skew effect.dwg
+2026-04-18 12:21:29,583 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\ABUTMENT BRDGE SUKANAKA BRIDGE.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\ABUTMENT BRDGE SUKANAKA BRIDGE.dwg
+2026-04-18 12:21:29,593 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\Box Reinforcement.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\Box Reinforcement.dwg
+2026-04-18 12:21:29,618 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\Box.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\Box.dwg
+2026-04-18 12:21:29,636 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\DETAIL OF SINGLE BOX.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\DETAIL OF SINGLE BOX.dwg
+2026-04-18 12:21:29,664 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\GENERAL ARRANGEMENT DRAWING.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\GENERAL ARRANGEMENT DRAWING.dwg
+2026-04-18 12:21:29,670 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\SUKA NAKA 17 -10-08(2).dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\SUKA NAKA 17 -10-08(2).dwg
+2026-04-18 12:21:29,687 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\5 boxes 8x5 GENERAL ARRANGEMENT DRAWING.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\5 boxes 8x5 GENERAL ARRANGEMENT DRAWING.dwg
+2026-04-18 12:21:30,728 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\ABUTMENT BRDGE SUKANAKA BRIDGE.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\ABUTMENT BRDGE SUKANAKA BRIDGE.dwg
+2026-04-18 12:21:30,735 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\DECK SLAB ARRANGEMENT.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\DECK SLAB ARRANGEMENT.dwg
+2026-04-18 12:21:31,515 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\DET BRIDGE sISARAMA.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\DET BRIDGE sISARAMA.dwg
+2026-04-18 12:21:32,305 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\DETAIL HIGH LEVEL BRIDGE ACROSS SISARAMA NALAH ON UDAIPUR- SISARAMA ROAD NEAR SISARAMA VILLAGE.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\DETAIL HIGH LEVEL BRIDGE ACROSS SISARAMA NALAH ON UDAIPUR- SISARAMA ROAD NEAR SISARAMA VILLAGE.dwg
+2026-04-18 12:21:32,315 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\DETAIL OF SINGLE BOX.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\Sukanaka Bridge\Sukanaka january 2009\DETAIL OF SINGLE BOX.dwg
+2026-04-18 12:21:33,433 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SYHON BEDLA ROAD\ABUTMENT BEDLA BRIDGE.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SYHON BEDLA ROAD\ABUTMENT BEDLA BRIDGE.dwg
+2026-04-18 12:21:33,466 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SYHON BEDLA ROAD\all three cd works.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SYHON BEDLA ROAD\all three cd works.dwg
+2026-04-18 12:21:33,470 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SYHON BEDLA ROAD\DECK SLAB ARRANGEMENT.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SYHON BEDLA ROAD\DECK SLAB ARRANGEMENT.dwg
+2026-04-18 12:21:33,487 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SYHON BEDLA ROAD\GAD BRIDGE SUKANAKA NALAH ON UDAIPUR- JHAMAR KOTADA ROAD NEAR MATOON VILLAGE.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SYHON BEDLA ROAD\GAD BRIDGE SUKANAKA NALAH ON UDAIPUR- JHAMAR KOTADA ROAD NEAR MATOON VILLAGE.dwg
+2026-04-18 12:21:33,889 | INFO | COPIED: E:\BRIDGE DESIGN\UIT BRIDGES\SYHON BEDLA ROAD\PIER REINF BEDLA.dwg \u2192 C:\Filtered_Drawings\UIT BRIDGES\SYHON BEDLA ROAD\PIER REINF BEDLA.dwg
+2026-04-18 12:21:33,894 | INFO | 
+=== SUMMARY ===
+2026-04-18 12:21:33,894 | INFO | Total files scanned : 3902
+2026-04-18 12:21:33,895 | INFO | Files copied        : 579
+2026-04-18 12:21:33,895 | INFO | Target folder       : C:\Filtered_Drawings
