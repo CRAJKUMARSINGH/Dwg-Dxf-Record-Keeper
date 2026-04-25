@@ -2,9 +2,10 @@ from pydantic import BaseModel, Field
 from typing import Optional
 import datetime
 
+
 class BridgeParameters(BaseModel):
     """Parameters for bridge drawing generation, mapped to Bridge_GAD_Yogendra_Borse standards."""
-    
+
     # General Project Info
     project_name: str = Field("Standard Bridge Project", description="Name of the project")
     drawing_no: str = Field("GAD-001", description="Drawing reference number")
@@ -13,14 +14,14 @@ class BridgeParameters(BaseModel):
     engineer_name: str = Field("Design Engineer", description="Engineer Name")
     date: str = Field(default_factory=lambda: datetime.datetime.now().strftime("%Y-%m-%d"))
     scale: str = Field("1:100", description="Drawing Scale")
-    
+
     # Bridge Geometry & Spans
     number_of_spans: int = Field(3, description="NSPAN - Total number of spans")
     span_length: float = Field(14.0, description="SPAN - Clear/Effective Span Length in meters")
     carriage_width: float = Field(7.5, description="CCBR - Carriageway Width in meters")
     footpath_width: float = Field(1.5, description="Footpath Width in meters")
     skew_angle: float = Field(0.0, description="Skew angle in degrees")
-    
+
     # Deck Slab Details
     slab_thickness: float = Field(0.45, description="SLBTHE - Thickness of deck slab")
     wearing_coat_thickness: float = Field(0.075, description="Thickness of wearing coat")
@@ -29,12 +30,12 @@ class BridgeParameters(BaseModel):
     haunch_size: float = Field(0.15, description="Haunch dimension (x and y)")
     approach_slab_length: float = Field(3.5, description="Length of approach slabs on both ends")
     approach_slab_thickness: float = Field(0.3, description="Thickness of approach slab")
-    
+
     # Pier Details
     pier_width: float = Field(1.2, description="PIERTW - Pier shaft width/diameter")
     pier_cap_width: float = Field(2.5, description="Width of pier cap")
     pier_cap_height: float = Field(0.5, description="Height of pier cap straight portion")
-    
+
     # Abutment Details
     abutment_type: str = Field("Cantilever", description="Type of abutment (Gravity, Cantilever, Counterfort)")
     abutment_top_width: float = Field(1.5, description="Top width of abutment wall / stem")
@@ -47,17 +48,23 @@ class BridgeParameters(BaseModel):
     gravity_heel_offset: float = Field(0.5, description="Bottom offset on heel side for Gravity")
     gravity_toe_offset: float = Field(0.5, description="Bottom offset on toe side for Gravity")
     pcc_offset: float = Field(0.150, description="PCC offset beyond foundation edges")
-    
+
+    # Wing Wall Details
+    wing_wall_length: float = Field(3.0, description="Length of wing wall from abutment face")
+    wing_wall_thickness: float = Field(0.45, description="Thickness of wing wall")
+    wing_wall_splay_angle: float = Field(45.0, description="Splay angle of wing wall in degrees")
+
     # Levels (Elevations & NSL)
     rtl: float = Field(100.500, description="RTL - Road Top Level")
     hfl: float = Field(98.200, description="HFL - High Flood Level")
     bed_level: float = Field(95.000, description="River Bed Level")
     datum: float = Field(85.000, description="DATUM - Reference datum for drawing")
-    
+
     nsl_left: float = Field(100.000, description="NSL_L - Natural Surface Level at Left Abutment")
     nsl_center: float = Field(99.500, description="NSL_C - Natural Surface Level at Central Pier")
     nsl_right: float = Field(99.800, description="NSL_R - Natural Surface Level at Right Abutment")
-    
+    assume_linear_slope: bool = Field(True, description="Assume linear terrain slope between NSL points")
+
     # Foundation Details
     foundation_type: str = Field("Open Foundation", description="Type of foundation (Open Foundation, Pile Cap)")
     futw: float = Field(4.0, description="FUTW - Foundation Width")
@@ -65,7 +72,7 @@ class BridgeParameters(BaseModel):
     foundation_thickness: float = Field(1.5, description="Thickness of the Raft/Pile Cap")
     pile_depth: float = Field(15.0, description="Depth of piles (if Pile Cap)")
     pile_diameter: float = Field(1.0, description="Diameter of piles (if Pile Cap)")
-    
+
     # Material Specifications
     concrete_grade: str = Field("M35", description="Grade of concrete")
     steel_grade: str = Field("Fe500", description="Grade of reinforcing steel")
@@ -75,8 +82,44 @@ class BridgeParameters(BaseModel):
     def total_length(self) -> float:
         """Calculate total length of the bridge deck."""
         return self.span_length * self.number_of_spans
-    
+
     @property
     def total_width(self) -> float:
         """Calculate total width of the bridge."""
         return self.carriage_width + (2 * self.footpath_width)
+
+    @property
+    def slope_left_to_center(self) -> float:
+        """Slope from left abutment to first pier (rise/run). Negative = downhill."""
+        run = self.span_length  # distance to first pier
+        if self.number_of_spans > 1:
+            rise = self.nsl_center - self.nsl_left
+            return rise / run if run > 0 else 0.0
+        return 0.0
+
+    @property
+    def slope_center_to_right(self) -> float:
+        """Slope from last pier to right abutment."""
+        run = self.span_length
+        if self.number_of_spans > 1:
+            rise = self.nsl_right - self.nsl_center
+            return rise / run if run > 0 else 0.0
+        return 0.0
+
+    def nsl_at_x(self, x: float) -> float:
+        """Interpolate NSL at horizontal position x (0 = left abutment)."""
+        total = self.total_length
+        if total <= 0:
+            return self.nsl_left
+        # Piecewise linear: left→center→right
+        if self.number_of_spans <= 1:
+            # Single span: linear from left to right
+            t = x / total
+            return self.nsl_left + t * (self.nsl_right - self.nsl_left)
+        mid_x = total / 2.0  # approximate center pier position
+        if x <= mid_x:
+            t = x / mid_x if mid_x > 0 else 0
+            return self.nsl_left + t * (self.nsl_center - self.nsl_left)
+        else:
+            t = (x - mid_x) / (total - mid_x) if (total - mid_x) > 0 else 0
+            return self.nsl_center + t * (self.nsl_right - self.nsl_center)

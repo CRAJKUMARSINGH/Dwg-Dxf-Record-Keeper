@@ -1,0 +1,15 @@
+{
+    "bridge_type": "RCC Slab Bridge",
+    "substructure": {
+        "abutment_type": "Gravity",
+        "abutment_top_width": 0.9,
+        "gravity_heel_offset": 0.6,
+        "gravity_toe_offset": 0.3
+    },
+    "geometry": {
+        "span_lengths": [
+            10.0
+        ],
+        "slab_thickness": 0.75
+    }
+}

@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from analyzer.dwg_converter import DWGConverter
 from analyzer.pattern_matcher import PatternMatcher
+from analyzer.top20_identifier import identify_top20
 from reporting.reporter import Reporter
 from models.components import BridgeParameters
 from generators.templates import SheetTemplates
@@ -24,54 +25,58 @@ def load_config(config_path: str) -> dict:
         with open(config_path, 'r') as f:
             return yaml.safe_load(f)
     except Exception as e:
-        logger.error(f"Failed to load config {config_path}: {e}")
+        logger.error("Failed to load config %s: %s", config_path, e)
         return {}
 
 def run_analysis(app_config, config_dir, base_dir):
     logger.info("Starting CAD Standardization Analysis (Phase 1)...")
-    
+
     input_dir = base_dir / app_config.get("input_dir", "COMPONENT_DRAWINGS_SORTED").replace("../", "")
     output_dir = base_dir / app_config.get("output_dir", "output").replace("../", "")
     oda_path = app_config.get("oda_file_converter_path", "")
-    
+
+    # Convert any DWG files first
     converter = DWGConverter(oda_path)
+    if converter.available:
+        dwg_output = output_dir / "converted_dxf"
+        converter.convert_directory(input_dir, dwg_output)
+
+    # Run pattern matching analysis
     matcher = PatternMatcher(str(config_dir / "component_rules.yaml"))
-    
-    logger.info(f"Scanning for DXF files in {input_dir}")
-    analysis_results = matcher.match_patterns(input_dir)
-    
+    intermediate_dir = output_dir / "intermediate"
+
+    logger.info("Scanning for DXF files in %s", input_dir)
+    analysis_results = matcher.match_patterns(input_dir, intermediate_save_dir=intermediate_dir)
+
+    # Identify top 20 reusable details
+    top20 = identify_top20(analysis_results)
+    analysis_results["top20_reusable_details"] = top20
+
+    # Generate reports
     reporter = Reporter(str(output_dir))
     json_path = reporter.generate_json_report(analysis_results)
-    md_path = reporter.generate_markdown_report(analysis_results)
-    
+    md_path = reporter.generate_markdown_report(analysis_results, top20=top20)
+
     logger.info("Analysis Complete.")
-    if json_path: logger.info(f"JSON Report: {json_path}")
-    if md_path: logger.info(f"Markdown Report: {md_path}")
+    if json_path:
+        logger.info("JSON Report: %s", json_path)
+    if md_path:
+        logger.info("Markdown Report: %s", md_path)
 
 def run_generation(app_config, base_dir):
     logger.info("Starting CAD Generation (Phase 2)...")
     output_dir = base_dir / app_config.get("output_dir", "output").replace("../", "")
-    
-    # In a full CLI, we'd parse parameters from a file or args.
-    # For now, we'll use the default test parameters.
+
     params = BridgeParameters()
-    logger.info(f"Loaded Bridge Parameters for: {params.project_name}")
-    
-    # Generate GAD
-    gad_builder = SheetTemplates.generate_gad(params)
-    gad_path = output_dir / "GAD_Generated.dxf"
-    gad_builder.save(gad_path)
-    
-    # Generate Pier Details
-    pier_builder = SheetTemplates.generate_pier_details(params)
-    pier_path = output_dir / "Pier_Details_Generated.dxf"
-    pier_builder.save(pier_path)
-    
-    # Generate Deck Slab Details
-    deck_slab_builder = SheetTemplates.generate_deck_slab_details(params)
-    deck_slab_path = output_dir / "Deck_Slab_Generated.dxf"
-    deck_slab_builder.save(deck_slab_path)
-    
+    logger.info("Loaded Bridge Parameters for: %s", params.project_name)
+
+    # Generate all drawings
+    builders = SheetTemplates.generate_all(params)
+    for name, builder in builders.items():
+        path = output_dir / f"{name}_Generated.dxf"
+        builder.save(path)
+        logger.info("Generated: %s", path)
+
     logger.info("Generation Complete. DXF files saved to output directory.")
 
 def main():

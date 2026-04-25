@@ -1,0 +1,114 @@
+# Standard Layer Definitions for Bridge CAD Drawings
+# Maps standard names to ACI colors and linetypes.
+# Legacy layer name mappings allow auto-renaming from old drawings.
+
+standard_layers:
+  # ── Concrete ──
+  - name: "C-CONC"
+    color: 3          # Green
+    linetype: "Continuous"
+    description: "Concrete outlines and structural geometry"
+
+  # ── Reinforcement ──
+  - name: "S-REBAR-MAIN"
+    color: 6          # Magenta
+    linetype: "Continuous"
+    description: "Main reinforcement bars"
+
+  - name: "S-REBAR-TIES"
+    color: 1          # Red
+    linetype: "Continuous"
+    description: "Distribution steel, ties, stirrups"
+
+  # ── Topography & Levels ──
+  - name: "C-TOPO-NSL"
+    color: 8          # Dark Gray
+    linetype: "DASHED"
+    description: "Natural Surface Level line"
+
+  - name: "C-TOPO-HFL"
+    color: 5          # Blue
+    linetype: "DASHED"
+    description: "High Flood Level line"
+
+  - name: "C-TOPO-BED"
+    color: 8          # Dark Gray
+    linetype: "Continuous"
+    description: "River Bed Level"
+
+  - name: "C-TOPO-TERRAIN"
+    color: 52         # Dark Yellow-Brown
+    linetype: "DASHED"
+    description: "Sloping terrain / ground profile line"
+
+  # ── Annotations ──
+  - name: "C-ANNO-DIMS"
+    color: 2          # Yellow
+    linetype: "Continuous"
+    description: "Dimensions"
+
+  - name: "C-ANNO-TEXT"
+    color: 7          # White/Black
+    linetype: "Continuous"
+    description: "General text and labels"
+
+  - name: "C-ANNO-TTLB"
+    color: 4          # Cyan
+    linetype: "Continuous"
+    description: "Title block border and text"
+
+  # ── Construction Lines ──
+  - name: "0_CENTERLINE"
+    color: 1          # Red
+    linetype: "CENTER"
+    description: "Center lines"
+
+  - name: "0_HIDDEN"
+    color: 8          # Dark Gray
+    linetype: "HIDDEN"
+    description: "Hidden / dashed features"
+
+  # ── Foundation ──
+  - name: "C-FOUND"
+    color: 30         # Orange-Brown
+    linetype: "Continuous"
+    description: "Foundation outlines"
+
+  # ── Approach Slab ──
+  - name: "C-APPR-SLAB"
+    color: 140        # Light Blue
+    linetype: "Continuous"
+    description: "Approach slab outlines"
+
+# Legacy layer name → standard name mapping
+# Used by apply_reference_dxf_style.py and auto-rename utilities
+legacy_mappings:
+  "CONC": "C-CONC"
+  "CONCRETE": "C-CONC"
+  "REBAR": "S-REBAR-MAIN"
+  "REINF": "S-REBAR-MAIN"
+  "REINFORCEMENT": "S-REBAR-MAIN"
+  "STIRRUP": "S-REBAR-TIES"
+  "TIES": "S-REBAR-TIES"
+  "DIM": "C-ANNO-DIMS"
+  "DIMS": "C-ANNO-DIMS"
+  "DIMENSION": "C-ANNO-DIMS"
+  "TEXT": "C-ANNO-TEXT"
+  "CENTERLINE": "0_CENTERLINE"
+  "CL": "0_CENTERLINE"
+  "HIDDEN": "0_HIDDEN"
+  "DASHED": "0_HIDDEN"
+  "TITLE": "C-ANNO-TTLB"
+  "TITLEBLOCK": "C-ANNO-TTLB"
+  "FOUNDATION": "C-FOUND"
+  "FOOTING": "C-FOUND"
+  "NSL": "C-TOPO-NSL"
+  "GROUND": "C-TOPO-TERRAIN"
+  "TERRAIN": "C-TOPO-TERRAIN"
+  "HFL": "C-TOPO-HFL"
+  "WATER": "C-TOPO-HFL"
+
+# Layers to ignore during analysis
+ignore_layers:
+  - "Defpoints"
+  - "0"

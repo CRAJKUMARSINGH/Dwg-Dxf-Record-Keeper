@@ -1,0 +1,1 @@
+read GROK_250426_01.md then GROK_250426_02.md then GROK_250426_03.md and apply text as instructions for the code 

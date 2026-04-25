@@ -1,0 +1,16 @@
+{
+    "bridge_type": "T-Beam Bridge",
+    "substructure": {
+        "abutment_type": "Counterfort",
+        "abutment_heel_length": 3.5,
+        "counterfort_spacing": 3.0,
+        "counterfort_thickness": 0.45
+    },
+    "geometry": {
+        "span_lengths": [
+            25.0,
+            25.0
+        ],
+        "slab_thickness": 1.8
+    }
+}
