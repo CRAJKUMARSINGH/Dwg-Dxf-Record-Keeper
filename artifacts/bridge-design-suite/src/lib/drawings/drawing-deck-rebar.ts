@@ -131,7 +131,7 @@ export function generateDeckRebarDrawing(inp: BridgeInput): string {
   const tbX = -3, tbY = totY - 18;
   e.push(...ircTitleBlock(tbX, tbY, {
     projectName, drawingTitle: "DECK SLAB REINFORCEMENT — LONGITUDINAL SECTION & BBS",
-    drawingNo: `${drawingNo}/06`, scale: "1:20", location, sheetNo: "6", totalSheets: "8",
+    drawingNo: `${drawingNo}/06`, scale: "1:20", location, sheetNo: "9", totalSheets: "12",
   }));
 
   return makeHeader([tbX-1, tbY-1, 0], [spanLength+14, top+6, 0]) + finalizeDxf(e);

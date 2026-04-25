@@ -111,7 +111,7 @@ export function generateLongitudinalSection(inp: BridgeInput): string {
   const tbX = -5, tbY = foundY - 18;
   e.push(...ircTitleBlock(tbX, tbY, {
     projectName, drawingTitle: "LONGITUDINAL SECTION THROUGH CENTRE LINE",
-    drawingNo: `${drawingNo}/08`, scale: "1:100", location, sheetNo: "8", totalSheets: "8",
+    drawingNo: `${drawingNo}/08`, scale: "1:100", location, sheetNo: "11", totalSheets: "12",
   }));
 
   return makeHeader([tbX-1, tbY-1, 0], [vdX+4, wcTop+6, 0]) + finalizeDxf(e);

@@ -95,7 +95,7 @@ export function generateCrossSection(inp: BridgeInput): string {
   const tbX = -3, tbY = dimY - 17;
   e.push(...ircTitleBlock(tbX, tbY, {
     projectName, drawingTitle: "CROSS-SECTION AT MID-SPAN",
-    drawingNo: `${drawingNo}/03`, scale: "1:20", location, sheetNo: "3", totalSheets: "8",
+    drawingNo: `${drawingNo}/03`, scale: "1:20", location, sheetNo: "3", totalSheets: "12",
   }));
 
   return makeHeader([tbX - 1, tbY - 1, 0], [totW + 10, top + 6, 0]) + finalizeDxf(e);

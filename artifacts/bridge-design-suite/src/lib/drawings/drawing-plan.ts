@@ -76,7 +76,7 @@ export function generatePlanView(inp: BridgeInput): string {
   const tbX = -abt - 3, tbY = -20;
   e.push(...ircTitleBlock(tbX, tbY, {
     projectName, drawingTitle: "PLAN VIEW — TOP OF BRIDGE DECK",
-    drawingNo: `${drawingNo}/02`, scale: "1:100", location, sheetNo: "2", totalSheets: "8",
+    drawingNo: `${drawingNo}/02`, scale: "1:100", location, sheetNo: "2", totalSheets: "12",
   }));
 
   return makeHeader([tbX - 1, tbY - 1, 0], [totalLength + abt * 2 + 8, totW + 7, 0]) + finalizeDxf(e);

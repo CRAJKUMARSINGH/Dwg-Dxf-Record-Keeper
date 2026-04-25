@@ -1,0 +1,37 @@
+# Component Rules for Categorization and Pattern Matching
+
+components:
+  - name: GAD
+    keywords: ["GAD", "General Arrangement", "Submersible"]
+    expected_layers: ["DECK", "ABUTMENT", "PIER", "WATER_LEVEL", "GROUND"]
+  
+  - name: Pier
+    keywords: ["Pier", "Column", "Shaft"]
+    subcategories:
+      - name: Reinforcement
+        keywords: ["Reinforcement", "Reinf", "Bar"]
+      - name: Geometry
+        keywords: ["Section", "Geometry", "Dimension"]
+      
+  - name: Abutment
+    keywords: ["Abutment", "End Support"]
+    subcategories:
+      - name: Reinforcement
+        keywords: ["Reinforcement", "Reinf", "Bar"]
+        
+  - name: Wing Wall
+    keywords: ["Wing Wall", "Return Wall"]
+    
+  - name: Deck Slab
+    keywords: ["Deck Slab", "Slab Anchorage"]
+    
+  - name: Cross Section
+    keywords: ["Cross Section", "X-Section"]
+    
+  - name: Foundation
+    keywords: ["Foundation", "Footing", "Pile"]
+
+  - name: Bearing
+    keywords: ["Bearing", "Pedestal"]
+
+ignore_layers: ["Defpoints", "0"]

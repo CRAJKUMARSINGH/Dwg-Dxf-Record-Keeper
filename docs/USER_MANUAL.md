@@ -1,108 +1,41 @@
-# Dwg-Dxf-Record-Keeper — User Manual
+# CAD Standardization Project: User Manual
 
-Monorepo for **bridge drawing records**, **DXF generation**, **API-backed workspace**, and **Python analysis tools**.
+## Overview
+Welcome to the Parametric Bridge CAD Generator. This system takes engineering parameters (spans, widths, levels) and programmatically generates pristine, standardized AutoCAD DXF drawings. 
 
----
+## Quick Start
+The easiest way to generate drawings is using the interactive dashboard.
 
-## 1. What is in this repository?
+1. Double-click the `run_dashboard.bat` file in the root folder.
+2. A browser window will open displaying the Streamlit Dashboard.
+3. Enter your project dimensions in the left sidebar (Span, Skew, RTL, etc.).
+4. Select the components you want to generate.
+5. Click **Generate DXF Drawings**.
+6. Click the Download buttons to save the `.dxf` files directly to your machine.
 
-| Area | Path | Purpose |
-|------|------|---------|
-| Web app (main) | `artifacts/bridge-design-suite` | Dashboard, projects, files, records, comparisons, **DXF studio** (`/generator`). |
-| API | `artifacts/api-server` | Express API: stats, CRUD, **scan-drawing** (image → parameters). |
-| Shared libraries | `lib/*` | API client, DB, Zod spec. |
-| Python DXF style | `apply_reference_dxf_style.py` | Match generated DXF layer/linetype style to `DRAWINGS_FROM_RAJKUMAR_DESIGNS/`. |
-| Pattern tools | `COLLECTION FROM RECORD/` | DXF analyzers, demos — see **`COLLECTION FROM RECORD/GUIDE.md`**. |
+## Folder Structure
+- `config/`: Contains `app_config.yaml` and `component_rules.yaml`. You can update paths or rules here.
+- `src/`: The core Python source code.
+  - `src/models/components.py`: This is where the engineering variables (like `BridgeParameters`) are defined.
+  - `src/generators/blocks.py`: Contains the individual parametric routines (Rebar, Bearings).
+  - `src/generators/templates.py`: Assembles the blocks into full sheets (GAD, Piers).
+- `output/`: Raw DXFs are saved here if you run the tool via command line.
+- `COMPONENT_DRAWINGS_SORTED/`: The original collection of manual drawings.
 
-**Prerequisites:** Node **24+**, **pnpm**, PostgreSQL for full API; **Python 3.11+** with `ezdxf` for style script and collection scripts.
-
----
-
-## 2. Quick start (web + API)
-
+## Command Line Usage
+If you prefer automation or batch scripting, you can use the CLI:
 ```bash
-cd Dwg-Dxf-Record-Keeper
-pnpm install
-pnpm run typecheck
-pnpm --filter @workspace/api-server run dev
-pnpm --filter @workspace/bridge-design-suite run dev
+py src/main.py generate
 ```
+*(Note: To change dimensions in CLI mode, edit the default parameters initialized in `src/main.py` -> `run_generation`)*
 
-Configure API base URL for the web app per your environment (Replit secrets or local `.env` patterns used in your deployment).
+## Long-Term Maintenance Plan
+As a Civil Engineer, your design codes will evolve. Here is how to maintain this library:
 
----
+**Adding a New Template (e.g., Box Culvert)**
+1. **Define the Data:** If the Box Culvert requires new parameters (e.g., `wall_thickness`), add them to `BridgeParameters` in `src/models/components.py`.
+2. **Build the Geometry:** Open `src/generators/templates.py`. Add a new static method like `def generate_box_culvert(params) -> DXFBuilder:`.
+3. **Assemble Blocks:** Use the `builder.add_polyline()` and `DynamicBlocks.draw_rebar_with_hooks()` functions to code the geometry.
+4. **Expose to UI:** Open `src/app.py`, add a new checkbox for the Culvert, and tie it to the download button.
 
-## 3. DXF studio (browser)
-
-1. Open the Bridge Design Suite app (dev server URL).
-2. Go to **DXF studio** (`/generator`).
-3. Fill parameters or use **scan** (when API is running).
-4. Download generated `.dxf` files.
-
----
-
-## 4. Post-process DXF style (Python)
-
-From repo root (paths can be relative):
-
-```bash
-pip install ezdxf
-python apply_reference_dxf_style.py DRAWINGS_FROM_RAJKUMAR_DESIGNS GENERATED_DRAWINGS GENERATED_DRAWINGS_STYLED
-```
-
-- **Arg 1:** Reference folder (your archive of final drawings).  
-- **Arg 2:** One `.dxf` file or a folder of generated drawings.  
-- **Arg 3 (optional):** Output folder; if omitted, writes `*_chauhan.dxf` next to inputs.
-
----
-
-## 5. Video walkthrough — recording script (chapters)
-
-*These are scene titles and talking points for **you** to record; the repo does not ship video files.*
-
-| Ch. | Length (approx.) | Show / say |
-|-----|------------------|------------|
-| 0 | 0:30 | Title: “Dwg-Dxf-Record-Keeper — bridge records + DXF studio”. |
-| 1 | 2:00 | Clone repo, `pnpm install`, `pnpm run typecheck`. |
-| 2 | 2:00 | Start API + web app; open Dashboard (stats, recent files). |
-| 3 | 4:00 | Projects → Files → Records → Comparisons (one flow). |
-| 4 | 6:00 | **DXF studio**: fill span, RTL/HFL, export 2–3 sheets; show CAD opening DXF. |
-| 5 | 3:00 | **Scan drawing**: upload sketch, apply extracted fields (if API configured). |
-| 6 | 3:00 | Run `apply_reference_dxf_style.py`; before/after layer table in CAD. |
-| 7 | 2:00 | `COLLECTION FROM RECORD`: open `GUIDE.md`, run `run.bat` / demo. |
-| 8 | 1:00 | Where to read this manual (`docs/USER_MANUAL.md`) and Streamlit viewer (`streamlit-manual/`). |
-
-**Thumbnail ideas:** bridge elevation line-art; split screen “parameters → DXF”.
-
----
-
-## 6. Streamlit “User Manual” viewer
-
-Deploy the small app in **`streamlit-manual/`** (renders this file):
-
-1. Push this repo to GitHub.  
-2. [Streamlit Community Cloud](https://streamlit.io/cloud) → New app → pick repo → **Main file path:** `streamlit-manual/app.py`.  
-3. Python version **3.11** (or match your `requirements.txt`).  
-4. App URL: put it in your GitHub **About** website field (see root `README.md`).
-
----
-
-## Appendix A — Hybrid roadmap (REFERENCE-APP00)
-
-Optional local compare tree: `REFERENCE-APP00/` (gitignored if present).
-
-| # | Capability | Production app | Reference | Action |
-|---|------------|----------------|-----------|--------|
-| 1–9 | Dashboard, projects, files, records, comparisons, scan, studio shell, polish | Yes | Partial / No | **Kept** |
-| 10 | Reckoner tables + presets on one page | Partial | Yes | Absorb into `/generator` when scheduled |
-| 11 | 15-title drawing catalogue | Partial | Yes | Roadmap UI |
-| 12–13 | Server ZIP via `bridge_draw.py` | No | Yes | Optional flagged route |
-| 14 | Richer style (`textstyles`, `dimstyles`, header) | Partial | Yes | Improve `apply_reference_dxf_style.py` |
-| 15–17 | Params CLI, mockups, Drizzle | Yes | Overlap | **Kept** |
-
----
-
-## Appendix B — Support
-
-- **Issues:** use GitHub Issues on this repository.  
-- **Security:** supply-chain: `pnpm-workspace.yaml` minimum release age; do not disable without review.
+By isolating the geometry drawing into Python functions, you eliminate the risk of CAD layer corruption, block scaling errors, and dimension snapping mistakes common in manual drafting.

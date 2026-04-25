@@ -1,0 +1,4 @@
+# App Configuration
+oda_file_converter_path: "C:\\Program Files\\ODA\\ODAFileConverter\\ODAFileConverter.exe"
+input_dir: "../COMPONENT_DRAWINGS_SORTED"
+output_dir: "../output"

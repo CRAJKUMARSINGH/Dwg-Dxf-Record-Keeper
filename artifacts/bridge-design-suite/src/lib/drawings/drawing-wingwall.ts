@@ -92,7 +92,7 @@ export function generateWingWallDrawing(inp: BridgeInput): string {
   const tbX = -6, tbY = planOY - 20;
   e.push(...ircTitleBlock(tbX, tbY, {
     projectName, drawingTitle: "WING WALL & RETURN WALL DETAILS",
-    drawingNo: `${drawingNo}/07`, scale: "1:50", location, sheetNo: "7", totalSheets: "8",
+    drawingNo: `${drawingNo}/07`, scale: "1:50", location, sheetNo: "10", totalSheets: "12",
   }));
 
   return makeHeader([tbX-1, tbY-1, 0], [abtW+returnWallLength+6, topY+6, 0]) + finalizeDxf(e);

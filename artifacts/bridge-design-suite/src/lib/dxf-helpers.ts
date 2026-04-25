@@ -2,6 +2,9 @@
 // DXF HELPERS — IRC Standard Bridge Drawing Library
 // Based on real Rajasthan PWD bridge drawings (Kherwara, Devka, Malwasa, Bengu)
 // IRC SP-13 / IRC:6 / IRC:112 / IRC:78
+//
+// DXF compatibility: HEADER $ACADVER is AC1018 (same era as AutoCAD 2004–2006 / R2004
+// DXF). Any AutoCAD from 2006 upward, and most other CAD tools, can open these files.
 // 
 
 export function sec(name: string, content: string[]): string {
@@ -20,6 +23,16 @@ export function varDxf(name: string, value: string | number | number[]): string 
   return s;
 }
 
+/** HEADER variables that use a 16-bit integer (group 70), e.g. $INSUNITS, $MEASUREMENT. */
+export function varDxfInt(name: string, value: number): string {
+  return `  9\n${name}\n 70\n${value}\n`;
+}
+
+/** $LIMMIN / $LIMMAX: 2D point only (groups 10 and 20 — never group 30). */
+export function varDxfLim2d(name: string, x: number, y: number): string {
+  return `  9\n${name}\n 10\n${x}\n 20\n${y}\n`;
+}
+
 export function tbl(name: string, entries: string[]): string {
   return `  0\nTABLE\n  2\n${name}\n 70\n${entries.length}\n${entries.join("")}  0\nENDTAB\n`;
 }
@@ -32,22 +45,58 @@ export function layer(name: string, color: number, lt: string): string {
   return `  0\nLAYER\n  2\n${name}\n 70\n0\n 62\n${color}\n  6\n${lt}\n`;
 }
 
+function dxfAscii(text: string): string {
+  // DXF TEXT (group 1) must not contain literal newlines; they break the code/value pairing.
+  // Use a single-line fallback that stays ASCII-safe for older AutoCAD.
+  return text
+    .replace(/\r\n/g, "\n")
+    .replace(/\n/g, " / ")
+    .replace(/[–—−]/g, "-")
+    .replace(/[“”]/g, "\"")
+    .replace(/[‘’]/g, "'")
+    .replace(/×/g, "x")
+    .replace(/[^\x20-\x7E]/g, "?");
+}
+
 export function txt(x: number, y: number, text: string, height: number, layerName: string, angle = 0): string {
-  return `  0\nTEXT\n  8\n${layerName}\n 10\n${x.toFixed(4)}\n 20\n${y.toFixed(4)}\n 30\n0\n 40\n${height}\n  1\n${text}\n 50\n${angle}\n 72\n1\n 11\n${x.toFixed(4)}\n 21\n${y.toFixed(4)}\n 31\n0\n`;
+  const safe = dxfAscii(text);
+  return `  0\nTEXT\n  8\n${layerName}\n 10\n${x.toFixed(4)}\n 20\n${y.toFixed(4)}\n 30\n0\n 40\n${height}\n  1\n${safe}\n 50\n${angle}\n 72\n1\n 11\n${x.toFixed(4)}\n 21\n${y.toFixed(4)}\n 31\n0\n`;
 }
 
 export function txtL(x: number, y: number, text: string, height: number, layerName: string): string {
-  return `  0\nTEXT\n  8\n${layerName}\n 10\n${x.toFixed(4)}\n 20\n${y.toFixed(4)}\n 30\n0\n 40\n${height}\n  1\n${text}\n 72\n0\n 11\n${x.toFixed(4)}\n 21\n${y.toFixed(4)}\n 31\n0\n`;
+  const safe = dxfAscii(text);
+  return `  0\nTEXT\n  8\n${layerName}\n 10\n${x.toFixed(4)}\n 20\n${y.toFixed(4)}\n 30\n0\n 40\n${height}\n  1\n${safe}\n 72\n0\n 11\n${x.toFixed(4)}\n 21\n${y.toFixed(4)}\n 31\n0\n`;
 }
 
 export function poly(points: number[][], layerName: string, lt = "CONTINUOUS"): string {
-  let s = `  0\nLWPOLYLINE\n  8\n${layerName}\n  6\n${lt}\n 90\n${points.length}\n 70\n0\n`;
+  // R2000+ LWPOLYLINE requires subclass markers for strict readers (e.g. AutoCAD 2006, ezdxf).
+  let s =
+    `  0\nLWPOLYLINE\n` +
+    `100\nAcDbEntity\n` +
+    `  8\n${layerName}\n` +
+    `  6\n${lt}\n` +
+    `100\nAcDbPolyline\n` +
+    ` 90\n${points.length}\n` +
+    ` 70\n0\n` +
+    ` 43\n0\n` +
+    ` 38\n0\n` +
+    ` 39\n0\n`;
   for (const [x, y] of points) s += ` 10\n${x.toFixed(4)}\n 20\n${y.toFixed(4)}\n`;
   return s;
 }
 
 export function closedPoly(points: number[][], layerName: string, lt = "CONTINUOUS"): string {
-  let s = `  0\nLWPOLYLINE\n  8\n${layerName}\n  6\n${lt}\n 90\n${points.length}\n 70\n1\n`;
+  let s =
+    `  0\nLWPOLYLINE\n` +
+    `100\nAcDbEntity\n` +
+    `  8\n${layerName}\n` +
+    `  6\n${lt}\n` +
+    `100\nAcDbPolyline\n` +
+    ` 90\n${points.length}\n` +
+    ` 70\n1\n` +
+    ` 43\n0\n` +
+    ` 38\n0\n` +
+    ` 39\n0\n`;
   for (const [x, y] of points) s += ` 10\n${x.toFixed(4)}\n 20\n${y.toFixed(4)}\n`;
   return s;
 }
@@ -259,13 +308,15 @@ export function makeHeader(extmin: number[], extmax: number[], extraLayers: stri
   ];
 
   const header = sec("HEADER", [
-    varDxf("$ACADVER", "AC1021"),
-    varDxf("$INSUNITS", 6),
-    varDxf("$MEASUREMENT", 1),
+    // AC1018 = R2004 family (opens in AutoCAD 2004–2006 without format upgrade)
+    varDxf("$ACADVER", "AC1018"),
+    // Do not use group 40 here — $INSUNITS / $MEASUREMENT are 70 (int); wrong code breaks Acad 2004–2007 (e.g. error 50).
+    varDxfInt("$INSUNITS", 6),
+    varDxfInt("$MEASUREMENT", 1),
     varDxf("$EXTMIN", extmin),
     varDxf("$EXTMAX", extmax),
-    varDxf("$LIMMIN", [extmin[0], extmin[1]]),
-    varDxf("$LIMMAX", [extmax[0], extmax[1]]),
+    varDxfLim2d("$LIMMIN", extmin[0], extmin[1]),
+    varDxfLim2d("$LIMMAX", extmax[0], extmax[1]),
   ]);
 
   const tables = sec("TABLES", [
@@ -280,9 +331,6 @@ export function makeHeader(extmin: number[], extmax: number[], extraLayers: stri
     tbl("STYLE", [
       "  0\nSTYLE\n  2\nSTANDARD\n 70\n0\n 40\n0\n 41\n1\n 50\n0\n 71\n0\n 42\n0.2\n  3\narial.ttf\n  4\n\n",
     ]),
-    tbl("VIEW", []),
-    tbl("UCS", []),
-    tbl("VPORT", []),
   ]);
 
   return header + tables + sec("CLASSES", []) + sec("BLOCKS", []);

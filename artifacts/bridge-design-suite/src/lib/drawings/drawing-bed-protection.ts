@@ -78,7 +78,7 @@ export function generateBedProtection(inp: BridgeInput): string {
   for (const s of scaleBar(0,secY-3,5,'DIMENSIONS')) e.push(s);
   e.push(txt(2.5,secY-3.6,'SCALE 1:100',0.28,'TEXT'));
   const tbX=totalProtL-28; const tbY=secY-14;
-  for (const s of ircTitleBlock(tbX,tbY,{projectName:inp.projectName,drawingTitle:'BED PROTECTION DETAILS',drawingNo:inp.drawingNo+'/BP',scale:'1:100',location:inp.location,sheetNo:'9',totalSheets:'11',client:'PUBLIC WORKS DEPARTMENT'})) e.push(s);
+  for (const s of ircTitleBlock(tbX,tbY,{projectName:inp.projectName,drawingTitle:'BED PROTECTION DETAILS',drawingNo:inp.drawingNo+'/BP',scale:'1:100',location:inp.location,sheetNo:'12',totalSheets:'12',client:'PUBLIC WORKS DEPARTMENT'})) e.push(s);
   for (const s of ircNotesBlock(tbX,tbY-1,inp.concreteGrade,inp.steelGrade,inp.coverDeck,inp.coverStem,inp.coverFoundation,inp.designCode,inp.loadClass)) e.push(s);
   return makeHeader([tbX-2,tbY-6],[totalProtL+10,protWidth+6])+finalizeDxf(e);
 }

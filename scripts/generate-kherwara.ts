@@ -4,7 +4,12 @@ import { join } from "path";
 import { generateGAD }                from "../artifacts/bridge-design-suite/src/lib/drawings/drawing-gad";
 import { generatePlanView }           from "../artifacts/bridge-design-suite/src/lib/drawings/drawing-plan";
 import { generateCrossSection }       from "../artifacts/bridge-design-suite/src/lib/drawings/drawing-xsection";
-import { generatePierDrawing }        from "../artifacts/bridge-design-suite/src/lib/drawings/drawing-pier";
+import {
+  generatePierSheet01GeneralArrangementElevation,
+  generatePierSheet02DimensionDetails,
+  generatePierSheet03Section01,
+  generatePierSheet04Reinforcement,
+} from "../artifacts/bridge-design-suite/src/lib/drawings/drawing-pier";
 import { generateAbutmentDrawing }    from "../artifacts/bridge-design-suite/src/lib/drawings/drawing-abutment";
 import { generateDeckRebarDrawing }   from "../artifacts/bridge-design-suite/src/lib/drawings/drawing-deck-rebar";
 import { generateWingWallDrawing }    from "../artifacts/bridge-design-suite/src/lib/drawings/drawing-wingwall";
@@ -86,15 +91,18 @@ const outDir = "GENERATED_DRAWINGS/KHERWARA_SOM_RIVER_BRIDGE";
 mkdirSync(outDir, { recursive: true });
 
 const drawings = [
-  { name: "DRG-01_GAD_ELEVATION",        fn: () => generateGAD(inp) },
-  { name: "DRG-02_PLAN_VIEW",            fn: () => generatePlanView(inp) },
-  { name: "DRG-03_CROSS_SECTION",        fn: () => generateCrossSection(inp) },
-  { name: "DRG-04_PIER_DETAILS",         fn: () => generatePierDrawing(inp) },
-  { name: "DRG-05_ABUTMENT_DETAILS",     fn: () => generateAbutmentDrawing(inp) },
-  { name: "DRG-06_DECK_REBAR_BBS",       fn: () => generateDeckRebarDrawing(inp) },
-  { name: "DRG-07_WING_WALL",            fn: () => generateWingWallDrawing(inp) },
-  { name: "DRG-08_LONGITUDINAL_SECTION", fn: () => generateLongitudinalSection(inp) },
-  { name: "DRG-09_BED_PROTECTION",       fn: () => generateBedProtection(inp) },
+  { name: "DRG-01_GAD_ELEVATION",            fn: () => generateGAD(inp) },
+  { name: "DRG-02_PLAN_VIEW",                fn: () => generatePlanView(inp) },
+  { name: "DRG-03_CROSS_SECTION",            fn: () => generateCrossSection(inp) },
+  { name: "DRG-04_PIER-01_GA_ELEVATION",     fn: () => generatePierSheet01GeneralArrangementElevation(inp) },
+  { name: "DRG-05_PIER-02_DIMENSIONS",       fn: () => generatePierSheet02DimensionDetails(inp) },
+  { name: "DRG-06_PIER-03_SECTION-01",       fn: () => generatePierSheet03Section01(inp) },
+  { name: "DRG-07_PIER-04_REINFORCEMENT",    fn: () => generatePierSheet04Reinforcement(inp) },
+  { name: "DRG-08_ABUTMENT_DETAILS",         fn: () => generateAbutmentDrawing(inp) },
+  { name: "DRG-09_DECK_REBAR_BBS",           fn: () => generateDeckRebarDrawing(inp) },
+  { name: "DRG-10_WING_WALL",                fn: () => generateWingWallDrawing(inp) },
+  { name: "DRG-11_LONGITUDINAL_SECTION",     fn: () => generateLongitudinalSection(inp) },
+  { name: "DRG-12_BED_PROTECTION",           fn: () => generateBedProtection(inp) },
 ];
 
 let ok = 0, fail = 0;

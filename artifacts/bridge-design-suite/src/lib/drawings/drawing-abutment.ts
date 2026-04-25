@@ -123,7 +123,7 @@ export function generateAbutmentDrawing(inp: BridgeInput): string {
   const tbX = -6, tbY = planOY - 22;
   e.push(...ircTitleBlock(tbX, tbY, {
     projectName, drawingTitle: "ABUTMENT DETAILS — ELEVATION, PLAN & REINFORCEMENT",
-    drawingNo: `${drawingNo}/05`, scale: "1:50", location, sheetNo: "5", totalSheets: "8",
+    drawingNo: `${drawingNo}/05`, scale: "1:50", location, sheetNo: "8", totalSheets: "12",
   }));
 
   return makeHeader([tbX-1, tbY-1, 0], [abutmentBaseWidth+8, deckTop+6, 0]) + finalizeDxf(e);

@@ -1,0 +1,10 @@
+---
+description: Use PowerShell for shell commands and Windows automation in this repo
+alwaysApply: true
+---
+
+# PowerShell only
+
+On Windows, use **PowerShell** for all terminal commands and ad-hoc scripts (e.g. `powershell -NoProfile -Command "..."` or `.ps1` files). Do not use Bash-only syntax, `cmd /c` for multi-step logic, or Python for simple file/copy/sort tasks unless the user explicitly asks for Python.
+
+Prefer existing `.ps1` scripts in the repo (e.g. drawing sort utilities under `COLLECTION FROM RECORD`) over duplicating logic in other languages.

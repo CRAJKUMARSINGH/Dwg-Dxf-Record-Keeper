@@ -139,7 +139,7 @@ export function generateGAD(inp: BridgeInput): string {
     scale: "1:100",
     location,
     sheetNo: "1",
-    totalSheets: "8",
+    totalSheets: "12",
   }));
 
   const xMin = tbX - 1, xMax = vdX + 2;
