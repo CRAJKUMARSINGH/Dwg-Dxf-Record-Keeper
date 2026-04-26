@@ -6,7 +6,7 @@ Outputs cutting lengths, weights, and shape codes according to Indian standards.
 """
 
 from typing import List, Dict
-from ..models.bridge_schema import BridgeProject
+from models.bridge_schema import BridgeProject
 
 class BBSEntry:
     def __init__(self, mark: str, description: str, diameter: int, length: float, quantity: int):

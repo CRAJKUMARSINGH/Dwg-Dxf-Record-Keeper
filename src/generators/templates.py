@@ -179,20 +179,20 @@ class SheetTemplates:
             f"HFL {params.hfl:.3f}"
         )
 
-        # Span dimensions
+        # Span dimensions — compact base_offset for tighter layout
         for i in range(params.number_of_spans):
             s_start = i * params.span_length
             s_end = (i + 1) * params.span_length
             builder.add_staggered_dimension(
                 (s_start, deck_y_top), (s_end, deck_y_top),
-                side="above", base_offset=1.2,
+                side="above", base_offset=0.8,
                 text=f"SPAN {params.span_length:.1f}m"
             )
 
         # Total length dimension
         builder.add_staggered_dimension(
             (-as_len, deck_y_top), (total_length + as_len, deck_y_top),
-            side="above", base_offset=2.2,
+            side="above", base_offset=1.6,
             text=f"TOTAL {total_length + 2 * as_len:.1f}m"
         )
 
@@ -205,8 +205,8 @@ class SheetTemplates:
             min_found_y = min(min_found_y, pier_found_y)
             
         plan_top_y = min_found_y - 1.0
-        # Rule: Shift the entire plan 2.0m downward for better spacing
-        plan_y_center = plan_top_y - (total_width / 2) - 2.0
+        # Plan top line is exactly 1.0m below the lowest foundation level for a tight, professional layout
+        plan_y_center = plan_top_y - (total_width / 2)
 
         # Centerline (Extended to full deck + approach slabs)
         builder.add_line(
@@ -278,8 +278,9 @@ class SheetTemplates:
                          (total_length / 2, plan_y_center - fl / 2 - 4.0), height=1.0)
 
         # Title Block
-        width_ext = total_length + (as_len * 2) + 25
-        height_ext = params.rtl - (plan_y_center - fl / 2) + 15
+        # Tightened sheet padding for better composition
+        width_ext = total_length + (as_len * 2) + 12
+        height_ext = params.rtl - (plan_y_center - fl / 2) + 8
         calculated_scale = builder.calculate_engineering_scale(width_ext, height_ext)
         title_params = params.model_dump()
         title_params["scale"] = calculated_scale
@@ -301,13 +302,13 @@ class SheetTemplates:
         cover = params.concrete_cover
         
         # --- VIEW 1: ELEVATION ---
-        # Concrete Outline (st-obj layer)
+        # Concrete Outline (C-CONC layer)
         builder.add_polyline([
             (x_center - params.pier_width / 2, y_base),
             (x_center - params.pier_width / 2, y_top),
             (x_center + params.pier_width / 2, y_top),
             (x_center + params.pier_width / 2, y_base)
-        ], layer="st-obj", closed=True)
+        ], layer="C-CONC", closed=True)
 
         DynamicBlocks.draw_foundation_profile(builder, (x_center, y_base), params)
         DynamicBlocks.draw_pier_cap_elevation(
@@ -315,13 +316,13 @@ class SheetTemplates:
             params.pier_cap_height, (params.pier_cap_width - params.pier_width) / 2
         )
 
-        # Rebar (st-rf layer)
+        # Rebar (S-REBAR-MAIN layer)
         ft_w = params.futw
         ft_t = params.foundation_thickness
         builder.add_line(
             (x_center - ft_w/2 + cover, y_base - ft_t + cover),
             (x_center + ft_w/2 - cover, y_base - ft_t + cover),
-            layer="st-rf"
+            layer="S-REBAR-MAIN"
         )
         
         # Pier Shaft Verticals
@@ -331,7 +332,7 @@ class SheetTemplates:
             bx = x_center - params.pier_width/2 + cover + i * spacing
             DynamicBlocks.draw_rebar_with_hooks(
                 builder, (bx, y_base + cover), (bx, y_top + params.pier_cap_height - cover),
-                diameter=0.020, layer="st-rf"
+                diameter=0.020, layer="S-REBAR-MAIN"
             )
 
         # Deck Anchorage & Seismic Strainers
@@ -340,29 +341,29 @@ class SheetTemplates:
         DynamicBlocks.draw_anchor_bolt(builder, (x_center + params.pier_cap_width/4, cap_y_top))
         
         # Professional Labels (%%U for underline)
-        builder.add_text("%%UELEVATION", (x_center, cap_y_top + 2.5), height=0.8, layer="st-txt")
+        builder.add_text("%%UELEVATION", (x_center, cap_y_top + 2.5), height=0.8, layer="C-ANNO-TEXT")
 
         # --- VIEW 2: SECTIONAL PLAN A-A (AT SHAFT) ---
         y_plan_a = y_base - ft_t - 6.0
         builder.add_polyline([
             (x_center - params.pier_width/2, y_plan_a - 0.5), (x_center + params.pier_width/2, y_plan_a - 0.5),
             (x_center + params.pier_width/2, y_plan_a + 0.5), (x_center - params.pier_width/2, y_plan_a + 0.5)
-        ], layer="st-obj", closed=True)
+        ], layer="C-CONC", closed=True)
         # Internal rebar dots for shaft
         for dx in range(num_bars):
             bx = x_center - params.pier_width/2 + cover + dx * spacing
-            builder.add_circle((bx, y_plan_a), 0.015, layer="st-rf")
+            builder.add_circle((bx, y_plan_a), 0.015, layer="S-REBAR-MAIN")
         
-        builder.add_text("%%UPLAN SECTION A-A", (x_center, y_plan_a - 1.5), height=0.5, layer="st-txt")
+        builder.add_text("%%UPLAN SECTION A-A", (x_center, y_plan_a - 1.5), height=0.5, layer="C-ANNO-TEXT")
 
         # --- VIEW 3: SECTIONAL PLAN B-B (AT FOUNDATION) ---
         y_plan_b = y_plan_a - ft_w - 5.0
         builder.add_polyline([
             (x_center - ft_w/2, y_plan_b - ft_w/2), (x_center + ft_w/2, y_plan_b - ft_w/2),
             (x_center + ft_w/2, y_plan_b + ft_w/2), (x_center - ft_w/2, y_plan_b + ft_w/2)
-        ], layer="st-obj", closed=True)
+        ], layer="C-CONC", closed=True)
         
-        builder.add_text("%%UPLAN SECTION B-B (FOOTING)", (x_center, y_plan_b - ft_w/2 - 2.0), height=0.5, layer="st-txt")
+        builder.add_text("%%UPLAN SECTION B-B (FOOTING)", (x_center, y_plan_b - ft_w/2 - 2.0), height=0.5, layer="C-ANNO-TEXT")
 
         # Title Block
         width_ext = params.pier_cap_width + 15

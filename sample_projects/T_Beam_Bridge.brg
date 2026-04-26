@@ -1,0 +1,71 @@
+{
+    "version": "1.1.0",
+    "bridge_type": "T-Beam Bridge",
+    "metadata": {
+        "project_name": "Major T-Beam Bridge",
+        "client": "NHAI",
+        "location": "Maharashtra",
+        "seismic_zone": "Zone IV",
+        "wind_zone": "39 m/s",
+        "load_class": "IRC Class 70R + Class A",
+        "crossing_type": "River Crossing"
+    },
+    "materials": {
+        "concrete_grade_deck": "M40",
+        "concrete_grade_sub": "M35",
+        "steel_grade": "Fe500D",
+        "clear_cover_slab": 0.05,
+        "clear_cover_pier": 0.075
+    },
+    "geometry": {
+        "number_of_spans": 3,
+        "span_lengths": [25.0, 25.0, 25.0],
+        "carriageway_width": 7.5,
+        "footpath_width": 1.5,
+        "kerb_width": 0.45,
+        "wearing_coat": 0.075,
+        "slab_thickness": 2.1
+    },
+    "substructure": {
+        "pier_type": "Wall Type",
+        "pier_height": 12.0,
+        "pier_width": 1.5,
+        "pier_length": 8.5,
+        "number_of_columns": 1,
+        "stem_thickness": 0.8,
+        "cap_beam_width": 3.0,
+        "cap_beam_depth": 1.5,
+        "bearing_type": "POT-PTFE",
+        "abutment_type": "Counterfort",
+        "abutment_stem_thickness": 0.8,
+        "abutment_heel_length": 3.5,
+        "abutment_toe_length": 1.5,
+        "gravity_heel_offset": 0.6,
+        "gravity_toe_offset": 0.3,
+        "wing_wall_type": "Splayed",
+        "wing_wall_length": 6.0,
+        "wing_wall_thickness": 0.5,
+        "wing_wall_splay_angle": 30.0
+    },
+    "foundation": {
+        "type": "Pile Cap",
+        "width": 6.5,
+        "depth_below_nsl": 4.0,
+        "thickness": 2.0,
+        "pcc_offset": 0.15
+    },
+    "levels": {
+        "datum": 80.0,
+        "nsl_left": 100.0,
+        "nsl_pier": 96.0,
+        "nsl_right": 100.2,
+        "hfl": 99.0,
+        "bed_level": 92.0,
+        "road_level": 105.5
+    },
+    "deck": {
+        "crash_barrier_height": 1.0,
+        "railing_height": 1.1,
+        "expansion_gap": 0.05
+    }
+}

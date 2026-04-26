@@ -1,0 +1,75 @@
+{
+    "version": "1.0.0",
+    "bridge_type": "RCC Slab Bridge",
+    "metadata": {
+        "project_name": "Demo RCC Slab Bridge",
+        "client": "Demo Client",
+        "location": "India",
+        "seismic_zone": "Zone III",
+        "wind_zone": "33 m/s",
+        "load_class": "IRC Class 70R",
+        "crossing_type": "River Crossing"
+    },
+    "materials": {
+        "concrete_grade_deck": "M35",
+        "concrete_grade_sub": "M30",
+        "steel_grade": "Fe500D",
+        "clear_cover_slab": 0.05,
+        "clear_cover_pier": 0.075
+    },
+    "geometry": {
+        "number_of_spans": 3,
+        "span_lengths": [
+            15.0,
+            15.0
+        ],
+        "carriageway_width": 7.5,
+        "footpath_width": 1.5,
+        "kerb_width": 0.45,
+        "wearing_coat": 0.075,
+        "slab_thickness": 0.45
+    },
+    "substructure": {
+        "pier_type": "Wall Type",
+        "pier_height": 8.0,
+        "pier_width": 1.2,
+        "pier_length": 8.5,
+        "number_of_columns": 1,
+        "stem_thickness": 0.6,
+        "cap_beam_width": 1.5,
+        "cap_beam_depth": 1.2,
+        "bearing_type": "Elastomeric",
+        "abutment_type": "Cantilever",
+        "abutment_stem_thickness": 0.6,
+        "abutment_heel_length": 2.5,
+        "abutment_toe_length": 1.0,
+        "gravity_heel_offset": 0.6,
+        "gravity_toe_offset": 0.3,
+        "wing_wall_type": "Splayed",
+        "wing_wall_length": 4.0,
+        "wing_wall_thickness": 0.4,
+        "wing_wall_splay_angle": 30.0
+    },
+    "foundation": {
+        "type": "Open Foundation",
+        "width": 4.0,
+        "depth_below_nsl": 2.0,
+        "thickness": 1.5,
+        "pcc_offset": 0.15
+    },
+    "levels": {
+        "datum": 85.0,
+        "nsl_left": 100.0,
+        "nsl_pier": 99.5,
+        "nsl_right": 99.8,
+        "hfl": 98.2,
+        "bed_level": 95.0,
+        "road_level": 100.5
+    },
+    "deck": {
+        "crash_barrier_height": 1.0,
+        "railing_height": 1.1,
+        "expansion_gap": 0.04
+    },
+    "boq_summary": {}
+}

@@ -35,13 +35,13 @@ class DXFBuilder:
         self.doc.styles.add("STANDARD_TEXT", font="simplex.shx")
         self.doc.styles.add("TITLE_TEXT", font="romans.shx")
 
-        # Compact Dimension Style (2.0mm text, 1.5mm arrows)
+        # Ultra-Compact Dimension Style — optimized for professional GAD proportions
         dimstyle = self.doc.dimstyles.new("COMPACT_ENGINEERING")
-        dimstyle.dxf.dimtxt = 0.20  # Text height
-        dimstyle.dxf.dimasz = 0.15  # Arrow size
-        dimstyle.dxf.dimexe = 0.10  # Extension line extension
-        dimstyle.dxf.dimexo = 0.10  # Extension line offset
-        dimstyle.dxf.dimgap = 0.05  # Gap between text and dimension line
+        dimstyle.dxf.dimtxt = 0.15  # Text height
+        dimstyle.dxf.dimasz = 0.10  # Arrow size
+        dimstyle.dxf.dimexe = 0.07  # Extension line extension
+        dimstyle.dxf.dimexo = 0.07  # Extension line offset
+        dimstyle.dxf.dimgap = 0.04  # Gap between text and dimension line
         dimstyle.dxf.dimtxsty = "STANDARD_TEXT"
 
         # AIA/ISO Standard Layers
@@ -109,15 +109,16 @@ class DXFBuilder:
         dim.render()
 
     def add_staggered_dimension(self, p1: tuple, p2: tuple, side: str = "above",
-                                base_offset: float = 1.2, text: str = "<>",
+                                base_offset: float = 0.8, text: str = "<>",
                                 layer: str = "C-ANNO-DIMS"):
         """
         Add a dimension with compact automatic staggering.
         side: 'above' or 'below' relative to the line p1-p2.
+        base_offset default reduced to 0.8m for tighter GAD layout.
         """
         key = f"{side}_{round(p1[1], 1)}"
         count = self._dim_offset_tracker.get(key, 0)
-        offset = base_offset + (count * 1.0) # Reduced step
+        offset = base_offset + (count * 0.4)  # Reduced step from 0.7 to 0.4
         self._dim_offset_tracker[key] = count + 1
 
         if side == "above":
@@ -205,10 +206,10 @@ class DXFBuilder:
             layer=layer, closed=True
         )
 
-        # Compact Info Box (Bottom Right)
-        # Reduced width factor: 180mm -> 45mm
-        box_w = (scale_val * 45) / 1000.0
-        box_h = (scale_val * 30) / 1000.0
+        # Highly compressed Info Box — reduced to 0.25x factor of Phase-2 size
+        # Equivalent to ~5.5mm at 1:100 (highly compact)
+        box_w = (scale_val * 5.5) / 1000.0
+        box_h = (scale_val * 25) / 1000.0
         box_x = x + width - box_w
         box_y = y
         self.add_polyline(

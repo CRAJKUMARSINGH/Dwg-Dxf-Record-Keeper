@@ -54,7 +54,7 @@ class PreviewWidget(QWidget):
             self.ax.plot(x_nsl, y_nsl, color='#39ff14', linestyle='--', label="NSL")
             
             # 4. Draw Piers & Abutments
-            from ..models.bridge_schema import PierType
+            from models.bridge_schema import PierType
             
             # Abutments
             self.ax.fill_between([-1, 0], [deck_bot, deck_bot], [levels.nsl_left - 2, levels.nsl_left - 2], 

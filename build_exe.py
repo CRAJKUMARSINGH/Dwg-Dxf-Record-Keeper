@@ -24,7 +24,6 @@ def build():
         "--enable-plugin=matplotlib",
         "--include-data-dir=src/ui=ui",
         "--include-data-dir=config=config",
-        "--include-data-dir=assets=assets",
         "--output-dir=dist",
         "--output-filename=BridgeSuitePro",
         "main_app.py"

@@ -6,8 +6,8 @@ Abstract base and common logic for all intelligent pier generators.
 
 from typing import Tuple
 from abc import ABC, abstractmethod
-from ..dxf_builder import DXFBuilder
-from ...models.bridge_schema import BridgeProject, PierType
+from generators.dxf_builder import DXFBuilder
+from models.bridge_schema import BridgeProject, PierType
 
 class PierGenerator(ABC):
     """Base class for all parametric pier types."""

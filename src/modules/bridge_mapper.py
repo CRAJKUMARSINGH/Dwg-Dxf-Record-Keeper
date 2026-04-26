@@ -39,6 +39,9 @@ class BridgeMapper:
             pier_cap_height=sub.pier_cap_height,
             
             abutment_type=sub.abutment_type,
+            abutment_stem_thickness=sub.abutment_stem_thickness,
+            abutment_toe_length=sub.abutment_toe_length,
+            abutment_heel_length=(2.25 * sub.abutment_stem_thickness) if (avg_span > 15.0 and sub.abutment_type in ["Cantilever", "Counterfort"]) else sub.abutment_heel_length,
             
             foundation_type=found.type.value,
             futw=found.width,

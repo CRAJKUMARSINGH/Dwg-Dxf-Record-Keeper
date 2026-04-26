@@ -30,8 +30,8 @@ class BridgeSuiteMainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("BridgeMaster Pro 2026 — Professional Bridge CAD")
-        self.setWindowIcon(QIcon("assets/logo.png")) # Future logo
-        self.resize(1200, 850)
+        self.setWindowIcon(QIcon("src/ui/logo.png")) # Placeholder path
+        self.resize(1280, 900) # Slightly larger for better initial view
         
         self.project_manager = ProjectManager()
         self.last_output_dir = str(Path.home() / "Documents")
@@ -308,8 +308,8 @@ class BridgeSuiteMainWindow(QMainWindow):
     def _export_pdf(self):
         file_name, _ = QFileDialog.getSaveFileName(self, "Export Structural Dossier", "", "PDF Files (*.pdf)")
         if file_name:
-            from ..modules.bbs_engine import BBSEngine
-            from ..modules.pdf_generator import PDFGenerator
+            from modules.bbs_engine import BBSEngine
+            from modules.pdf_generator import PDFGenerator
             
             project = self.project_manager.current_project
             # 1. Calculate BBS
@@ -340,14 +340,15 @@ class BridgeSuiteMainWindow(QMainWindow):
     def _show_about(self):
         QMessageBox.about(self, "About BridgeMaster Pro", 
             "<h2>BridgeMaster Pro 2026</h2>"
-            "<p><b>Version 1.0.0 (Release Candidate)</b></p>"
+            "<p><b>Version 1.1.0 (Phase 5 Release)</b></p>"
             "<p>The complete professional Bridge CAD Suite for India.</p>"
             "<hr>"
+            "<p>Standardized GAD, Pier, and Deck Slab automation.</p>"
             "<p>Developed for PWD/NHAI Consultants and Engineers.</p>"
             "<p>© 2026 BridgeMaster Software. All rights reserved.</p>")
 
     def _open_manual(self):
-        manual_path = Path("docs/USER_MANUAL_PHASE4.md").absolute()
+        manual_path = Path("docs/USER_MANUAL.md").absolute()
         if manual_path.exists():
             import os
             os.startfile(str(manual_path))

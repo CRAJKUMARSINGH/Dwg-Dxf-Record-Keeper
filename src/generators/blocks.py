@@ -32,9 +32,12 @@ class DynamicBlocks:
                                 layer: str = "C-CONC"):
         """Draws a proportional pier cap elevation with clamped chamfer."""
         x, y = insert
-        # Clamp chamfer so it never exceeds half the height or half the overhang
-        chamfer = min(height * 0.4, overhang * 0.5, height * 0.5)
-        chamfer = max(chamfer, 0.05)  # minimum 50mm chamfer
+        if width > 2.0:
+            chamfer = 0.15
+        else:
+            # Clamp chamfer so it never exceeds half the height or half the overhang
+            chamfer = min(height * 0.4, overhang * 0.5, height * 0.5)
+            chamfer = max(chamfer, 0.05)  # minimum 50mm chamfer
 
         points = [
             (x - width / 2, y + chamfer),
@@ -90,16 +93,25 @@ class DynamicBlocks:
                                 is_right_abut: bool = False):
         """
         Draws the foundation footing and PCC as distinct structural elements.
+
+        NOTE: For Cantilever/Counterfort abutments the footing geometry is already
+        drawn by draw_abutment_profile (which includes heel/toe/stem explicitly).
+        This function only draws the PCC blinding layer and pile elements in that case.
+        For Gravity abutments and piers it draws the full footing raft.
         """
         x, y = insert
         ft_thick = params.foundation_thickness
         futw = params.futw
+        is_cantilever_abut = (
+            (is_left_abut or is_right_abut) and
+            params.abutment_type in ["Cantilever", "Counterfort"]
+        )
 
         # Compute foundation bounds
         if is_left_abut:
             if params.abutment_type in ["Cantilever", "Counterfort"]:
-                x_left = x - params.abutment_heel_length - params.abutment_stem_thickness
-                x_right = x + params.abutment_toe_length
+                x_left = x - params.abutment_toe_length
+                x_right = x + params.abutment_stem_thickness + params.abutment_heel_length
             else:
                 x_left = x - futw + params.abutment_top_width
                 x_right = x + params.abutment_top_width
@@ -114,13 +126,22 @@ class DynamicBlocks:
             x_left = x - futw / 2
             x_right = x + futw / 2
 
-        # 1. Footing Raft (Primary structural outline)
-        builder.add_polyline([
-            (x_left, y), (x_right, y),
-            (x_right, y - ft_thick), (x_left, y - ft_thick)
-        ], layer="C-FOUND", closed=True)
+        # For Cantilever/Counterfort abutments: footing already drawn — only add PCC + piles
+        if not is_cantilever_abut:
+            # 1. Footing Raft (Primary structural outline)
+            builder.add_polyline([
+                (x_left, y), (x_right, y),
+                (x_right, y - ft_thick), (x_left, y - ft_thick)
+            ], layer="C-FOUND", closed=True)
 
-        # 2. PCC Layer (Distinct separate element)
+            # Foundation label
+            builder.add_text(
+                f"FDN {ft_thick:.2f}m",
+                ((x_left + x_right) / 2, y - ft_thick / 2),
+                height=0.25, layer="C-ANNO-TEXT"
+            )
+
+        # 2. PCC Layer (always shown — distinct separate element below footing)
         pcc = params.pcc_offset
         if pcc > 0:
             builder.add_polyline([
@@ -131,15 +152,7 @@ class DynamicBlocks:
             ], layer="C-CONC", closed=True)
             builder.add_text("PCC", (x_left - pcc - 1, y - ft_thick - 0.07), height=0.3)
 
-        # Labels
-        builder.add_text(
-            f"FDN {ft_thick:.2f}m",
-            ((x_left + x_right) / 2, y - ft_thick / 2),
-            height=0.25, layer="C-ANNO-TEXT"
-        )
-
-
-        # Piles
+        # 3. Piles (if Pile Cap)
         if params.foundation_type == "Pile Cap":
             pile_d = params.pile_diameter
             pile_depth = params.pile_depth
@@ -164,14 +177,22 @@ class DynamicBlocks:
     def draw_abutment_profile(builder: DXFBuilder, insert: Tuple[float, float],
                               params, is_left: bool = True):
         """
-        Draws the abutment stem/body. insert is at top inner corner (bearing seat).
+        Draws the abutment stem/body + base slab (footing) with heel, toe, and shear key.
+        insert is at top inner corner (bearing seat level = deck_y_bot).
 
         Orientation:
-          - Left abutment: stem extends to the LEFT (land side)
-          - Right abutment: stem extends to the RIGHT (land side)
+          - Left abutment: stem extends to the LEFT (land side), river side is RIGHT
+          - Right abutment: stem extends to the RIGHT (land side), river side is LEFT
+
+        For Cantilever/Counterfort:
+          - Stem sits on the base slab
+          - Heel is on the land side (behind stem)
+          - Toe is on the river side (in front of stem)
+          - Footing (base slab) is drawn explicitly as a separate rectangle
         """
         x, y = insert
-        y_bottom = params.nsl_left - params.futd if is_left else params.nsl_right - params.futd
+        nsl_here = params.nsl_left if is_left else params.nsl_right
+        y_found = nsl_here - params.futd
 
         # dir_mult: LEFT abutment body extends LEFTWARD (-1), RIGHT extends RIGHTWARD (+1)
         dir_mult = -1 if is_left else 1
@@ -182,31 +203,141 @@ class DynamicBlocks:
             t_off = params.gravity_toe_offset
 
             pts = [
-                (x, y),                                    # Top inner (bearing seat)
-                (x + dir_mult * w_top, y),                 # Top outer (land side)
-                (x + dir_mult * (w_top + h_off), y_bottom),  # Bottom outer
-                (x - dir_mult * t_off, y_bottom)           # Bottom inner (river side)
+                (x, y),                                       # Top inner (bearing seat)
+                (x + dir_mult * w_top, y),                    # Top outer (land side)
+                (x + dir_mult * (w_top + h_off), y_found),   # Bottom outer
+                (x - dir_mult * t_off, y_found)               # Bottom inner (river side)
             ]
             builder.add_polyline(pts, layer="C-CONC", closed=True)
+            builder.add_text("GRAVITY ABUTMENT",
+                             (x + dir_mult * w_top / 2, y + 0.5), height=0.3, layer="C-ANNO-TEXT")
 
         elif params.abutment_type in ["Cantilever", "Counterfort"]:
             t_stem = params.abutment_stem_thickness
+            toe_len = params.abutment_toe_length
+            heel_len = params.abutment_heel_length
+            ft_thick = params.foundation_thickness
 
-            pts = [
-                (x, y),
-                (x + dir_mult * t_stem, y),
-                (x + dir_mult * t_stem, y_bottom),
-                (x, y_bottom)
-            ]
-            builder.add_polyline(pts, layer="C-CONC", closed=True)
+            # ── Footing base slab (drawn explicitly) ──
+            # River side (toe) is opposite to dir_mult, land side (heel) is dir_mult
+            # x_toe_end: river-side edge of footing
+            # x_heel_end: land-side edge of footing
+            x_toe_end = x - dir_mult * toe_len          # river side
+            x_heel_end = x + dir_mult * (t_stem + heel_len)  # land side
 
+            # Footing top = y_found, footing bottom = y_found - ft_thick
+            footing_top = y_found
+            footing_bot = y_found - ft_thick
+
+            builder.add_polyline([
+                (x_toe_end, footing_top),
+                (x_heel_end, footing_top),
+                (x_heel_end, footing_bot),
+                (x_toe_end, footing_bot)
+            ], layer="C-FOUND", closed=True)
+
+            # ── Stem ──
+            # Stem sits on top of footing, from footing_top up to bearing seat y
+            x_stem_river = x                              # river face of stem
+            x_stem_land = x + dir_mult * t_stem          # land face of stem
+
+            builder.add_polyline([
+                (x_stem_river, footing_top),
+                (x_stem_land, footing_top),
+                (x_stem_land, y),
+                (x_stem_river, y)
+            ], layer="C-CONC", closed=True)
+
+            # ── Shear key (small projection below footing center) ──
+            sk_w = t_stem * 0.4
+            sk_h = 0.3
+            sk_cx = (x_stem_river + x_stem_land) / 2
+            builder.add_polyline([
+                (sk_cx - sk_w / 2, footing_bot),
+                (sk_cx + sk_w / 2, footing_bot),
+                (sk_cx + sk_w / 2, footing_bot - sk_h),
+                (sk_cx - sk_w / 2, footing_bot - sk_h)
+            ], layer="C-CONC", closed=True)
+
+            # ── Counterfort bracing ──
             if params.abutment_type == "Counterfort":
                 cf_pts = [
-                    (x + dir_mult * t_stem, y),
-                    (x + dir_mult * (t_stem + params.abutment_heel_length), y_bottom),
-                    (x + dir_mult * t_stem, y_bottom)
+                    (x_stem_land, y),
+                    (x_heel_end, footing_top),
+                    (x_stem_land, footing_top)
                 ]
                 builder.add_polyline(cf_pts, layer="0_HIDDEN", closed=True)
+
+            # ── Dimension lines ──
+            dim_y_above = y + 0.5   # above bearing seat
+            dim_y_below = footing_bot - 0.5  # below footing
+
+            # Toe length
+            builder.add_staggered_dimension(
+                (x_toe_end, footing_top), (x_stem_river, footing_top),
+                side="below", base_offset=0.6,
+                text=f"TOE {toe_len:.2f}m"
+            )
+            # Stem thickness
+            builder.add_staggered_dimension(
+                (x_stem_river, footing_top), (x_stem_land, footing_top),
+                side="below", base_offset=0.6,
+                text=f"STEM {t_stem:.2f}m"
+            )
+            # Heel length
+            builder.add_staggered_dimension(
+                (x_stem_land, footing_top), (x_heel_end, footing_top),
+                side="below", base_offset=0.6,
+                text=f"HEEL {heel_len:.2f}m"
+            )
+            # Total footing width
+            total_fw = toe_len + t_stem + heel_len
+            builder.add_staggered_dimension(
+                (x_toe_end, footing_top), (x_heel_end, footing_top),
+                side="above", base_offset=0.5,
+                text=f"TOTAL FTG {total_fw:.2f}m"
+            )
+            # Footing thickness
+            builder.add_staggered_dimension(
+                (x_heel_end, footing_top), (x_heel_end, footing_bot),
+                side="below", base_offset=0.4,
+                text=f"FTG THK {ft_thick:.2f}m"
+            )
+            # Stem height
+            stem_height = y - footing_top
+            builder.add_staggered_dimension(
+                (x_stem_river, footing_top), (x_stem_river, y),
+                side="below", base_offset=0.4,
+                text=f"STEM H {stem_height:.2f}m"
+            )
+
+            # ── Labels / callouts (Increased height for readability) ──
+            label_h = 0.30
+            # Toe label
+            builder.add_text("TOE",
+                             ((x_toe_end + x_stem_river) / 2,
+                              footing_top + ft_thick / 4),
+                             height=label_h, layer="C-ANNO-TEXT")
+            # Heel label
+            builder.add_text("HEEL",
+                             ((x_stem_land + x_heel_end) / 2,
+                              footing_top + ft_thick / 4),
+                             height=label_h, layer="C-ANNO-TEXT")
+            # Footing label
+            builder.add_text("FOOTING",
+                             ((x_toe_end + x_heel_end) / 2,
+                              footing_top - ft_thick / 2),
+                             height=label_h, layer="C-ANNO-TEXT")
+            # Stem label
+            builder.add_text("STEM",
+                             ((x_stem_river + x_stem_land) / 2,
+                              (footing_top + y) / 2),
+                             height=label_h, layer="C-ANNO-TEXT")
+            # Shear key label
+            builder.add_text("S.KEY",
+                             (sk_cx + sk_w / 2 + 0.25,
+                              footing_bot - sk_h / 2),
+                             height=label_h * 0.8, layer="C-ANNO-TEXT")
 
     @staticmethod
     def draw_anchor_bolt(builder: DXFBuilder, insert: Tuple[float, float],

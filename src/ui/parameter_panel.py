@@ -54,7 +54,7 @@ class ParameterPanel(QWidget):
         mat = project.materials
         
         # Seismic Zone
-        from ..models.bridge_schema import SeismicZone
+        from models.bridge_schema import SeismicZone
         combo_seismic = QComboBox()
         combo_seismic.addItems([z.value for z in SeismicZone])
         combo_seismic.setCurrentText(meta.seismic_zone.value)
@@ -65,7 +65,7 @@ class ParameterPanel(QWidget):
         mat_group = QGroupBox("Material Grades")
         mat_form = QFormLayout(mat_group)
         
-        from ..models.bridge_schema import ConcreteGrade, SteelGrade
+        from models.bridge_schema import ConcreteGrade, SteelGrade
         combo_m = QComboBox()
         combo_m.addItems([g.value for g in ConcreteGrade])
         combo_m.setCurrentText(mat.concrete_grade_sub.value)
@@ -76,7 +76,7 @@ class ParameterPanel(QWidget):
 
     def _add_pier_fields(self, sub):
         # Pier Type
-        from ..models.bridge_schema import PierType
+        from models.bridge_schema import PierType
         combo_pier = QComboBox()
         combo_pier.addItems([p.value for p in PierType])
         combo_pier.setCurrentText(sub.pier_type.value)

@@ -1,106 +1,115 @@
-# CAD Standardization Project: User Manual
+# BridgeMaster Pro — User Manual & Documentation (Phase 5)
 
 ## Overview
-Welcome to the **Parametric Bridge CAD Generator**. This system takes engineering parameters (spans, widths, levels, NSL) and programmatically generates pristine, standardized AutoCAD DXF drawings with sloping terrain, professional title blocks, and full substructure detailing.
+Welcome to **BridgeMaster Pro 2026** (formerly BESS). This system takes engineering parameters (spans, widths, levels, NSL) and programmatically generates pristine, standardized AutoCAD DXF drawings with sloping terrain, professional title blocks, and full substructure detailing. It replaces the fragmented workflow of Excel sheets + Manual CAD with a single integrated professional desktop environment.
 
-## Available Components
-| Component | Description |
-|-----------|-------------|
-| **GAD** | General Arrangement Drawing — Longitudinal Section + Foundation Plan with terrain slope |
-| **Pier Details** | Pier elevation with cap, shaft, foundation, and rebar |
-| **Deck Slab** | Cross-section with rebar, wearing coat, haunches, parapets |
-| **Wing Wall** | Wing wall elevation for both abutments with splay angle |
-| **Abutment Details** | Standalone left + right abutment with foundation |
+### Target Savings
+- **Time**: Reduce GAD/Slab drawing time from 2 days to 5 minutes.
+- **Accuracy**: Eliminates manual BOQ errors which cost lakhs in site wastage.
+- **Cost**: Standardizes PWD/NHAI submissions, reducing rework.
 
-## Quick Start (Dashboard)
+---
 
-1. Double-click `run_dashboard.bat` in the root folder.
+## Key Modules
+
+### Module 1: Drawing Generator
+Generates high-fidelity DXF drawings for:
+- General Arrangement Drawings (GAD) — Longitudinal Section + Foundation Plan with terrain slope
+- Pier Details — Pier elevation with cap, shaft, foundation, and rebar
+- Deck Slab — Cross-section with rebar, wearing coat, haunches, parapets
+- Wing Wall — Wing wall elevation for both abutments with splay angle
+- Abutment Details — Standalone left + right abutment with foundation
+- Box Culvert Sections & T-Beam Cross Sections
+
+### Module 2: Bridge Types
+The software currently supports:
+- **RCC Slab Bridge**: Standard minor bridges.
+- **T-Beam Bridge**: Girder-based structures.
+- **Box Culvert**: For small drainage/cross-drainage works.
+- *Coming Soon*: PSC Girder, ROB/RUB, Foot Over Bridge.
+
+### Module 3: Parameter System
+- **Project Info**: Manage metadata (Client, Location, Designed By).
+- **Geometry**: Define number of spans, lengths, and widths.
+- **Levels (NSL)**: Input topography for sloping terrain generation.
+- **Substructure**: Choose abutment types (Cantilever/Gravity) and Pier dimensions.
+- **Foundation**: Set depth, width, and raft thickness.
+
+### Module 4: BOQ & Design
+- **One-Click BOQ**: Calculates Concrete (m3), Steel (MT), and Excavation (m3) instantly.
+- **Excel Export**: Export the BOQ directly to a formatted spreadsheet for tendering.
+- **Design Checks**: Real-time warnings if L/D ratios or freeboards violate IRC:112 or IRC:SP:13 guidelines.
+
+---
+
+## Operating the Software
+
+### Professional Desktop App (Recommended)
+**Installation & Setup (Phase 5)**:
+1. Ensure Python 3.10+ is installed.
+2. Run `pip install -r requirements.txt` to install all dependencies (`PySide6`, `ezdxf`, `reportlab`, `xlsxwriter`, etc.).
+3. To start the app, run `py main_app.py` or launch the built `.exe`.
+4. The **HOME** tab allows you to create a **New Project** or **Open** existing `.brg` files (such as `samples/RCC_Slab_Demo.brg`).
+2. The **HOME** tab allows you to create a **New Project** or **Open** existing `.brg` files.
+3. Select the **Bridge Type** from the dropdown (RCC Slab, T-Beam, etc.).
+4. Use the **Sidebar** to navigate through:
+   - **Project Info**: Client and location details.
+   - **Bridge Geometry**: NSPAN, span length, carriageway width.
+   - **Foundation**: Set width, depth, and raft thickness.
+   - **Levels & NSL**: Input RTL, HFL, and terrain data for the sloping ground engine.
+5. **Real-time Preview**: The central viewport updates instantly as you change parameters.
+6. **Design Audit**: The Status Bar displays real-time warnings (e.g., L/D ratio failures).
+7. Go to the **DRAWING** tab to:
+   - **Generate GAD**: Outputs professional Elevation and Plan.
+   - **Generate All Sheets**: Produces GAD, Pier, Deck Slab, and Abutment details in one click.
+8. Go to **BOQ / DESIGN** tab to:
+   - **Calculate Quantities**: View concrete, steel, and earthwork volumes.
+   - **Export to Excel**: Get a formatted bill of quantities.
+   - **Export PDF Dossier**: Generate a complete project report with design checks.
+
+### Web Dashboard (Streamlit)
+1. Double-click `run_dashboard.bat`.
 2. A browser window opens at `http://localhost:8501`.
-3. Fill in parameters across the 6 tabs:
-   - **General**: Project name, client, engineer
-   - **Spans & Deck**: NSPAN, span length, carriageway width, slab thickness
-   - **Substructure**: Pier width, abutment type (Cantilever/Counterfort/Gravity), wing wall
-   - **Foundation**: Foundation type, width, depth, PCC offset
-   - **Levels (NSL)**: RTL, HFL, NSL at Left/Center/Right abutments, terrain slope toggle
-   - **Generate Outputs**: Select components or click "Generate ALL"
-4. Click **Generate** → download the `.dxf` files.
+3. Follow the same parameter input workflow as the desktop app.
 
-### Excel Upload
-You can pre-fill the dashboard from an Excel file (same format as `Bridge_GAD_Yogendra_Borse`):
-- File should have columns: VALUE, VARIABLE, DESCRIPTION
-- Supported variables: NSPAN, SPAN1, CCBR, SLBTHE, PIERTW, FUTW, FUTD, RTL, DATUM
-
-## Command Line Usage
-
-### Generate drawings (default parameters)
+### Command Line Usage
+**Generate drawings (default parameters)**:
 ```bash
 py src/main.py generate
 ```
 
-### Run the full analyzer on COMPONENT_DRAWINGS_SORTED
+**Build Standalone Windows EXE**:
+```bash
+py build_exe.py
+```
+This uses Nuitka to compile the application into a standalone executable in the `dist/` folder.
+
+**Run the full analyzer on COMPONENT_DRAWINGS_SORTED**:
 ```bash
 py src/main.py analyze
 ```
-This produces:
-- `output/analysis_report.json` — detailed JSON with frequency tables
-- `output/analysis_summary.md` — Markdown report with top-20 reusable details
+This produces detailed JSON reports and markdown summaries of reusable CAD blocks.
 
-### Run validation suite
+**Run validation suite**:
 ```bash
 py src/validate.py
 ```
-Tests 6 different bridge configurations and generates a validation report.
+Tests 6 different bridge configurations.
 
-### Apply reference styles to generated DXF
-```bash
-py apply_reference_dxf_style.py DRAWINGS_FROM_RAJKUMAR_DESIGNS output/dashboard
-```
+---
 
-## Folder Structure
-```
-config/                          YAML configuration files
-  app_config.yaml                Global paths & settings
-  component_rules.yaml           Categorization rules
-  layer_standards.yaml           Standard layer definitions
-src/
-  analyzer/                      DXF/DWG analysis engine
-    ezdxf_parser.py              Enhanced parser (text/dim/hatch styles)
-    pattern_matcher.py           Frequency counting & cross-component detection
-    top20_identifier.py          Reusable detail ranking
-    dwg_converter.py             ODA / odafc DWG conversion
-  generators/                    Parametric drawing generators
-    dxf_builder.py               Core DXF primitives + terrain + title block
-    blocks.py                    Reusable blocks (bearing, pier cap, rebar, wing wall)
-    templates.py                 Full-sheet assembly (GAD, Pier, Deck, Wing, Abutment)
-  models/
-    components.py                BridgeParameters Pydantic model
-  reporting/
-    reporter.py                  JSON + Markdown report generation
-  app.py                         Streamlit dashboard
-  main.py                        CLI entry point
-  validate.py                    Validation suite
-output/                          Generated reports & drawings
-COMPONENT_DRAWINGS_SORTED/       Original drawing collection (23 categories)
-DRAWINGS_FROM_RAJKUMAR_DESIGNS/  Reference style archive
-```
+## Autonomous Research (ETERNAL_RESEARCH_CHILD)
+The project includes a dedicated background service (`ETERNAL_RESEARCH_CHILD`) that runs periodically to study legacy project files in `COMPONENT_DRAWINGS_SORTED/`. It identifies drafting patterns and proposes refinements to the generative logic to ensure 100% engineering parity with professional office standards. 
 
-## Key Features
-- **Sloping Terrain**: NSL values at Left Abutment, Central Pier, and Right Abutment create a piecewise linear ground profile in the GAD Longitudinal Section.
-- **Dynamic Abutment Types**: Switch between Cantilever, Counterfort, and Gravity abutments with automatic parameter show/hide.
-- **Foundation Visibility**: Foundation depth, PCC layer, and pile caps are fully rendered below NSL.
-- **Professional Title Block**: Auto-scaled with Project, Client, Engineer, Date, Drawing No, and realistic engineering scale.
-- **Staggered Dimensions**: Automatic offset stacking prevents dimension text overlaps at large spans.
-- **Standard Layers**: AIA/ISO compliant layer system (C-CONC, S-REBAR-MAIN, C-ANNO-DIMS, etc.)
+See `ETERNAL_RESEARCH_CHILD.md` for technical details.
 
-## Adding a New Template
+---
 
-1. **Define Parameters**: Add new fields to `BridgeParameters` in `src/models/components.py`.
-2. **Build Geometry**: Create a new static method in `src/generators/templates.py` (e.g., `generate_box_culvert(params)`).
-3. **Use Blocks**: Leverage `DynamicBlocks` for rebar, bearings, foundations.
-4. **Add to Dashboard**: In `src/app.py`, add a checkbox and wire it to the generator.
-5. **Add to generate_all()**: Include in the `SheetTemplates.generate_all()` dict.
+## Pricing Strategy & Support
+- **Individual**: ₹45,000 /yr (RCC Slab + Box Culvert)
+- **Professional**: ₹1,20,000 /yr (All Types + PDF Reports)
+- **Enterprise**: ₹5,00,000 /yr (Multi-user + API)
+- **Education**: ₹5,000 /yr (Watermarked)
 
-## Long-Term Maintenance
-- **Layer Standards**: Update `config/layer_standards.yaml` when adopting new layer conventions.
-- **Component Rules**: Update `config/component_rules.yaml` when adding new analysis categories.
-- **Re-run Analyzer**: After adding drawings to `COMPONENT_DRAWINGS_SORTED/`, run `py src/main.py analyze` to refresh reports.
+**Contact for a Demo:** BridgeMaster Software Solutions
+*Empowering engineers, building the future.*
